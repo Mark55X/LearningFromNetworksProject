@@ -1,0 +1,6 @@
+*.aux
+*.fdb_latexmk
+*.fls
+*.log
+docs/proposal/main.pdf
+*.synctex.gz
