@@ -12,3 +12,5 @@ Larning from network projects for unipd
 	\begin{itemize}
 	\subsection{Possibili Algoritmi}: Dijkstra non possiamo usarlo se usiamo la scala logaritmica con il - davanti, in quanto non gestisce pesi negativi. Ho trovato che c'è Bellman-Ford e Floyd-Warshall. In breve Bellman-Ford parte da un singolo nodo (minor complessità), Floyd-Warshall analizza tutte le coppie del grafo (ha una complessità cubica) però potrebbe essere quello che ci interessa. Devo ancora leggere nello specifico le differenze però potrebbero essere due algoritmi da confrontare. 
 Link x Floyd-Warshall: https://www.sciencedirect.com/science/article/pii/S002001901000027X 
+Link x Bellman-Ford: https://www.mdpi.com/2227-7390/12/16/2590
+Algoritmo ibrido Bellman-Ford+Dijkstra: https://www.sciencedirect.com/science/article/pii/S1570866717300011
