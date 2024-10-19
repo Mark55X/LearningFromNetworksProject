@@ -4,3 +4,5 @@
 *.log
 docs/proposal/main.pdf
 *.synctex.gz
+*.blg
+*.bbl
