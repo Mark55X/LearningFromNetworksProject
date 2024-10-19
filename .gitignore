@@ -1,3 +1,4 @@
+# LaTeX
 *.aux
 *.fdb_latexmk
 *.fls
@@ -6,3 +7,8 @@ docs/proposal/main.pdf
 *.synctex.gz
 *.blg
 *.bbl
+# Jupyter
+.ipynb_checkpoints
+.ipython
+.jupyter
+.local

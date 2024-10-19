@@ -1,0 +1,13 @@
+services:
+  # reference: https://docs.docker.com/guides/use-case/jupyter/#why-use-docker-and-jupyterlab-together
+  jnotbk:
+    image: quay.io/jupyter/base-notebook
+    build:
+      dockerfile: dockerfiles/jupiter.dockerfile
+      context: .
+    container_name: jnotbk
+    ports:
+      - 8080:8888
+    volumes:
+      - "./notebooks:/home/jovyan"
+    command: ["start-notebook.py", "--NotebookApp.token='my-token'"]

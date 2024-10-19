@@ -45,3 +45,12 @@ Quindi potremo parlare pure di questo topic o fare una differenza tra i due.
  - In breve [Bellman-Ford](https://www.mdpi.com/2227-7390/12/16/2590) parte da un singolo nodo (minor complessità)
  - [Floyd-Warshall](https://www.sciencedirect.com/science/article/pii/S002001901000027X) analizza tutte le coppie del grafo (ha una complessità cubica) però potrebbe essere quello che ci interessa. Devo ancora leggere nello specifico le differenze però potrebbero essere due algoritmi da confrontare.
  - Algoritmo ibrido [Bellman-Ford+Dijkstra](https://www.sciencedirect.com/science/article/pii/S1570866717300011)
+
+### Note Luigi
+
+#### API exchange
+- [exchange-api](https://swapzone.io/partners/exchange-api) offre un'[API](https://documenter.getpostman.com/view/16362858/UVXokDS6#06a5c43d-be60-45ef-8b76-161bf275c5bd) che sembra proprio fare al caso nostro. Non fornisce lo storico però e bisogna capire se è accessibile in modo gratuito.
+l'[API](https://documenter.getpostman.com/view/16362858/UVXokDS6#898f2264-7286-41a4-8843-bf143a67a6ab) permette di fare un interrogazione puntuale.
+- [ExchangeController](https://simpleswap.io/affiliate-program/en/how-to-start/api?ref=660adad2c784&utm_source=coinmonks&utm_medium=sponsored&utm_campaign=API) ha diverse [API](https://api.simpleswap.io/#/Exchange/ExchangeController_getEstimated)
+
+- In generale in questo [articolo](https://medium.com/coinmonks/best-crypto-apis-for-developers-5efe3a597a9f) ci sono diversi fornitori da analizzare
