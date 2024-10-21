@@ -1,5 +1,5 @@
 # LearningFromNetworksProject
-Larning from network projects for unipd
+Learning from network projects for unipd
 
 ## Notes
 
@@ -19,6 +19,12 @@ Sarebbe da approfondire se colossi danno i dati sottoforma di dataset perche tan
 		
 - POSSIBILE [DATASET](https://www.binance.com/en/support/faq/how-to-download-historical-market-data-on-binance-5810ae42176b4770b880ce1f14932262) DI BINANCE
 
+#### Ricerca enumerazione cicli
+Alcuni algoritmi che possono riguardare l'individuazione e l'enumerazione dei cicli:
+- Johnson's Algorithm: per grafi diretti e indiretti O((n+e)(c+1)) con c numero di cicli
+- Tiernan's Algorithm: per grafi indiretti. O(V+E+C)
+- Paton’s Algorithm: per grafi indiretti
+- Hawick and James Algorithm: https://www.researchgate.net/publication/221440635_Enumerating_Circuits_and_Loops_in_Graphs_with_Self-Arcs_and_Multiple-Arcs
 ### Note Edoardo
 
 #### Arbitraggio
