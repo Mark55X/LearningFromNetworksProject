@@ -24,7 +24,9 @@ PER RICERCA DEI CICLI:
 - Ciò significa che per l'allenamento ogni inout è associato ad una maschera calcolata tramite un algoritmo (tra quelli di ricerca dei cicli o MILP)
 - L'output definitivo della rete neurale ALLENATA è una maschera che però non potrebbe essere perfetta (ovvero ci sono edge a 0 che dovrebbero esser ad 1 e viceversa). Possibile soluzione: COllegare solamente le connected components che non contengono cicli sotto l'assunzione che il grafo sia completo (nel nostro caso lo è)
 
-
+DATASET:
+- nei csv di binance faccio la terxza colonna / la quarta colonna -> ottengo il tasso di cambio teoricamente
+- 
 ## Notes
 
 ### Note Marco
