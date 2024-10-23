@@ -1,6 +1,18 @@
 # LearningFromNetworksProject
 Learning from network projects for unipd
 
+Idea generale:
+- Dai dati forniti dalle API (storici) eseguiamo dei meccanismi di inferenza statistica per ottenere al distribuzione di probabilità. 
+- Creaimo il grafo (pytthon) con arco variabili aleatorie associate alla distribzuione di probabilità.
+- Svolgiamo del sampling ottenuto con l'inverse transofmr sampling
+- Otteniamo quindi tante istanze del nostro grafo -> GRAFI EFFETTIVI con pesi
+
+
+- Un approccio base è quello di svolgere la media 
+- Diversi approcci come quello di utilizzare un unico grafo basandosi sulla apsettazione di ogni variabile 
+
+- In questi approcci si usa qualcos adi definito, invece possiamo dare questo compito ad un algorimto di ML/ deep learning.
+- 
 ## Notes
 
 ### Note Marco
