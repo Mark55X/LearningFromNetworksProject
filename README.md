@@ -26,6 +26,8 @@ PER RICERCA DEI CICLI:
 
 DATASET:
 - nei csv di binance faccio la terxza colonna / la quarta colonna -> ottengo il tasso di cambio teoricamente
+- https://github.com/binance/binance-public-data
+- https://data.binance.vision/?prefix=data/spot/monthly/trades/
 - 
 ## Notes
 
