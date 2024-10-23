@@ -11,8 +11,20 @@ Idea generale:
 - Un approccio base è quello di svolgere la media 
 - Diversi approcci come quello di utilizzare un unico grafo basandosi sulla apsettazione di ogni variabile 
 
-- In questi approcci si usa qualcos adi definito, invece possiamo dare questo compito ad un algorimto di ML/ deep learning.
-- 
+PER RICERCA DEI CICLI:
+- Da una valuta BFS oppure posso applicare BFS su tutti i nodi
+- Variate di dijkstra
+- Dopo aver ottenuto quali nodi che riguardano cicli, faccio la somma dei log dei pesi ( o meglio la può gia fare in se l'algoritmo che rebbe quindi una variante)
+- QUelli che noi cerchiamo sono i vlaori > 0 o < 0 in base a cosa mi restituisce l'algoritmo (se min o max)
+
+
+- In questi approcci si usa qualcos adi definito, invece possiamo dare questo compito ad un algorimto di ML/ deep learning:
+- rete neurale  cui didamo in pasto i grafi (UN INPUT -> UN ISTANZA DI UN GRAFO e altre possibili features tra cui betweness): quindi si potrebbe utilizzare l'apporccio STRUTTURATO dove l'input è una matrice di adiacenza, oppure input NON STRUTTURATO ovvero l'istanza del grafo stesso.
+- L'output è una matrice di adiacenza che rappresenta una madschera ìdei rami che sono selezionati per l'individuazione dei  cicli a guadagno positivo
+- Ciò significa che per l'allenamento ogni inout è associato ad una maschera calcolata tramite un algoritmo (tra quelli di ricerca dei cicli o MILP)
+- L'output definitivo della rete neurale ALLENATA è una maschera che però non potrebbe essere perfetta (ovvero ci sono edge a 0 che dovrebbero esser ad 1 e viceversa). Possibile soluzione: COllegare solamente le connected components che non contengono cicli sotto l'assunzione che il grafo sia completo (nel nostro caso lo è)
+
+
 ## Notes
 
 ### Note Marco
