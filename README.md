@@ -1,6 +1,34 @@
 # LearningFromNetworksProject
-Larning from network projects for unipd
+Learning from network projects for unipd
 
+Idea generale:
+- Dai dati forniti dalle API (storici) eseguiamo dei meccanismi di inferenza statistica per ottenere al distribuzione di probabilità. 
+- Creaimo il grafo (pytthon) con arco variabili aleatorie associate alla distribzuione di probabilità.
+- Svolgiamo del sampling ottenuto con l'inverse transofmr sampling
+- Otteniamo quindi tante istanze del nostro grafo -> GRAFI EFFETTIVI con pesi
+
+
+- Un approccio base è quello di svolgere la media 
+- Diversi approcci come quello di utilizzare un unico grafo basandosi sulla apsettazione di ogni variabile 
+
+PER RICERCA DEI CICLI:
+- Da una valuta BFS oppure posso applicare BFS su tutti i nodi
+- Variate di dijkstra
+- Dopo aver ottenuto quali nodi che riguardano cicli, faccio la somma dei log dei pesi ( o meglio la può gia fare in se l'algoritmo che rebbe quindi una variante)
+- QUelli che noi cerchiamo sono i vlaori > 0 o < 0 in base a cosa mi restituisce l'algoritmo (se min o max)
+
+
+- In questi approcci si usa qualcos adi definito, invece possiamo dare questo compito ad un algorimto di ML/ deep learning:
+- rete neurale  cui didamo in pasto i grafi (UN INPUT -> UN ISTANZA DI UN GRAFO e altre possibili features tra cui betweness): quindi si potrebbe utilizzare l'apporccio STRUTTURATO dove l'input è una matrice di adiacenza, oppure input NON STRUTTURATO ovvero l'istanza del grafo stesso.
+- L'output è una matrice di adiacenza che rappresenta una madschera ìdei rami che sono selezionati per l'individuazione dei  cicli a guadagno positivo
+- Ciò significa che per l'allenamento ogni inout è associato ad una maschera calcolata tramite un algoritmo (tra quelli di ricerca dei cicli o MILP)
+- L'output definitivo della rete neurale ALLENATA è una maschera che però non potrebbe essere perfetta (ovvero ci sono edge a 0 che dovrebbero esser ad 1 e viceversa). Possibile soluzione: COllegare solamente le connected components che non contengono cicli sotto l'assunzione che il grafo sia completo (nel nostro caso lo è)
+
+DATASET:
+- nei csv di binance faccio la terxza colonna / la quarta colonna -> ottengo il tasso di cambio teoricamente
+- https://github.com/binance/binance-public-data
+- https://data.binance.vision/?prefix=data/spot/monthly/trades/
+- 
 ## Notes
 
 ### Note Marco
@@ -19,6 +47,12 @@ Sarebbe da approfondire se colossi danno i dati sottoforma di dataset perche tan
 		
 - POSSIBILE [DATASET](https://www.binance.com/en/support/faq/how-to-download-historical-market-data-on-binance-5810ae42176b4770b880ce1f14932262) DI BINANCE
 
+#### Ricerca enumerazione cicli
+Alcuni algoritmi che possono riguardare l'individuazione e l'enumerazione dei cicli:
+- Johnson's Algorithm: per grafi diretti e indiretti O((n+e)(c+1)) con c numero di cicli
+- Tiernan's Algorithm: per grafi indiretti. O(V+E+C)
+- Paton’s Algorithm: per grafi indiretti
+- Hawick and James Algorithm: https://www.researchgate.net/publication/221440635_Enumerating_Circuits_and_Loops_in_Graphs_with_Self-Arcs_and_Multiple-Arcs
 ### Note Edoardo
 
 #### Arbitraggio
@@ -54,5 +88,4 @@ l'[API](https://documenter.getpostman.com/view/16362858/UVXokDS6#898f2264-7286-4
 - [ExchangeController](https://simpleswap.io/affiliate-program/en/how-to-start/api?ref=660adad2c784&utm_source=coinmonks&utm_medium=sponsored&utm_campaign=API) ha diverse [API](https://api.simpleswap.io/#/Exchange/ExchangeController_getEstimated)
 
 - In generale in questo [articolo](https://medium.com/coinmonks/best-crypto-apis-for-developers-5efe3a597a9f) ci sono diversi fornitori da analizzare
-
 - [coinlayer](https://coinlayer.com/)
