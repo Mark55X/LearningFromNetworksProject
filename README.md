@@ -54,3 +54,5 @@ l'[API](https://documenter.getpostman.com/view/16362858/UVXokDS6#898f2264-7286-4
 - [ExchangeController](https://simpleswap.io/affiliate-program/en/how-to-start/api?ref=660adad2c784&utm_source=coinmonks&utm_medium=sponsored&utm_campaign=API) ha diverse [API](https://api.simpleswap.io/#/Exchange/ExchangeController_getEstimated)
 
 - In generale in questo [articolo](https://medium.com/coinmonks/best-crypto-apis-for-developers-5efe3a597a9f) ci sono diversi fornitori da analizzare
+
+- [coinlayer](https://coinlayer.com/)
