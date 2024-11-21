@@ -12,3 +12,7 @@ docs/proposal/main.pdf
 .ipython
 .jupyter
 .local
+.vs/VSWorkspaceState.json
+.vs/LearningFromNetworksProject/v17/.wsuo
+.vs/LearningFromNetworksProject/v17/DocumentLayout.json
+code/notebooks/.cache/matplotlib/fontlist-v390.json

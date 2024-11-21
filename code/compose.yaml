@@ -1,9 +1,9 @@
 services:
   # reference: https://docs.docker.com/guides/use-case/jupyter/#why-use-docker-and-jupyterlab-together
   jnotbk:
-    image: quay.io/jupyter/base-notebook
+    image: jnotbk
     build:
-      dockerfile: dockerfiles/jupiter.dockerfile
+      dockerfile: dockerfiles/jnotbk.dockerfile
       context: .
     container_name: jnotbk
     ports:
