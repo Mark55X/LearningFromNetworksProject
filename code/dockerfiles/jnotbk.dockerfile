@@ -6,3 +6,4 @@ FROM quay.io/jupyter/base-notebook
 RUN pip install networkx
 RUN pip install numpy
 RUN pip install matplotlib
+RUN pip install scipy
