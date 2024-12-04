@@ -1,0 +1,20 @@
+Let $X_1, X_2, ..., X_n$ be independent r.v. such that $X_i \sim N(\mu_i, \sigma_i^2)$ for every $1 \leq i \leq n.$\\
+Let $Y = max\{X_1, X_2, ..., X_n\}$, then
+\begin{align*}
+	F_Y(y) = P_r(Y \leq y) &= P_r(max\{X_1, X_2, ..., X_n\} \leq y) \\
+	&= P_r(X_1 \leq y, X_2 \leq y, ..., X_n \leq y) \\
+	&= \prod_{i = 1}^n P_r(X_i \leq y) \\
+	&= \prod_{i = 1}^n F_{X_i}(y) \\
+	&= \prod_{i = 1}^n \Phi\left(\frac{y - \mu_i}{\sigma_i}\right) \\
+\end{align*}
+\begin{align*}
+	f_Y(y) = \frac{d}{dy} F_Y(y) &= \frac{d}{dy} \prod_{i = 1}^n \Phi\left(\frac{y - \mu_i}{\sigma_i}\right) \\
+	&= \left(\prod_{i = 1}^n \Phi\left(\frac{y - \mu_i}{\sigma_i}\right)\right) \sum_{j = 1}^n \left(\frac{\phi\left(\frac{y - \mu_j}{\sigma_j}\right)}{\Phi\left(\frac{y - \mu_j}{\sigma_j}\right)} \cdot \frac{1}{\sigma_j}\right)
+\end{align*}
+where $\Phi$ is the standard normal distribution function and $\phi$ is the standard normal density function. \\
+To compute the expected value, it is necessary to solve the following integral
+\begin{align*}
+	E[Y] &= \int_{-\infty}^{+\infty} y \cdot f_Y(y)\text{ }dy \\
+	&= \int_{-\infty}^{+\infty} y \cdot \left[\left(\prod_{i = 1}^n \Phi\left(\frac{y - \mu_i}{\sigma_i}\right)\right) \sum_{j = 1}^n \left(\frac{\phi\left(\frac{y - \mu_j}{\sigma_j}\right)}{\Phi\left(\frac{y - \mu_j}{\sigma_j}\right)} \cdot \frac{1}{\sigma_j}\right)\right]dy
+\end{align*}
+that has to be computed numerically since it cannot be computed analytically.
