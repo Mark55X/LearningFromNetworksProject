@@ -1,4 +1,4 @@
-\section{Max formulation}
+\section{Max formulation}\label{max_formulation}
 
 In this section will be described two methods that has been developed for the computation of the maximum of a set of random variables.
 Let $X_1, X_2, ..., X_n$ be independent r.v. such that $X_i \sim N(\mu_i, \sigma_i^2)$ for every $1 \leq i \leq n.$
@@ -28,7 +28,7 @@ Fixing the value of the variable $y$, the computing time for calculating $f_Y(y)
 Experimental results show that the function to be integrated is always positive, but significantly different from zero only within a very small range of values. Estimating this range could reduce the computational cost significantly by focusing the computation on the relevant interval.
 
 \subsection{Gumbel approximation}
-Since computing the exact method can require a very large amount of time for a large number of random variables, an approximation method using the Gumbel Distribution has been developed. \\
+Since computing the exact method can require a significant amount of time for a large number of random variables, an approximation method using the Gumbel Distribution has been developed. \\
 Let $Y \dot \sim \ G(\mu, \beta)$ such that
 \begin{align*}
 	\mu = max\{E[X_1], E[X_2], ..., E[X_n]\} \\
