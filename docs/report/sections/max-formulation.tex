@@ -1,10 +1,12 @@
+\section{Max formulation}
+
 Let $X_1, X_2, ..., X_n$ be independent r.v. such that $X_i \sim N(\mu_i, \sigma_i^2)$ for every $1 \leq i \leq n.$\\
 Let $Y = max\{X_1, X_2, ..., X_n\}$, then
 \begin{align*}
 	F_Y(y) = P_r(Y \leq y) &= P_r(max\{X_1, X_2, ..., X_n\} \leq y) \\
 	&= P_r(X_1 \leq y, X_2 \leq y, ..., X_n \leq y) \\
-	&= \prod_{i = 1}^n P_r(X_i \leq y) \\
-	&= \prod_{i = 1}^n F_{X_i}(y) \\
+	&= \prod_{i = 1}^n P_r(X_i \leq y)  \tag*{(by indipendence of r.v)} \\
+	&= \prod_{i = 1}^n F_{X_i}(y)  \\
 	&= \prod_{i = 1}^n \Phi\left(\frac{y - \mu_i}{\sigma_i}\right) \\
 \end{align*}
 \begin{align*}
