@@ -1,5 +1,5 @@
 \section{Weighted degree}
-Let $G=(V,A)$ be a sample of the Direct Random Weighted Graph with $u\in V$ and $v\in V$. Since each arc $(u,v)\in A$ weight $ W(u, v) \sim \mathcal{N}(\mu_{(u, v)}, \sigma^2_{(u, v)}) $, we define:
+Let $G=(V,A)$ be a sample of the DRWG and $u$, $v$ $\in V$. Since each arc $(u,v)\in A$ whose weight is $ W(u, v) \sim \mathcal{N}(\mu_{(u, v)}, \sigma^2_{(u, v)}) $, we define:
 \begin{itemize}
 	\item The \textit{weighted out-degree} for the node $u$ is:
 	\begin{align*}
@@ -11,13 +11,17 @@ Let $G=(V,A)$ be a sample of the Direct Random Weighted Graph with $u\in V$ and 
 	\end{align*}
 \end{itemize}
 
-Where $\mathcal{N}(u)$ means the set of neighbours of node $u$.
+Where $\mathcal{N}(u)$ is the set of neighbours of node $u$.
 Fixing a node $u$, the computing time for $d_W^+(u)$ and $d_W^-(u)$ is 
 
 \subsection{Degree of the graph}
 The \textit{degree of the graph} $G$ has been defined as:
 \begin{align*}
 	d^+_w(G) = max_{u\in V}(d_W^+(u))
+	d^-_w(G) = max_{u\in V}(d_W^-(u))
 \end{align*}
+
+Essendo il massimo di variabili aleatorie, è necessario utilizzare i metodi definiti nella sezione 2.
+
 
 
