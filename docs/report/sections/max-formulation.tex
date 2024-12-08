@@ -1,6 +1,9 @@
 \section{Max formulation}
 
-Let $X_1, X_2, ..., X_n$ be independent r.v. such that $X_i \sim N(\mu_i, \sigma_i^2)$ for every $1 \leq i \leq n.$\\
+In this chapter wll be described two methods that has been developed for the computation of the maximum of a set of random variables.
+Let $X_1, X_2, ..., X_n$ be independent r.v. such that $X_i \sim N(\mu_i, \sigma_i^2)$ for every $1 \leq i \leq n.$
+
+\subsection{Exact Method}
 Let $Y = max\{X_1, X_2, ..., X_n\}$, then
 \begin{align*}
 	F_Y(y) = P_r(Y \leq y) &= P_r(max\{X_1, X_2, ..., X_n\} \leq y) \\
@@ -20,3 +23,21 @@ To compute the expected value, it is necessary to solve the following integral
 	&= \int_{-\infty}^{+\infty} y \cdot \left[\left(\prod_{i = 1}^n \Phi\left(\frac{y - \mu_i}{\sigma_i}\right)\right) \sum_{j = 1}^n \left(\frac{\phi\left(\frac{y - \mu_j}{\sigma_j}\right)}{\Phi\left(\frac{y - \mu_j}{\sigma_j}\right)} \cdot \frac{1}{\sigma_j}\right)\right]dy
 \end{align*}
 that has to be computed numerically since it cannot be computed analytically.
+
+Fixing the value of the variable y, the computing time for calculating $f_Y(y)$ is $\Theta(n)$, as the product operator is computed before the sum operator. However, the majority of the computing time is consumed by the computation of the improper integral for the expected value, depending on the number of points used in the numerical integration that implies the estimated error of the result. In general, the computing time is $\theta(M n))$ where M is a very large number determined by the algorithm used for computing the integral.
+Experimental results show that the function to be integrated is always positive but significantly different from zero only within a very small range of values. Estimating this range could reduce the computational cost significantly by focusing the computation on the relevant interval.
+
+\subsection{Gumbel approximation}
+Since computing the exact method can require a very large amount of time for a large number of random variables, an approximation method using the Gumbel Distribution has been developed. \\
+Let $Y \dot \sim \ G(\mu, \beta)$ such that
+\begin{align*}
+	\mu = max\{E[X_1], E[X_2], ..., E[X_n]\} \\
+	&= max\{\mu_1, \mu_2, ..., \mu_n\} \tag*{(since $X_i \sim N(\mu_i, \sigma_i^2)$)} \\
+	\beta = \sqrt{\sum_{i}^n{\sigma_i^2}}
+\end{align*}
+So, we can define easily the expected value of the maximum
+\begin{align*}
+	E[Y] = \mu + \gamma \beta
+\end{align*}
+where $\gamma \approx 0.57721$ is the \textit{Euler–Mascheroni} constant. \\
+As we can see, the computing time is $\Theta(n)$, which is the same for calculating the maximum of the means of all the random variables and for computing the coefficient $\beta$.
