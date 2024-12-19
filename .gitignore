@@ -12,6 +12,9 @@
 .ipython
 .jupyter
 .local
+.cache
+.dotnet
+.vscode-server
 .vs/VSWorkspaceState.json
 .vs/LearningFromNetworksProject/v17/.wsuo
 .vs/LearningFromNetworksProject/v17/DocumentLayout.json
