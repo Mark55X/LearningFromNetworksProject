@@ -2,12 +2,17 @@
 In this mid-term report, updates are provided regarding the Directed Random Weight Graphs project. In relation to what is reported in the project proposal, the work is proceeding in compliance with what is stated in the objectives section. 
 The class related to the Directed Random Weight Graph has been defined within the Jupyter notebook. Some functions for the correct management and visualization of the graph have been defined within the class.
 The concept of weighted in-degree and out-degree for a single vertex and for the entire graph has been formalized.
+and cycles the same
 
-Through a sampling process, instances of the graph are generated to approximate the weighted degree of each vertex. The number of samples generated is equal to the value determined by the Cochran formula (reference).
+Through a sampling process, instances of the graph are generated to approximate the weighted degree of each vertex.
+%The number of samples generated is equal to the value determined by the Cochran formula (reference).
 Subsequently, the calculation of the maximum between a set of random variables has been formalized using an exact approach and an approximate approach through the Gumbel distribution (mettere reference e scrivere la motivazione per la quale è stato fatto). 
 
 The experimental results obtained to date are displayed within the notebook for a comparison through the use of charts. 
-An algorithm for calculating shortest paths has been designed and its implementation has begun (spiegare meglio che è una variante del Bellman-Ford o comunque dire che ci basiamo su un approccio Greedy) 
+An algorithm for calculating shortest paths has been designed and its implementation has begun (spiegare meglio che è una variante del floyd-warshall o comunque dire che ci basiamo su un approccio Greedy) 
+spiegare l'idea di base (analisi statica e dinamica) e dire che abbiamo implementato l'algoritmo come variante di fw e che ora faremo i test e analisi di performance.
+
+dai dati reali stimeremo medie e varianze e faremo le analisi sul grafo costruito in questo modo.
 
 For the final report, it was planned to (spiegare cosa si vuole fare e cosa ci siamo prefissati di fare, quindi performance profile ecc) 
 
@@ -16,6 +21,24 @@ As previously outlined in the project proposal, several features of the nodes or
 
 The computational time needed to obtain the result increased significantly with the number of variables involved in finding the maximum. By analyzing the integration function, a faster method was developed to compute the lower and upper bounds of the function.
 
-For a very large number of variables, even this method could become computationally expensive. Therefore, an additional approximation method based on the Gumbel distribution was introduced.
+For a very large number of variables, even this method could become computationally expensive. Therefore, an additional approximation method based on the Gumbel distribution is argument of study.
 
 Graphs were developed to illustrate the trends of the obtained values and the corresponding computational times.
+
+
+contributions:
+
+all the theoretical aspects and .. were be analized togheter 
+Marco ed Edo hanno lavorato sull'implementazione della formulazione esatta e approssimata (boost -> integrazione numerica su un intervallo limitato e gumbel -> sotto studio) del massimo
+Edo ha implementato lo script per leggere i dati da Binance e costruire il modello su cui lavorare
+
+to do: ricerca e analisi dei cicli
+
+Greedy è stato pensato insieme
+Luigi ha implementato la parte statica
+insieme abbiamo lavorato alla parte dinamica
+
+1. introduction -> luigi rilegge, tutti aggiungiamo
+2. max formulation (fatto Marco)
+3. shortest path (fatto, da testare le performance, Luigi)
+4. binance (fatto, Edo)
