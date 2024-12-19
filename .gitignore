@@ -8,6 +8,7 @@
 *.blg
 *.bbl
 # Jupyter
+.bak
 .ipynb_checkpoints
 .ipython
 .jupyter
