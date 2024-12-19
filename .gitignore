@@ -8,6 +8,7 @@
 *.blg
 *.bbl
 # Jupyter
+.bak
 .ipynb_checkpoints
 .ipython
 .jupyter
@@ -19,3 +20,4 @@
 .vs/LearningFromNetworksProject/v17/.wsuo
 .vs/LearningFromNetworksProject/v17/DocumentLayout.json
 code/notebooks/.cache/matplotlib/fontlist-v390.json
+code/notebooks/.bash_history

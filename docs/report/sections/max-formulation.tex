@@ -1,0 +1,97 @@
+\section{Max formulation}\label{max_formulation}
+
+In this section will be described two methods that has been developed for the computation of the maximum of a set of random variables.
+Let $X_1, X_2, ..., X_n$ be independent r.v. such that $X_i \sim N(\mu_i, \sigma_i^2)$ for every $1 \leq i \leq n.$
+
+\subsection{Exact Method}
+Let $Y = max\{X_1, X_2, ..., X_n\}$, then
+\begin{align*}
+	F_Y(y) = P_r(Y \leq y) &= P_r(max\{X_1, X_2, ..., X_n\} \leq y) \\
+	&= P_r(X_1 \leq y, X_2 \leq y, ..., X_n \leq y) \\
+	&= \prod_{i = 1}^n P_r(X_i \leq y)  \tag*{(by indipendence of r.v)} \\
+	&= \prod_{i = 1}^n F_{X_i}(y)  \\
+	&= \prod_{i = 1}^n \Phi\left(\frac{y - \mu_i}{\sigma_i}\right) \\
+\end{align*}
+\begin{align*}
+	f_Y(y) = \frac{d}{dy} F_Y(y) &= \frac{d}{dy} \prod_{i = 1}^n \Phi\left(\frac{y - \mu_i}{\sigma_i}\right) \\
+	&= \left(\prod_{i = 1}^n \Phi\left(\frac{y - \mu_i}{\sigma_i}\right)\right) \sum_{j = 1}^n \left(\frac{\phi\left(\frac{y - \mu_j}{\sigma_j}\right)}{\Phi\left(\frac{y - \mu_j}{\sigma_j}\right)} \cdot \frac{1}{\sigma_j}\right)
+\end{align*}
+where $\Phi$ is the standard normal distribution function and $\phi$ is the standard normal density function. \\
+To compute the expected value, it is necessary to solve the following integral
+\begin{align*}
+	E[Y] &= \int_{-\infty}^{+\infty} y \cdot f_Y(y)\text{ }dy \\
+	&= \int_{-\infty}^{+\infty} y \cdot \left[\left(\prod_{i = 1}^n \Phi\left(\frac{y - \mu_i}{\sigma_i}\right)\right) \sum_{j = 1}^n \left(\frac{\phi\left(\frac{y - \mu_j}{\sigma_j}\right)}{\Phi\left(\frac{y - \mu_j}{\sigma_j}\right)} \cdot \frac{1}{\sigma_j}\right)\right]dy
+\end{align*}
+that has to be computed numerically since it cannot be computed analytically.
+
+Fixing the value of the variable $y$, the computing time for calculating $f_Y(y)$ is $\Theta(n)$, as the product operator is already computed before the sum operator. However, the majority of the computing time is consumed by the computation of the improper integral for the expected value, depending on the number of points used in the numerical integration that implies the estimated error of the result. In general, the computing time is $\theta(M n)$ where $M$ is a very large number determined by the algorithm used for computing the integral \cite{2020SciPy-NMeth}.
+Experimental results show that the function to be integrated is always positive, but significantly different from zero only within a very small range of values. Estimating this range could reduce the computational cost significantly by focusing the computation on the relevant interval.
+
+\subsection{Gumbel approximation}
+Since computing the exact method can require a significant amount of time for a large number of random variables, an approximation method using the Gumbel Distribution has been developed. \\
+Let $Y \dot \sim \ G(\mu, \beta)$ such that
+\begin{align*}
+	\mu = max\{E[X_1], E[X_2], ..., E[X_n]\} \\
+	&= max\{\mu_1, \mu_2, ..., \mu_n\} \tag*{(since $X_i \sim N(\mu_i, \sigma_i^2)$)} \\
+	\beta = \sqrt{\sum_{i}^n{\sigma_i^2}}
+\end{align*}
+So, we can define easily the expected value of the maximum
+\begin{align*}
+	E[Y] = \mu + \gamma \beta
+\end{align*}
+where $\gamma \approx 0.57721$ is the \textit{Euler–Mascheroni} constant. \\
+As we can see, the computing time is $\Theta(n)$, which is the same for calculating the maximum of the means of all the random variables and for computing the coefficient $\beta$.
+
+\subsection{Boost-Exact Method}
+Per l'individuazione di un range di integrazione inferiore rispetto a quello teorico, è stato svolto uno studio approssimato della funzione di integrazione.
+
+In particolare, è stato osservato che il range da individuare è dovuto alla funzione $f_Y(y)$, visto che la funzione di integrazione è la stessa moltiplicata per un fattore $y$ che ha il solo ruolo di amplificare il valore della funzione (positivamente o negativamente). Si noti che $f_Y(y)$ è strettamente positiva visto che $F_Y(y)$ è la produttoria di funzioni di ripartizione (il cui valore sta tra 0 ed 1), e la sommatoria è formata da solo addendi positivi. Infatti, ogni singolo addendo è costituito dal numeratore che è una funzione di distribuzione di una normale (ritorna un valore tra 0 ed 1) e il denominatore è sempre positivo vista la moltiplicazione tra $F_Y(y)$ e la deviazione standard.
+
+
+\subsubsection{Lower bound}
+Per valori $y$ "piccoli", il fattore che predomina e porta a 0 il valore della funzione da integrare è $F_Y(y)$. Si vuole quindi individuare un valore di treshold, denominato da qui in poi lower bound (LB) tale per cui:
+
+$$f_Y(y)|y = LB > T $$
+
+dove $T$ è un numero molto piccolo vicino allo 0 che rende il prodotto vicino allo 0. Un'altra definita una formulazione equivalente del problema come segue:
+
+	
+$$\ln(\prod_{i = 1}^n \Phi(\frac{y - \mu_i}{\sigma_i})) = \sum_{i=1}^n  \ln(\Phi(\frac{y - \mu_i}{\sigma_i}))  $$
+
+e quindi si deve risolvere
+
+$$ \sum_{i=1}^n  \ln(\Phi(\frac{y - \mu_i}{\sigma_i})) > \ln(T) $$
+
+Tuttavia, in generale, il problema è complesso da risolvere in forma analitica per il fatto che La funzione logaritmica composta con la CDF $ln(\Phi_i(y))$ non ha una forma chiusa. Tuttavia, nel caso di funzioni CDF $\Phi_i(y)$ identiche è possibile semplificare il problema quanto segue:
+
+$$
+n \ln(\Phi(y)) > \ln(T)
+$$
+$$
+\Phi(y) > e^{\ln(T) / n}
+$$
+$$
+y > \Phi^{-1}(e^{\ln(T) / n})
+$$
+
+Tale funzione è la Percent Point Function o Quantile Function.
+
+Tuttavia, per avere comunque un risultato approssimato del problema generale, si è deciso di operare sui singoli elementi della produttoria come segue:
+
+$$LB = max_{i=0,...,n}( \Phi_i^{-1}(T))$$
+
+Il valore ottenuto è un limite sicuramente peggiore rispetto a quello effettivo ma sperimentalmente, come si può notare nella tabella, ha permesso di ottenere buoni risultati in termini di risparmio di tempo di esecuzione.
+
+
+\subsubsection{Upper bound}
+
+Per valori di y "grandi", i fattori della produttoria di $F_Y(y)$ tendono ad 1, mentre la PDF all'interno della sommatoria tende a 0, rendendo quindi il risultato della sommatoria a 0. In generale, per una distribuzione gaussiana $N(\mu, \sigma)$, 
+$$P(X > \mu + C \sigma) = 0.0015$$
+
+Per C = 3. Si è scelto quindi un valore più grande di C (ad esempio 5) in modo da ridurre notevolmente il valore della probabilità ottenuta in modo da individuare una buona approssimazione di upper bound.
+
+$$UB = max_{i=1,...,n}(\mu_i + 5 \sigma_i) $$
+
+Per valori di C più grandi è possibile individuare un valore di upper bound più largo per una miglior approssimazione del valore atteso a scapito di un maggior tempo computazionale.
+
+

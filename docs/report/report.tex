@@ -1,5 +1,10 @@
 \documentclass[12pt, letterpaper]{article}
 
+%{Packages
+\usepackage{amsmath}
+\usepackage[a4paper, total={6in, 8in}]{geometry}
+%}
+
 %{Environments
 \input{../lib/envs/sec}
 %}
@@ -11,5 +16,13 @@
 \begin{document}
 
 	\include{sections/cover}
+	
+	\include{sections/introduction}
+	
+	\input{sections/max-formulation}
 
+	\include{sections/degree}
+	
+	\include{bibliography/bibliography}
+	
 \end{document}
