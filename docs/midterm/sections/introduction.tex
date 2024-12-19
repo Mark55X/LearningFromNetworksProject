@@ -1,4 +1,4 @@
-\section{Introduction}
+\begin{projsection}{Introduction}
 In this mid-term report, updates are provided regarding the Directed Random Weight Graphs project. In relation to what is reported in the project proposal, the work is proceeding in compliance with what is stated in the objectives section. 
 The class related to the Directed Random Weight Graph has been defined within the Jupyter notebook. Some functions for the correct management and visualization of the graph have been defined within the class.
 The concept of weighted in-degree and out-degree for a single vertex and for the entire graph has been formalized.
@@ -12,33 +12,7 @@ The experimental results obtained to date are displayed within the notebook for 
 An algorithm for calculating shortest paths has been designed and its implementation has begun (spiegare meglio che è una variante del floyd-warshall o comunque dire che ci basiamo su un approccio Greedy) 
 spiegare l'idea di base (analisi statica e dinamica) e dire che abbiamo implementato l'algoritmo come variante di fw e che ora faremo i test e analisi di performance.
 
-dai dati reali stimeremo medie e varianze e faremo le analisi sul grafo costruito in questo modo.
-
 For the final report, it was planned to (spiegare cosa si vuole fare e cosa ci siamo prefissati di fare, quindi performance profile ecc) 
+\end{projsection}
 
-\section{Max Formulation}
-As previously outlined in the project proposal, several features of the nodes or the graph rely on the concept of a maximum, such as the graph degree (the maximum degree among its nodes). While this concept is straightforward in the context of real numbers, it becomes significantly more complex when dealing with random variables, as the maximum of normal functions does not follow a normal distribution. Consequently, an exact equation was formulated to compute the expectation of this distribution, which inherently requires the evaluation of an improper integral.
-
-The computational time needed to obtain the result increased significantly with the number of variables involved in finding the maximum. By analyzing the integration function, a faster method was developed to compute the lower and upper bounds of the function.
-
-For a very large number of variables, even this method could become computationally expensive. Therefore, an additional approximation method based on the Gumbel distribution is argument of study.
-
-Graphs were developed to illustrate the trends of the obtained values and the corresponding computational times.
-
-
-contributions:
-
-all the theoretical aspects and .. were be analized togheter 
-Marco ed Edo hanno lavorato sull'implementazione della formulazione esatta e approssimata (boost -> integrazione numerica su un intervallo limitato e gumbel -> sotto studio) del massimo
-Edo ha implementato lo script per leggere i dati da Binance e costruire il modello su cui lavorare
-
-to do: ricerca e analisi dei cicli
-
-Greedy è stato pensato insieme
-Luigi ha implementato la parte statica
-insieme abbiamo lavorato alla parte dinamica
-
-1. introduction -> luigi rilegge, tutti aggiungiamo
-2. max formulation (fatto Marco)
-3. shortest path (fatto, da testare le performance, Luigi)
-4. binance (fatto, Edo)
+%to do: ricerca e analisi dei cicli
