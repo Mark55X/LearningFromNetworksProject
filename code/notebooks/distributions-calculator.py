@@ -69,7 +69,7 @@ for currency_pair, (mean, standard_deviation) in results.items():
     from_currency = None
     to_currency = None
 
-    # Search for the two criptyo names
+    # Search for the two crypto names
     for name in cryptoNames:
         if currency_pair.startswith(name):
             from_currency = name
