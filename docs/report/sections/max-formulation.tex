@@ -26,73 +26,89 @@ To compute the expected value, it is necessary to solve the following integral
 that has to be computed numerically since it cannot be computed analytically.
 
 Fixing the value of the variable $y$, the computing time for calculating $f_Y(y)$ is $\Theta(n)$, as the product operator is already computed before the sum operator. However, the majority of the computing time is consumed by the computation of the improper integral for the expected value, depending on the number of points used in the numerical integration that implies the estimated error of the result. In general, the computing time is $\theta(M n)$ where $M$ is a very large number determined by the algorithm used for computing the integral \cite{2020SciPy-NMeth}.
-Experimental results show that the function to be integrated is always positive, but significantly different from zero only within a very small range of values. Estimating this range could reduce the computational cost significantly by focusing the computation on the relevant interval.
+Experimental results show that the function to be integrated is significantly different from zero only within a very small range of values. Estimating this range could reduce the computational cost significantly by focusing the computation on the relevant interval.
 
-\subsection{Gumbel approximation}
-Since computing the exact method can require a significant amount of time for a large number of random variables, an approximation method using the Gumbel Distribution has been developed. \\
-Let $Y \dot \sim \ G(\mu, \beta)$ such that
-\begin{align*}
-	\mu = max\{E[X_1], E[X_2], ..., E[X_n]\} \\
-	&= max\{\mu_1, \mu_2, ..., \mu_n\} \tag*{(since $X_i \sim N(\mu_i, \sigma_i^2)$)} \\
-	\beta = \sqrt{\sum_{i}^n{\sigma_i^2}}
-\end{align*}
-So, we can define easily the expected value of the maximum
-\begin{align*}
-	E[Y] = \mu + \gamma \beta
-\end{align*}
-where $\gamma \approx 0.57721$ is the \textit{Euler–Mascheroni} constant. \\
-As we can see, the computing time is $\Theta(n)$, which is the same for calculating the maximum of the means of all the random variables and for computing the coefficient $\beta$.
+
 
 \subsection{Boost-Exact Method}
-Per l'individuazione di un range di integrazione inferiore rispetto a quello teorico, è stato svolto uno studio approssimato della funzione di integrazione.
+To identify a narrower integration range compared to the theoretical one, an approximate analysis of the integrand function was performed.
 
-In particolare, è stato osservato che il range da individuare è dovuto alla funzione $f_Y(y)$, visto che la funzione di integrazione è la stessa moltiplicata per un fattore $y$ che ha il solo ruolo di amplificare il valore della funzione (positivamente o negativamente). Si noti che $f_Y(y)$ è strettamente positiva visto che $F_Y(y)$ è la produttoria di funzioni di ripartizione (il cui valore sta tra 0 ed 1), e la sommatoria è formata da solo addendi positivi. Infatti, ogni singolo addendo è costituito dal numeratore che è una funzione di distribuzione di una normale (ritorna un valore tra 0 ed 1) e il denominatore è sempre positivo vista la moltiplicazione tra $F_Y(y)$ e la deviazione standard.
+Specifically, it was observed that the range to be determined depends on the function \( f_Y(y) \), as the integrand function is the same but scaled by a factor \( y \), which has the role to amplify the function's value (either positively or negatively). It is worth noting that \( f_Y(y) \) is strictly positive because \( F_Y(y) \) is the product of cumulative distribution functions (whose values stay between 0 and 1), and the summation consists only of positive terms. Each term in the summation is positive since its numerator is a cumulative distribution function of a normal variable (returning a value between 0 and 1), and the denominator is always positive due to the multiplication of \( F_Y(y) \) by the standard deviation.
+
 
 
 \subsubsection{Lower bound}
-Per valori $y$ "piccoli", il fattore che predomina e porta a 0 il valore della funzione da integrare è $F_Y(y)$. Si vuole quindi individuare un valore di treshold, denominato da qui in poi lower bound (LB) tale per cui:
+For small values of \( y \), the dominant factor that drives the value of the integrand to 0 is \( F_Y(y) \). Therefore, the goal is to determine a threshold value, referred to as the lower bound (LB), such that:
 
 $$f_Y(y)_{|_{y = LB}} > T $$
+where \( T \) is a very small number close to 0, which makes the product approach 0. An equivalent formulation of the problem is defined as follows:
 
-dove $T$ è un numero molto piccolo vicino allo 0 che rende il prodotto vicino allo 0. Un'altra definita una formulazione equivalente del problema come segue:
-
-	
 $$\ln(\prod_{i = 1}^n \Phi(\frac{y - \mu_i}{\sigma_i})) = \sum_{i=1}^n  \ln(\Phi(\frac{y - \mu_i}{\sigma_i}))  $$
 
-e quindi si deve risolvere
+and the resulting problem is:
 
 $$ \sum_{i=1}^n  \ln(\Phi(\frac{y - \mu_i}{\sigma_i})) > \ln(T) $$
 
-Tuttavia, in generale, il problema è complesso da risolvere in forma analitica per il fatto che La funzione logaritmica composta con la CDF $ln(\Phi_i(y))$ non ha una forma chiusa. Tuttavia, nel caso di funzioni CDF $\Phi_i(y)$ identiche è possibile semplificare il problema quanto segue:
+However, in general, the problem is challenging to solve analytically because the logarithmic function composed with the CDF does not have a closed form. Nevertheless, in the case where all random variables are identical, the problem can be simplified as follows:
 
 $$
-n \ln(\Phi(y)) > \ln(T)
+n \ln(\Phi(\frac{y - \mu}{\sigma})) > \ln(T)
 $$
 $$
-\Phi(y) > e^{\ln(T) / n}
+\Phi(\frac{y - \mu}{\sigma}) > e^{\ln(T) / n}
 $$
 $$
-y > \Phi^{-1}(e^{\ln(T) / n})
+y > \mu + \sigma \Phi^{-1}(e^{\ln(T) / n})
 $$
 
-Tale funzione è la Percent Point Function o Quantile Function.
+where $\Phi^{-1}$ is the Percent Point Function (PPF). To obtain an approximate solution to the general problem, it was decided to operate on the individual elements of the product as follows:
 
-Tuttavia, per avere comunque un risultato approssimato del problema generale, si è deciso di operare sui singoli elementi della produttoria come segue:
+$$LB = max_{i=0,...,n}( \mu_i + \sigma_i \Phi^{-1}(T))$$
+The obtained value is certainly a less accurate bound compared to the actual one. Infatti abbiamo imposto che ogni singolo fattore della produttoria sia maggiore del valore di threashold, portando quindi ad un valore della produttoria sicuramente inferiore al threashold. Prendendo il valore massimo tra tutti si ottiene quindi un'approssimazione.
+However, as shown in the table, it has experimentally provided good results in terms of execution time savings.
 
-$$LB = max_{i=0,...,n}( \Phi_i^{-1}(T))$$
-
-Il valore ottenuto è un limite sicuramente peggiore rispetto a quello effettivo ma sperimentalmente, come si può notare nella tabella, ha permesso di ottenere buoni risultati in termini di risparmio di tempo di esecuzione.
 
 
 \subsubsection{Upper bound}
 
-Per valori di y "grandi", i fattori della produttoria di $F_Y(y)$ tendono ad 1, mentre la PDF all'interno della sommatoria tende a 0, rendendo quindi il risultato della sommatoria a 0. In generale, per una distribuzione gaussiana $N(\mu, \sigma)$, 
-$$P(X > \mu + C \sigma) = 0.0015$$
+For large values of \( y \), the factors in the product \( F_Y(y) \) tend to 1, while the PDF inside the summation approaches 0. Consequently, the summation result tends to 0. In general, for a Gaussian distribution \( N(\mu, \sigma) \), the following holds:  
+\[
+P(X > \mu + C \sigma) = 0.0015
+\]
+for \( C = 3 \). 
 
-Per C = 3. Si è scelto quindi un valore più grande di C (ad esempio 5) in modo da ridurre notevolmente il valore della probabilità ottenuta in modo da individuare una buona approssimazione di upper bound.
+To improve the approximation of the upper bound, a larger value of \( C \) (e.g., \( C = 5 \)) is selected. This choice significantly reduces the probability, yielding a more reliable approximation. The upper bound is then given by:  
+\[
+UB = \max_{i=1, \ldots, n} (\mu_i + 5 \sigma_i).
+\]
+The max operator is used to ensure that the upper bound founded is valid for all the random variables $X_1, X_2, ..., X_n$. For even larger values of \( C \), it is possible to compute a wider upper bound, allowing for a better approximation of the expected value. However, this comes at the cost of increased computational time.
 
-$$UB = max_{i=1,...,n}(\mu_i + 5 \sigma_i) $$
-
-Per valori di C più grandi è possibile individuare un valore di upper bound più largo per una miglior approssimazione del valore atteso a scapito di un maggior tempo computazionale.
 
 
+\subsection{Asymptotic approximation}
+Since computing the exact method can require a significant amount of time for a large number of random variables, an approximation method based on extreme value theory was studied.
+
+\textbf{Theorem (H., Jagers, Sudbury \& Tokarev, 2009) \cite{hamza2009mixing}}: If \( X_1, \ldots, X_n \) are independent random variables with the property that  $\mathrm{E}[\max(X_1^i, \ldots, X_n^i)] = M_i, \quad i = 1, 2, \ldots, n$ then 
+\[
+\frac{1}{n} \sum_{i=1}^n M_i \leq \mathrm{E}[\max(X_1, \ldots, X_n)]
+\]
+\[
+\leq \frac{1}{n} \sum_{i=1}^n M_i + \frac{n-1}{n} \max(M_1, \ldots, M_n).
+\]
+
+The theorem provides insightful lower and upper bounds, though they become challenging to compute for a large number of variables. The main idea was to use Fréchet, Weibull or Gumbell distribution to model $Y$ according to the \textit{Fisher–Tippett–Gnedenko theorem} \cite{fisher1928limiting} that was originally defined for iid random variables but more recent studies show a similar application for the not iid case. Authors in \cite{padua2013distribution} tried to approximate $Y \dot \sim \ G(\alpha, \beta)$ such that:
+
+\begin{align*}
+	\alpha = \frac{1}{n} \sum_{i}^n{\mu_i} + \frac{h(0)}{\sqrt{n}} \sqrt{\sum_{i}^n{\sigma_i^2}} 
+\end{align*}
+
+\begin{align*}
+	\beta = \frac{1}{\sqrt{n}} \sqrt{\sum_{i}^n{\sigma_i^2}} \theta 	
+\end{align*}
+
+where $h(0) = \ln{-\ln{G(0)}}$ and 
+So, we can define easily the expected value of the maximum
+\begin{align*}
+	E[Y] = \alpha + \gamma \beta
+\end{align*}
+where $\gamma \approx 0.57721$ is the \textit{Euler–Mascheroni} constant. Nevertheless, in our opinion, the paper lacks certain concepts, and therefore, further work and study are needed to develop a more robust solution for the asymptotic results.
