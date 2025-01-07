@@ -9,14 +9,13 @@ In this section, an algorithm consisting of two phases will be presented.
 The static phase will solve a modified version of the ASSP\footnote{All Sources Shortest Path} problem.
 
 Inspired by The Floyd-Warshall\cite{cormen2010introduction} algorithm\footnote{$d_{ij}^{(k)}$ represents the weight of the shortest path from vertex $i$ to vertex $j$ for which all intermediate vertices belong to the set \{1, 2, \dots, k\}. $d_{ikj}^{(k-1)} = d_{ik}^{(k-1)} + d_{kj}^{(k-1)}$}
-\begin{equation}
+\begin{equation*}
 	d_{ij}^{(k)} = 
 	\begin{cases}
 		w_{ij} & \text{if k = 0} \\
 		\min\{d_{ij}^{(k-1)}, d_{ikj}^{(k-1)}\} & \text{otherwise}
 	\end{cases}
-\end{equation}
-
+\end{equation*}
 the distance estimates will be computed.
 In the proposed framework the pattern is slightly different: $d_{ij}^{(k)}$ is a random variable that is built as follow
 \begin{equation*}
