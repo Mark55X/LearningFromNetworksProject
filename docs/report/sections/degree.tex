@@ -4,11 +4,13 @@ Given that the mean of a sum is the sum of the means and the variance of a sum i
 \begin{itemize}
 	\item the \textit{weighted out-degree} of a node $u\in V$ as:
 	\begin{align*}
-		d_W^+(u) = \sum_{v \in \mathcal{N}(u)} W(u, v) \sim \mathcal{N} \left( \sum_{v \in \mathcal{N}(u)} \mu_{(u, v)}, \sum_{v \in \mathcal{N}(u)} \sigma^2_{(u, v)}\right)
+		&d_W^+(u) = \sum_{v \in \mathcal{N}(u)} W(u, v) \sim \\
+		&\sim \mathcal{N} \left( \sum_{v \in \mathcal{N}(u)} \mu_{(u, v)}, \sum_{v \in \mathcal{N}(u)} \sigma^2_{(u, v)}\right)
 	\end{align*}
 	\item the \textit{weighted in-degree} of a node $u\in V$ as:
 	\begin{align*}
-		d_W^-(u) = \sum_{v \in \mathcal{N}(u)} W(v, u) \sim \mathcal{N}\left(\sum_{v \in \mathcal{N}(u)} \mu_{(v, u)}, \sum_{v \in \mathcal{N}(u)} \sigma^2_{(v, u)})\right)
+		&d_W^-(u) = \sum_{v \in \mathcal{N}(u)} W(v, u) \sim \\
+		&\sim \mathcal{N}\left(\sum_{v \in \mathcal{N}(u)} \mu_{(v, u)}, \sum_{v \in \mathcal{N}(u)} \sigma^2_{(v, u)})\right)
 	\end{align*}
 \end{itemize}
 
@@ -28,7 +30,3 @@ For the entire graph, we define:
 	\end{align*}
 \end{itemize}
 Since $d^+_w(G)$ and $d^-_w(G)$ are random variables, to determine their value it is necessary to use the methods defined in section \ref{max_formulation}.
-
-
-
-
