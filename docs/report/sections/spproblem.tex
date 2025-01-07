@@ -13,7 +13,7 @@ Inspired by The Floyd-Warshall\cite{cormen2010introduction} algorithm\footnote{$
 	d_{ij}^{(k)} = 
 	\begin{cases}
 		w_{ij} & \text{if k = 0} \\
-		min\{d_{ij}^{(k-1)}, d_{ikj}^{(k-1)}\} & \text{otherwise}
+		\min\{d_{ij}^{(k-1)}, d_{ikj}^{(k-1)}\} & \text{otherwise}
 	\end{cases}
 \end{equation}
 

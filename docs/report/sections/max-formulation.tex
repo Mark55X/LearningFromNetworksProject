@@ -4,10 +4,10 @@ In this section will be described two methods that has been developed for the co
 Let $X_1, X_2, ..., X_n$ be independent r.v. such that $X_i \sim N(\mu_i, \sigma_i^2)$ for every $1 \leq i \leq n.$
 
 \subsection{Exact Method}
-Let $Y = max\{X_1, X_2, ..., X_n\}$, then
+Let $Y = \max\{X_1, X_2, ..., X_n\}$, then
 \begin{align*}
 	F_Y(y) &= P_r(Y \leq y) \\
-	&= P_r(max\{X_1, X_2, ..., X_n\} \leq y) \\
+	&= P_r(\max\{X_1, X_2, ..., X_n\} \leq y) \\
 	&= P_r(X_1 \leq y, X_2 \leq y, ..., X_n \leq y) \\
 	&= \prod_{i = 1}^n P_r(X_i \leq y)  \tag*{(by indipendence of r.v)} \\
 	&= \prod_{i = 1}^n F_{X_i}(y)  \\
@@ -45,7 +45,7 @@ For small values of \( y \), the dominant factor that drives the value of the in
 $$f_Y(y)_{|_{y = LB}} > T $$
 where \( T \) is a very small number close to 0, which makes the product approach 0. An equivalent formulation of the problem is defined as follows:
 
-$$\ln(\prod_{i = 1}^n \Phi(\frac{y - \mu_i}{\sigma_i})) = \sum_{i=1}^n  \ln(\Phi(\frac{y - \mu_i}{\sigma_i}))  $$
+$$\ln\left(\prod_{i = 1}^n \Phi\left(\frac{y - \mu_i}{\sigma_i}\right)\right) = \sum_{i=1}^n  \ln\left(\Phi\left(\frac{y - \mu_i}{\sigma_i}\right)\right)  $$
 
 and the resulting problem is:
 
@@ -65,7 +65,7 @@ $$
 
 where $\Phi^{-1}$ is the Percent Point Function (PPF). To obtain an approximate solution to the general problem, it was decided to operate on the individual elements of the product as follows:
 
-$$LB = max_{i=0,...,n}( \mu_i + \sigma_i \Phi^{-1}(T))$$
+$$LB = \max_{i=0,...,n}\{\mu_i + \sigma_i \Phi^{-1}(T)\}$$
 The obtained value is certainly a less accurate bound compared to the actual one. Infatti abbiamo imposto che ogni singolo fattore della produttoria sia maggiore del valore di threashold, portando quindi ad un valore della produttoria sicuramente inferiore al threashold. Prendendo il valore massimo tra tutti si ottiene quindi un'approssimazione.
 However, as shown in the table, it has experimentally provided good results in terms of execution time savings.
 
@@ -95,7 +95,7 @@ Since computing the exact method can require a significant amount of time for a 
 \frac{1}{n} \sum_{i=1}^n M_i \leq \mathrm{E}[\max(X_1, \ldots, X_n)]
 \]
 \[
-\leq \frac{1}{n} \sum_{i=1}^n M_i + \frac{n-1}{n} \max(M_1, \ldots, M_n).
+\leq \frac{1}{n} \sum_{i=1}^n M_i + \frac{n-1}{n} \max\{M_1, \ldots, M_n\}.
 \]
 
 The theorem provides insightful lower and upper bounds, though they become challenging to compute for a large number of variables. The main idea was to use Fréchet, Weibull or Gumbell distribution to model $Y$ according to the \textit{Fisher–Tippett–Gnedenko theorem} \cite{fisher1928limiting} that was originally defined for iid random variables but more recent studies show a similar application for the not iid case. Authors in \cite{padua2013distribution} tried to approximate $Y \dot \sim \ G(\alpha, \beta)$ fixing the number of means and variances and then increasing the number of observations $M$ for each component distribution function. As the number $M \rightarrow \infty$, authors applied the stability postulate in order to find the parameters $\alpha$ and $\beta$.
