@@ -1,7 +1,7 @@
 \section{Real Data Analysis}
 In this section, the results of the proposed project will be discussed on real data downloaded from the Binance platform.
 \subsection{Data Retrieval}
-A Python code was created to download all trades between different cryptocurrencies. It was decided to download transactions for a single month of the current year to manage memory usage and reduce variance in the data.
+A Python code was created to download all trades between different cryptocurrencies. It was decided to download transactions for a single month of the year 2024 to manage memory usage and reduce variance in the data.
 The \texttt{networkx} library allows you to save the structure of a graph inside semi-structured files; in this case, an XML file called \texttt{crypto\textunderscore graph.graphml} is used. 
 After downloading all the data, with the \texttt{write\textunderscore graphml} function, a weighted graph is defined in which the vertices are the cryptocurrencies and the weight of the edges is a tuple composed by the mean and standard deviation of each exchange rate between each currency.
 Once the file is saved, it is read inside the Jupyter Notebook through the \texttt{read\textunderscore graphml} function in order to adapt the graph to the DWRG class proposed by the project. Consequently the final graph is created to perform the analysis.
