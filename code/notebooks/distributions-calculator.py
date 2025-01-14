@@ -1,10 +1,10 @@
 # Command to create a directory where the data will be stored: " $env:STORE_DIRECTORY="$PWD\TRADES_DATA" "
 # Command to download all trades for month 1, year 2024: " python download-trade.py -y 2024 -m 1 -t spot "
 
-import pandas as pd
-import numpy as np
-import zipfile
 import os
+import zipfile
+import numpy as np
+import pandas as pd
 import networkx as nx
 
 # Paths
