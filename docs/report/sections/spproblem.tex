@@ -33,19 +33,28 @@ show a short pseudocode for the dynamic part (maybe also just the formula that c
 
 Be $D_{i,j}$ the matrix of extimation computed during the static phase and let $G_{sample}$ a sample of the DRWG $G$. 
 
-Input: $s$ source node, $t$ terminal node, $G_{sample}$, $D_{i,j}$. 
-Output: shortest path $P$ from $s$ to $t".
 
 \begin{algorithm}
-	\caption{PPO} 
+	\caption{Greedy Dynamic} 
+    Input: $s$ source node, $t$ terminal node, $G_{sample} = (V,A)$, $D_{i,j}$.  \\
+    Output: shortest path $P$ from $s$ to $t$.
 	\begin{algorithmic}[1]
-		\For {$iteration=1,2,\ldots$}
-		\For {$actor=1,2,\ldots,N$}
-		\State Run policy $\pi_{\theta_{old}}$ in environment for $T$ time steps
-		\State Compute advantage estimates $\hat{A}_{1},\ldots,\hat{A}_{T}$
-		\EndFor
-		\State Optimize surrogate $L$ wrt. $\theta$, with $K$ epochs and minibatch size $M\leq NT$
-		\State $\theta_{old}\leftarrow\theta$
-		\EndFor
+        \State $P \gets \{s\}$
+        \State $current \gets s$
+        \While {$current \neq t$}
+            \State Let $N_{current} \gets \{n \in V \mid n \text{ is a neighbor of } current \text{ and not visited}\}$
+            \State $E \gets \emptyset$
+            \For {$n \in N_{current}$}
+                \If {$n = t$}
+                    \State $E \gets E \cup \{(n, w_{current,n})\}$
+                \Else
+                    \State $E \gets E \cup \{(n, w_{current,n} + \mathbb{E}[D_{n,t}])\}$
+                \EndIf
+            \EndFor
+            \State $current \gets \arg\min_{(n,w) \in E} w$
+            \State Mark $current$ as visited
+            \State $P \gets P \cup \{current\}$
+        \EndWhile
+        \State \Return $P$
 	\end{algorithmic} 
 \end{algorithm}
