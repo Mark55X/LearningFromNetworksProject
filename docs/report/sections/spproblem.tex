@@ -1,0 +1,51 @@
+\section{Shortest Path Algorithm}
+
+Working with DWRGs the SPP is not well defined.
+An exact solution cannot be computed on a random graph since it depends on the specific observed instance.
+In this section, an algorithm consisting of two phases will be presented.
+
+\subsection{Static Phase}
+
+The static phase will solve a modified version of the ASSP\footnote{All Sources Shortest Path} problem.
+
+Inspired by The Floyd-Warshall\cite{cormen2010introduction} algorithm\footnote{$d_{ij}^{(k)}$ represents the weight of the shortest path from vertex $i$ to vertex $j$ for which all intermediate vertices belong to the set \{1, 2, \dots, k\}. $d_{ikj}^{(k-1)} = d_{ik}^{(k-1)} + d_{kj}^{(k-1)}$}
+\begin{equation*}
+	d_{ij}^{(k)} = 
+	\begin{cases}
+		w_{ij} & \text{if k = 0} \\
+		\min\{d_{ij}^{(k-1)}, d_{ikj}^{(k-1)}\} & \text{otherwise}
+	\end{cases}
+\end{equation*}
+the distance estimates will be computed.
+In the proposed framework the pattern is slightly different: $d_{ij}^{(k)}$ is a random variable that is built as follow
+\begin{equation*}
+	d_{ij}^{(k)} = 
+	\begin{cases}
+		w_{ij} \text{ \ \ \ if k = 0} \\
+		d_{ij}^{(k-1)} \text{ if } P(d_{ij}^{(k-1)} < d_{ikj}^{(k-1)}) \geq 0.5 \\
+		d_{ikj}^{(k-1)} \text{ otherwise}
+	\end{cases}
+\end{equation*}
+In the Jupyter Notebook an iterative\footnote{While a recursive formula is easier to read, an iterative algorithm is more efficient.} version of the algorithm will be implemented.
+%show how to compute the less probability
+\subsection{Dynamic Phase}
+show a short pseudocode for the dynamic part (maybe also just the formula that computes the probabilities).
+
+Be $D_{i,j}$ the matrix of extimation computed during the static phase and let $G_{sample}$ a sample of the DRWG $G$. 
+
+Input: $s$ source node, $t$ terminal node, $G_{sample}$, $D_{i,j}$. 
+Output: shortest path $P$ from $s$ to $t".
+
+\begin{algorithm}
+	\caption{PPO} 
+	\begin{algorithmic}[1]
+		\For {$iteration=1,2,\ldots$}
+		\For {$actor=1,2,\ldots,N$}
+		\State Run policy $\pi_{\theta_{old}}$ in environment for $T$ time steps
+		\State Compute advantage estimates $\hat{A}_{1},\ldots,\hat{A}_{T}$
+		\EndFor
+		\State Optimize surrogate $L$ wrt. $\theta$, with $K$ epochs and minibatch size $M\leq NT$
+		\State $\theta_{old}\leftarrow\theta$
+		\EndFor
+	\end{algorithmic} 
+\end{algorithm}

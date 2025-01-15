@@ -1,0 +1,37 @@
+\documentclass[12pt, letterpaper, twocolumn]{article}
+
+%{Packages
+\usepackage{amsmath}
+\usepackage{enumitem}
+\usepackage{algorithm} 
+\usepackage{algpseudocode} 
+\usepackage[a4paper, total={6in, 8in}]{geometry}
+%}
+
+%{Environments
+\input{../lib/envs/sec}
+%}
+
+%{Custom commands
+\input{../lib/cmds/fnt.tex}
+%}
+
+\begin{document}
+
+	\include{sections/cover}
+	
+	\input{sections/introduction}
+	
+	\input{sections/max-formulation}
+
+	\input{sections/degree}
+
+    \input{sections/spproblem.tex}
+	
+	\input{sections/real-data}
+	
+	\include{bibliography/bibliography}
+
+    \include{sections/contributions.tex}
+	
+\end{document}

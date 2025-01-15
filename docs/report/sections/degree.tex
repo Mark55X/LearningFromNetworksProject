@@ -1,0 +1,28 @@
+\section{Weighted degree}
+Let \( G = (V, A) \) be a sample of the DRWG, each arc \( (u, v) \in A \) has a weight distributed as: $W(u, v) \sim \mathcal{N}(\mu_{(u, v)}, \sigma^2_{(u, v)})$.
+Given that the mean of a sum is the sum of the means and the variance of a sum is the sum of the variances, we have defined:
+\begin{itemize}
+	\item the \textit{weighted out-degree} of a node $u\in V$ as:
+	\begin{align*}
+		&d_W^+(u) = \sum_{v \in \mathcal{N}(u)} W(u, v) \sim \\
+		&\sim \mathcal{N} \left( \sum_{v \in \mathcal{N}(u)} \mu_{(u, v)}, \sum_{v \in \mathcal{N}(u)} \sigma^2_{(u, v)}\right)
+	\end{align*}
+	\item the \textit{weighted in-degree} of a node $u\in V$ as:
+	\begin{align*}
+		&d_W^-(u) = \sum_{v \in \mathcal{N}(u)} W(v, u) \sim \\
+		&\sim \mathcal{N}\left(\sum_{v \in \mathcal{N}(u)} \mu_{(v, u)}, \sum_{v \in \mathcal{N}(u)} \sigma^2_{(v, u)})\right)
+	\end{align*}
+\end{itemize}
+
+Where $\mathcal{N}(u)$ is the set of neighbours of node $u$.
+Fixing a node $u$, the computing time for $d_W^+(u)$ and $d_W^-(u)$ is $\Theta(|\mathcal{N}(u)|)$.
+
+\subsection{Degree of the graph}
+For the entire graph, we define:
+\begin{itemize}
+	\item the \textit{weighted out-degree} of the graph $G$ as:
+	$$d^+_w(G) = \max_{u\in V}(d_W^+(u))$$
+	\item the \textit{weighted out-degree} of the graph $G$ as:
+	$$d^-_w(G) = \max_{u\in V}(d_W^-(u))$$
+\end{itemize}
+Since $d^+_w(G)$ and $d^-_w(G)$ are random variables, to determine their value it is necessary to use the methods defined in section \ref{max_formulation}.

@@ -1,0 +1,3954 @@
+<?xml version='1.0' encoding='utf-8'?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd">
+  <key id="d0" for="edge" attr.name="weight" attr.type="string" />
+  <graph edgedefault="directed">
+    <node id="1000SATS" />
+    <node id="FDUSD" />
+    <node id="TRY" />
+    <node id="USDT" />
+    <node id="1INCH" />
+    <node id="BTC" />
+    <node id="AAVE" />
+    <node id="BNB" />
+    <node id="ETH" />
+    <node id="ACA" />
+    <node id="ACE" />
+    <node id="ACH" />
+    <node id="ACM" />
+    <node id="ADA" />
+    <node id="BRL" />
+    <node id="EUR" />
+    <node id="TUSD" />
+    <node id="USDC" />
+    <node id="ADX" />
+    <node id="AERGO" />
+    <node id="AEUR" />
+    <node id="AGIX" />
+    <node id="AGLD" />
+    <node id="AI" />
+    <node id="AKRO" />
+    <node id="ALCX" />
+    <node id="ALGO" />
+    <node id="ALICE" />
+    <node id="ALPACA" />
+    <node id="ALPHA" />
+    <node id="ALPINE" />
+    <node id="ALT" />
+    <node id="AMB" />
+    <node id="AMP" />
+    <node id="ANKR" />
+    <node id="ANT" />
+    <node id="APE" />
+    <node id="API3" />
+    <node id="APT" />
+    <node id="ARB" />
+    <node id="AR" />
+    <node id="BETH" />
+    <node id="ARDR" />
+    <node id="ARKM" />
+    <node id="ARK" />
+    <node id="ARPA" />
+    <node id="ASR" />
+    <node id="AST" />
+    <node id="ASTR" />
+    <node id="ATA" />
+    <node id="ATM" />
+    <node id="ATOM" />
+    <node id="AUCTION" />
+    <node id="AUDIO" />
+    <node id="AVA" />
+    <node id="AVAX" />
+    <node id="AXS" />
+    <node id="BADGER" />
+    <node id="BAKE" />
+    <node id="BAL" />
+    <node id="BAND" />
+    <node id="BAR" />
+    <node id="BAT" />
+    <node id="BCH" />
+    <node id="BEAMX" />
+    <node id="BEL" />
+    <node id="BETA" />
+    <node id="BICO" />
+    <node id="BIFI" />
+    <node id="BLUR" />
+    <node id="BLZ" />
+    <node id="DAI" />
+    <node id="BNBDOWN" />
+    <node id="UAH" />
+    <node id="BNBUP" />
+    <node id="BNT" />
+    <node id="BNX" />
+    <node id="BOND" />
+    <node id="BONK" />
+    <node id="BSW" />
+    <node id="ARS" />
+    <node id="BIDR" />
+    <node id="BTCDOWN" />
+    <node id="NGN" />
+    <node id="PLN" />
+    <node id="RON" />
+    <node id="RUB" />
+    <node id="BTCUP" />
+    <node id="ZAR" />
+    <node id="BTTC" />
+    <node id="BURGER" />
+    <node id="C98" />
+    <node id="CAKE" />
+    <node id="CELO" />
+    <node id="CELR" />
+    <node id="CFX" />
+    <node id="CHESS" />
+    <node id="CHR" />
+    <node id="CHZ" />
+    <node id="CITY" />
+    <node id="CKB" />
+    <node id="CLV" />
+    <node id="COMBO" />
+    <node id="COMP" />
+    <node id="COS" />
+    <node id="COTI" />
+    <node id="CREAM" />
+    <node id="CRV" />
+    <node id="CTK" />
+    <node id="CTSI" />
+    <node id="CTXC" />
+    <node id="CVC" />
+    <node id="CVP" />
+    <node id="CVX" />
+    <node id="CYBER" />
+    <node id="DAR" />
+    <node id="DASH" />
+    <node id="DATA" />
+    <node id="DCR" />
+    <node id="DEGO" />
+    <node id="DENT" />
+    <node id="DEXE" />
+    <node id="DF" />
+    <node id="DGB" />
+    <node id="DIA" />
+    <node id="DOCK" />
+    <node id="DODO" />
+    <node id="DOGE" />
+    <node id="DOT" />
+    <node id="DREP" />
+    <node id="DUSK" />
+    <node id="DYDX" />
+    <node id="EDU" />
+    <node id="EGLD" />
+    <node id="ELF" />
+    <node id="ENJ" />
+    <node id="ENS" />
+    <node id="EOS" />
+    <node id="EPX" />
+    <node id="ERN" />
+    <node id="ETC" />
+    <node id="ETHDOWN" />
+    <node id="ETHUP" />
+    <node id="FARM" />
+    <node id="FET" />
+    <node id="FIDA" />
+    <node id="FIL" />
+    <node id="FIO" />
+    <node id="FIRO" />
+    <node id="FIS" />
+    <node id="FLM" />
+    <node id="FLOKI" />
+    <node id="FLOW" />
+    <node id="FLUX" />
+    <node id="FOR" />
+    <node id="FORTH" />
+    <node id="FRONT" />
+    <node id="FTM" />
+    <node id="FTT" />
+    <node id="FUN" />
+    <node id="FXS" />
+    <node id="GALA" />
+    <node id="GAL" />
+    <node id="GAS" />
+    <node id="GFT" />
+    <node id="GHST" />
+    <node id="GLM" />
+    <node id="GLMR" />
+    <node id="GMT" />
+    <node id="GMX" />
+    <node id="GNO" />
+    <node id="GNS" />
+    <node id="GRT" />
+    <node id="GTC" />
+    <node id="HARD" />
+    <node id="HBAR" />
+    <node id="HFT" />
+    <node id="HIFI" />
+    <node id="HIGH" />
+    <node id="HIVE" />
+    <node id="HOOK" />
+    <node id="HOT" />
+    <node id="ICP" />
+    <node id="ICX" />
+    <node id="ID" />
+    <node id="IDEX" />
+    <node id="ILV" />
+    <node id="IMX" />
+    <node id="INJ" />
+    <node id="IOST" />
+    <node id="IOTA" />
+    <node id="IOTX" />
+    <node id="IQ" />
+    <node id="IRIS" />
+    <node id="JASMY" />
+    <node id="JOE" />
+    <node id="JST" />
+    <node id="JTO" />
+    <node id="JUP" />
+    <node id="JUV" />
+    <node id="KAVA" />
+    <node id="KDA" />
+    <node id="KEY" />
+    <node id="KLAY" />
+    <node id="KMD" />
+    <node id="KNC" />
+    <node id="KP3R" />
+    <node id="KSM" />
+    <node id="LAZIO" />
+    <node id="LDO" />
+    <node id="LEVER" />
+    <node id="LINA" />
+    <node id="LINK" />
+    <node id="LIT" />
+    <node id="LOKA" />
+    <node id="LOOM" />
+    <node id="LPT" />
+    <node id="LQTY" />
+    <node id="LRC" />
+    <node id="LSK" />
+    <node id="LTC" />
+    <node id="LTO" />
+    <node id="LUNA" />
+    <node id="LUNC" />
+    <node id="MAGIC" />
+    <node id="MANA" />
+    <node id="MANTA" />
+    <node id="MASK" />
+    <node id="MATIC" />
+    <node id="MAV" />
+    <node id="MBL" />
+    <node id="MBOX" />
+    <node id="MDT" />
+    <node id="MDX" />
+    <node id="MEME" />
+    <node id="MINA" />
+    <node id="MKR" />
+    <node id="MLN" />
+    <node id="MOB" />
+    <node id="MOVR" />
+    <node id="MTL" />
+    <node id="MULTI" />
+    <node id="NEAR" />
+    <node id="NEO" />
+    <node id="NEXO" />
+    <node id="NFP" />
+    <node id="NKN" />
+    <node id="NMR" />
+    <node id="NTRN" />
+    <node id="NULS" />
+    <node id="OAX" />
+    <node id="OCEAN" />
+    <node id="OG" />
+    <node id="OGN" />
+    <node id="OM" />
+    <node id="OMG" />
+    <node id="ONE" />
+    <node id="ONG" />
+    <node id="ONT" />
+    <node id="OOKI" />
+    <node id="OP" />
+    <node id="ORDI" />
+    <node id="ORN" />
+    <node id="OSMO" />
+    <node id="OXT" />
+    <node id="PAXG" />
+    <node id="PENDLE" />
+    <node id="PEOPLE" />
+    <node id="PEPE" />
+    <node id="PERP" />
+    <node id="PHA" />
+    <node id="PHB" />
+    <node id="PIVX" />
+    <node id="PLA" />
+    <node id="PNT" />
+    <node id="POLS" />
+    <node id="POLYX" />
+    <node id="POND" />
+    <node id="PORTO" />
+    <node id="POWR" />
+    <node id="PROM" />
+    <node id="PROS" />
+    <node id="PSG" />
+    <node id="PUNDIX" />
+    <node id="PYR" />
+    <node id="QI" />
+    <node id="QKC" />
+    <node id="QNT" />
+    <node id="QTUM" />
+    <node id="QUICK" />
+    <node id="RAD" />
+    <node id="RARE" />
+    <node id="RAY" />
+    <node id="RDNT" />
+    <node id="REEF" />
+    <node id="REI" />
+    <node id="REN" />
+    <node id="REQ" />
+    <node id="RIF" />
+    <node id="RLC" />
+    <node id="RNDR" />
+    <node id="ROSE" />
+    <node id="RPL" />
+    <node id="RSR" />
+    <node id="RUNE" />
+    <node id="RVN" />
+    <node id="SAND" />
+    <node id="SANTOS" />
+    <node id="SC" />
+    <node id="SCRT" />
+    <node id="SEI" />
+    <node id="SFP" />
+    <node id="SHIB" />
+    <node id="SKL" />
+    <node id="SLP" />
+    <node id="SNT" />
+    <node id="SNX" />
+    <node id="SOL" />
+    <node id="SPELL" />
+    <node id="SSV" />
+    <node id="STEEM" />
+    <node id="STG" />
+    <node id="STMX" />
+    <node id="STORJ" />
+    <node id="STPT" />
+    <node id="STRAX" />
+    <node id="STX" />
+    <node id="SUI" />
+    <node id="SUN" />
+    <node id="SUPER" />
+    <node id="SUSHI" />
+    <node id="SXP" />
+    <node id="SYN" />
+    <node id="SYS" />
+    <node id="TFUEL" />
+    <node id="THETA" />
+    <node id="TIA" />
+    <node id="TKO" />
+    <node id="TLM" />
+    <node id="TRB" />
+    <node id="TROY" />
+    <node id="TRU" />
+    <node id="TRX" />
+    <node id="XRP" />
+    <node id="T" />
+    <node id="TWT" />
+    <node id="UFT" />
+    <node id="UMA" />
+    <node id="UNFI" />
+    <node id="UNI" />
+    <node id="USDP" />
+    <node id="IDRT" />
+    <node id="VAI" />
+    <node id="USTC" />
+    <node id="UTK" />
+    <node id="VANRY" />
+    <node id="VET" />
+    <node id="VGX" />
+    <node id="VIB" />
+    <node id="VIC" />
+    <node id="VIDT" />
+    <node id="VITE" />
+    <node id="VOXEL" />
+    <node id="VTHO" />
+    <node id="WAN" />
+    <node id="WAVES" />
+    <node id="WAXP" />
+    <node id="WBETH" />
+    <node id="WBTC" />
+    <node id="WIN" />
+    <node id="WING" />
+    <node id="WLD" />
+    <node id="WNXM" />
+    <node id="WOO" />
+    <node id="WRX" />
+    <node id="XAI" />
+    <node id="XEC" />
+    <node id="XEM" />
+    <node id="XLM" />
+    <node id="XMR" />
+    <node id="XNO" />
+    <node id="XTZ" />
+    <node id="XVG" />
+    <node id="XVS" />
+    <node id="YFI" />
+    <node id="YGG" />
+    <node id="ZEC" />
+    <node id="ZEN" />
+    <node id="ZIL" />
+    <node id="ZRX" />
+    <edge source="1000SATS" target="FDUSD">
+      <data key="d0">-7.480818945339126_0.1875085320632978</data>
+    </edge>
+    <edge source="1000SATS" target="TRY">
+      <data key="d0">-4.116775659861351_0.17730591910379306</data>
+    </edge>
+    <edge source="1000SATS" target="USDT">
+      <data key="d0">-7.443022341619121_0.18996702744678737</data>
+    </edge>
+    <edge source="FDUSD" target="TRY">
+      <data key="d0">3.4164180021330957_0.006098316302733476</data>
+    </edge>
+    <edge source="FDUSD" target="USDT">
+      <data key="d0">7.658830792252406e-05_0.0016213380390526987</data>
+    </edge>
+    <edge source="USDT" target="ARS">
+      <data key="d0">7.0652284196775925_0.08107141439176585</data>
+    </edge>
+    <edge source="USDT" target="BIDR">
+      <data key="d0">9.655874962036012_0.004973407985190493</data>
+    </edge>
+    <edge source="USDT" target="BRL">
+      <data key="d0">1.5986445367923148_0.005990383125144845</data>
+    </edge>
+    <edge source="USDT" target="DAI">
+      <data key="d0">-9.175217003545562e-05_0.000730545379396858</data>
+    </edge>
+    <edge source="USDT" target="IDRT">
+      <data key="d0">9.659050752322504_0.006094690731673539</data>
+    </edge>
+    <edge source="USDT" target="NGN">
+      <data key="d0">7.178894862333878_0.061465206589156336</data>
+    </edge>
+    <edge source="USDT" target="PLN">
+      <data key="d0">1.3916996418157919_0.006620539206449149</data>
+    </edge>
+    <edge source="USDT" target="RON">
+      <data key="d0">1.5245060051221093_0.004552868831233332</data>
+    </edge>
+    <edge source="USDT" target="RUB">
+      <data key="d0">4.476686328479434_0.014439937403968123</data>
+    </edge>
+    <edge source="USDT" target="TRY">
+      <data key="d0">3.4166538811462455_0.0054915242690064935</data>
+    </edge>
+    <edge source="USDT" target="UAH">
+      <data key="d0">3.7906634490576647_0.01603319810000268</data>
+    </edge>
+    <edge source="USDT" target="VAI">
+      <data key="d0">0.0011951402097708107_0.004402555280659702</data>
+    </edge>
+    <edge source="USDT" target="ZAR">
+      <data key="d0">2.9554642631150188_0.006383882628618703</data>
+    </edge>
+    <edge source="1INCH" target="BTC">
+      <data key="d0">-11.467463141474182_0.08789729490499644</data>
+    </edge>
+    <edge source="1INCH" target="USDT">
+      <data key="d0">-0.7725553224647893_0.09162695318370274</data>
+    </edge>
+    <edge source="BTC" target="AEUR">
+      <data key="d0">10.572620240314848_0.043394141061730146</data>
+    </edge>
+    <edge source="BTC" target="ARS">
+      <data key="d0">17.736207837542032_0.06824494511952887</data>
+    </edge>
+    <edge source="BTC" target="BIDR">
+      <data key="d0">20.338438269863495_0.04109373895234354</data>
+    </edge>
+    <edge source="BTC" target="BRL">
+      <data key="d0">12.273850890725175_0.04579183888149956</data>
+    </edge>
+    <edge source="BTC" target="DAI">
+      <data key="d0">10.675625948154668_0.04837309244796382</data>
+    </edge>
+    <edge source="BTC" target="EUR">
+      <data key="d0">10.587234412154611_0.04682171342994831</data>
+    </edge>
+    <edge source="BTC" target="FDUSD">
+      <data key="d0">10.669258919207849_0.04685664524073899</data>
+    </edge>
+    <edge source="BTC" target="NGN">
+      <data key="d0">17.850367650455215_0.05605399792116743</data>
+    </edge>
+    <edge source="BTC" target="PLN">
+      <data key="d0">12.060480486737367_0.044796206677538516</data>
+    </edge>
+    <edge source="BTC" target="RON">
+      <data key="d0">12.199273039370434_0.04599287540125403</data>
+    </edge>
+    <edge source="BTC" target="RUB">
+      <data key="d0">15.189650209541918_0.043928799974030854</data>
+    </edge>
+    <edge source="BTC" target="TRY">
+      <data key="d0">14.090888097859716_0.04198969880113777</data>
+    </edge>
+    <edge source="BTC" target="TUSD">
+      <data key="d0">10.690035928594543_0.043839610569142796</data>
+    </edge>
+    <edge source="BTC" target="UAH">
+      <data key="d0">14.46375605369899_0.04604791767794017</data>
+    </edge>
+    <edge source="BTC" target="USDC">
+      <data key="d0">10.67090966504177_0.04754223765930311</data>
+    </edge>
+    <edge source="BTC" target="USDT">
+      <data key="d0">10.674226682370676_0.048888997264153196</data>
+    </edge>
+    <edge source="BTC" target="ZAR">
+      <data key="d0">13.630690063378896_0.04367174297793483</data>
+    </edge>
+    <edge source="AAVE" target="BNB">
+      <data key="d0">-1.116208785803414_0.0688037353718164</data>
+    </edge>
+    <edge source="AAVE" target="BTC">
+      <data key="d0">-6.057489723208965_0.06308275550267967</data>
+    </edge>
+    <edge source="AAVE" target="ETH">
+      <data key="d0">-3.1495797152619005_0.07208971892130045</data>
+    </edge>
+    <edge source="AAVE" target="USDT">
+      <data key="d0">4.618092993908637_0.08357331639493573</data>
+    </edge>
+    <edge source="BNB" target="BRL">
+      <data key="d0">7.330578743583774_0.026289561424025446</data>
+    </edge>
+    <edge source="BNB" target="BTC">
+      <data key="d0">-4.9382020380305995_0.04753784984488992</data>
+    </edge>
+    <edge source="BNB" target="DAI">
+      <data key="d0">5.728909567814408_0.028175032629180224</data>
+    </edge>
+    <edge source="BNB" target="ETH">
+      <data key="d0">-2.039734571035281_0.057691202614293856</data>
+    </edge>
+    <edge source="BNB" target="EUR">
+      <data key="d0">5.6463609132561405_0.028102084945840124</data>
+    </edge>
+    <edge source="BNB" target="FDUSD">
+      <data key="d0">5.7277624050957625_0.027190927420324515</data>
+    </edge>
+    <edge source="BNB" target="TRY">
+      <data key="d0">9.147012741975827_0.025224649135133947</data>
+    </edge>
+    <edge source="BNB" target="TUSD">
+      <data key="d0">5.740054838700908_0.02625046832380293</data>
+    </edge>
+    <edge source="BNB" target="UAH">
+      <data key="d0">9.521204073908832_0.029451683558981798</data>
+    </edge>
+    <edge source="BNB" target="USDC">
+      <data key="d0">5.731208954292381_0.027161968978043648</data>
+    </edge>
+    <edge source="BNB" target="USDT">
+      <data key="d0">5.731557887797898_0.027699048799585197</data>
+    </edge>
+    <edge source="ETH" target="AEUR">
+      <data key="d0">7.72000438094245_0.051958217130119264</data>
+    </edge>
+    <edge source="ETH" target="BIDR">
+      <data key="d0">17.45500524276586_0.0635410980975655</data>
+    </edge>
+    <edge source="ETH" target="BRL">
+      <data key="d0">9.375333540323359_0.058186540071315934</data>
+    </edge>
+    <edge source="ETH" target="BTC">
+      <data key="d0">-2.8921293957042513_0.061131857074582165</data>
+    </edge>
+    <edge source="ETH" target="DAI">
+      <data key="d0">7.777105786658569_0.060735259364508354</data>
+    </edge>
+    <edge source="ETH" target="EUR">
+      <data key="d0">7.684379941494822_0.055855941871440676</data>
+    </edge>
+    <edge source="ETH" target="FDUSD">
+      <data key="d0">7.767843159577561_0.05560097089439005</data>
+    </edge>
+    <edge source="ETH" target="PLN">
+      <data key="d0">9.159279797780684_0.058411040467651325</data>
+    </edge>
+    <edge source="ETH" target="TRY">
+      <data key="d0">11.187458005151072_0.05514312201580808</data>
+    </edge>
+    <edge source="ETH" target="TUSD">
+      <data key="d0">7.794150991936162_0.06200358986503315</data>
+    </edge>
+    <edge source="ETH" target="UAH">
+      <data key="d0">11.568322079556246_0.0701106491949613</data>
+    </edge>
+    <edge source="ETH" target="USDC">
+      <data key="d0">7.778989968473459_0.0596478098673316</data>
+    </edge>
+    <edge source="ETH" target="USDT">
+      <data key="d0">7.779119040722068_0.05939562544156155</data>
+    </edge>
+    <edge source="ETH" target="ZAR">
+      <data key="d0">10.737183233374278_0.060151130606345866</data>
+    </edge>
+    <edge source="ACA" target="BTC">
+      <data key="d0">-12.97273554709533_0.09856822014443771</data>
+    </edge>
+    <edge source="ACA" target="TRY">
+      <data key="d0">1.1307888078834605_0.13013973565970588</data>
+    </edge>
+    <edge source="ACA" target="USDT">
+      <data key="d0">-2.295933404578287_0.1318087827938398</data>
+    </edge>
+    <edge source="ACE" target="BNB">
+      <data key="d0">-3.537333037527182_0.08173007991011949</data>
+    </edge>
+    <edge source="ACE" target="BTC">
+      <data key="d0">-8.492965200136434_0.09475467970124397</data>
+    </edge>
+    <edge source="ACE" target="FDUSD">
+      <data key="d0">2.181539405847663_0.08946548952095902</data>
+    </edge>
+    <edge source="ACE" target="TRY">
+      <data key="d0">5.603408935830428_0.0882413523028172</data>
+    </edge>
+    <edge source="ACE" target="USDT">
+      <data key="d0">2.1885249139922873_0.08483533065780954</data>
+    </edge>
+    <edge source="ACH" target="BTC">
+      <data key="d0">-14.636614633095743_0.06206630903258174</data>
+    </edge>
+    <edge source="ACH" target="TRY">
+      <data key="d0">-0.5368561290161711_0.06924865011381776</data>
+    </edge>
+    <edge source="ACH" target="USDT">
+      <data key="d0">-3.966683154895755_0.07154166032963913</data>
+    </edge>
+    <edge source="ACM" target="TRY">
+      <data key="d0">4.124132826078128_0.0383855900488529</data>
+    </edge>
+    <edge source="ACM" target="USDT">
+      <data key="d0">0.7014647415128832_0.04013854971959137</data>
+    </edge>
+    <edge source="ADA" target="BNB">
+      <data key="d0">-6.357645818195957_0.06268601085154729</data>
+    </edge>
+    <edge source="ADA" target="BRL">
+      <data key="d0">0.9628944911970029_0.06912916644579946</data>
+    </edge>
+    <edge source="ADA" target="BTC">
+      <data key="d0">-11.311913476382246_0.057088483439286575</data>
+    </edge>
+    <edge source="ADA" target="ETH">
+      <data key="d0">-8.398804918662156_0.0722975318162244</data>
+    </edge>
+    <edge source="ADA" target="EUR">
+      <data key="d0">-0.7154215204879242_0.0729443951022531</data>
+    </edge>
+    <edge source="ADA" target="FDUSD">
+      <data key="d0">-0.6361643019215855_0.07672997623044793</data>
+    </edge>
+    <edge source="ADA" target="TRY">
+      <data key="d0">2.777822051083944_0.07331285164514298</data>
+    </edge>
+    <edge source="ADA" target="TUSD">
+      <data key="d0">-0.6207605366770041_0.07114669892661465</data>
+    </edge>
+    <edge source="ADA" target="USDC">
+      <data key="d0">-0.6840911322266324_0.06287258524541593</data>
+    </edge>
+    <edge source="ADA" target="USDT">
+      <data key="d0">-0.6329693839684711_0.07569529966328595</data>
+    </edge>
+    <edge source="EUR" target="AEUR">
+      <data key="d0">-0.00015814783494568377_0.0022115367563781993</data>
+    </edge>
+    <edge source="EUR" target="USDT">
+      <data key="d0">0.08558124696265591_0.004086597772765624</data>
+    </edge>
+    <edge source="TUSD" target="T">
+      <data key="d0">-3.4250225032827384_0.12424206569611726</data>
+    </edge>
+    <edge source="TUSD" target="TRY">
+      <data key="d0">3.408708359278236_0.005964900738631598</data>
+    </edge>
+    <edge source="TUSD" target="USDT">
+      <data key="d0">-0.0072564902142821805_0.005774643609644891</data>
+    </edge>
+    <edge source="USDC" target="USDT">
+      <data key="d0">0.00014405424120953627_0.0017304778512402987</data>
+    </edge>
+    <edge source="ADX" target="BTC">
+      <data key="d0">-12.364359381420895_0.046504281537689325</data>
+    </edge>
+    <edge source="ADX" target="ETH">
+      <data key="d0">-9.473164396984236_0.05679046645201611</data>
+    </edge>
+    <edge source="ADX" target="USDT">
+      <data key="d0">-1.688479447505274_0.0534313161725762</data>
+    </edge>
+    <edge source="AERGO" target="BTC">
+      <data key="d0">-12.659977758635197_0.038606323794669946</data>
+    </edge>
+    <edge source="AERGO" target="USDT">
+      <data key="d0">-1.9899192905416647_0.06357090459420905</data>
+    </edge>
+    <edge source="AEUR" target="USDT">
+      <data key="d0">0.08562181282991276_0.00397051629054241</data>
+    </edge>
+    <edge source="AGIX" target="BTC">
+      <data key="d0">-11.938831888153251_0.05629010061560448</data>
+    </edge>
+    <edge source="AGIX" target="TRY">
+      <data key="d0">2.150014102292283_0.07118945271641783</data>
+    </edge>
+    <edge source="AGIX" target="USDT">
+      <data key="d0">-1.2679777455947516_0.07165498664051813</data>
+    </edge>
+    <edge source="AGLD" target="BTC">
+      <data key="d0">-10.467592397427351_0.10467774396653011</data>
+    </edge>
+    <edge source="AGLD" target="USDT">
+      <data key="d0">0.22451879816544174_0.13377482225822648</data>
+    </edge>
+    <edge source="AI" target="BNB">
+      <data key="d0">-5.538752242609866_0.11768278046975464</data>
+    </edge>
+    <edge source="AI" target="BTC">
+      <data key="d0">-10.485513505711145_0.131434959813898</data>
+    </edge>
+    <edge source="AI" target="FDUSD">
+      <data key="d0">0.20206331783500453_0.11912809320196566</data>
+    </edge>
+    <edge source="AI" target="TRY">
+      <data key="d0">3.6177296328726527_0.1133955798281407</data>
+    </edge>
+    <edge source="AI" target="TUSD">
+      <data key="d0">0.19503546497863475_0.12086308049324726</data>
+    </edge>
+    <edge source="AI" target="USDT">
+      <data key="d0">0.21058912336155272_0.11664313230030372</data>
+    </edge>
+    <edge source="AKRO" target="USDT">
+      <data key="d0">-5.26457861828024_0.07076568958259148</data>
+    </edge>
+    <edge source="ALCX" target="BTC">
+      <data key="d0">-7.2782297777541105_0.15884430259533883</data>
+    </edge>
+    <edge source="ALCX" target="USDT">
+      <data key="d0">3.379585146921939_0.16277433589939141</data>
+    </edge>
+    <edge source="ALGO" target="BNB">
+      <data key="d0">-7.3933781762636075_0.0896443158763243</data>
+    </edge>
+    <edge source="ALGO" target="BTC">
+      <data key="d0">-12.343950526380514_0.0848881866559485</data>
+    </edge>
+    <edge source="ALGO" target="ETH">
+      <data key="d0">-9.445599155667903_0.10567965163665272</data>
+    </edge>
+    <edge source="ALGO" target="FDUSD">
+      <data key="d0">-1.6769067890681366_0.10786993796681023</data>
+    </edge>
+    <edge source="ALGO" target="TRY">
+      <data key="d0">1.739164682652439_0.09541910878592358</data>
+    </edge>
+    <edge source="ALGO" target="USDT">
+      <data key="d0">-1.670866230105376_0.10582346040793847</data>
+    </edge>
+    <edge source="ALICE" target="BTC">
+      <data key="d0">-10.486642422024481_0.07448116823943116</data>
+    </edge>
+    <edge source="ALICE" target="TRY">
+      <data key="d0">3.5884135421419883_0.07775542852474203</data>
+    </edge>
+    <edge source="ALICE" target="USDT">
+      <data key="d0">0.18912740142616244_0.08878107853428932</data>
+    </edge>
+    <edge source="ALPACA" target="BTC">
+      <data key="d0">-12.31863073086745_0.07344053388664708</data>
+    </edge>
+    <edge source="ALPACA" target="USDT">
+      <data key="d0">-1.6536604340602974_0.05518593825089922</data>
+    </edge>
+    <edge source="ALPHA" target="BTC">
+      <data key="d0">-12.92451729226816_0.06892371268969197</data>
+    </edge>
+    <edge source="ALPHA" target="USDT">
+      <data key="d0">-2.240840109418209_0.08947723164953582</data>
+    </edge>
+    <edge source="ALPINE" target="BTC">
+      <data key="d0">-9.938505050688585_0.0951785498021604</data>
+    </edge>
+    <edge source="ALPINE" target="EUR">
+      <data key="d0">0.6277962749034499_0.06830296789595239</data>
+    </edge>
+    <edge source="ALPINE" target="TRY">
+      <data key="d0">4.147643545346901_0.06386903208970418</data>
+    </edge>
+    <edge source="ALPINE" target="USDT">
+      <data key="d0">0.6482064037638441_0.02803685617528536</data>
+    </edge>
+    <edge source="ALT" target="BNB">
+      <data key="d0">-6.727919883353299_0.1301862617568702</data>
+    </edge>
+    <edge source="ALT" target="BTC">
+      <data key="d0">-11.619627966998271_0.10704238768840892</data>
+    </edge>
+    <edge source="ALT" target="FDUSD">
+      <data key="d0">-0.9447826258509104_0.11830173379809086</data>
+    </edge>
+    <edge source="ALT" target="TRY">
+      <data key="d0">2.4624993140308757_0.12532999279309087</data>
+    </edge>
+    <edge source="ALT" target="USDT">
+      <data key="d0">-0.9917948290120189_0.1402316209869599</data>
+    </edge>
+    <edge source="AMB" target="BTC">
+      <data key="d0">-15.579897755811038_0.10945654158065127</data>
+    </edge>
+    <edge source="AMB" target="USDT">
+      <data key="d0">-4.886768065098039_0.0856653451944464</data>
+    </edge>
+    <edge source="AMP" target="TRY">
+      <data key="d0">-2.1905332008438316_0.06152962464136377</data>
+    </edge>
+    <edge source="AMP" target="USDT">
+      <data key="d0">-5.612342375080629_0.06513326378753465</data>
+    </edge>
+    <edge source="ANKR" target="BTC">
+      <data key="d0">-14.348714842343368_0.06295537484667746</data>
+    </edge>
+    <edge source="ANKR" target="TRY">
+      <data key="d0">-0.26539088137528294_0.06274959222194004</data>
+    </edge>
+    <edge source="ANKR" target="USDT">
+      <data key="d0">-3.6830386519069602_0.0699530749946689</data>
+    </edge>
+    <edge source="ANT" target="BNB">
+      <data key="d0">-4.000604762235488_0.031048118664534375</data>
+    </edge>
+    <edge source="ANT" target="BTC">
+      <data key="d0">-8.902035631708076_0.051124970541182126</data>
+    </edge>
+    <edge source="ANT" target="USDT">
+      <data key="d0">1.7936693906204018_0.05746624596082694</data>
+    </edge>
+    <edge source="APE" target="BTC">
+      <data key="d0">-10.298472001174405_0.07227154719046028</data>
+    </edge>
+    <edge source="APE" target="ETH">
+      <data key="d0">-7.390557382394004_0.08388095093229125</data>
+    </edge>
+    <edge source="APE" target="TRY">
+      <data key="d0">3.772279212500001_0.06510563221028218</data>
+    </edge>
+    <edge source="APE" target="USDT">
+      <data key="d0">0.3681250324112738_0.07268736447301706</data>
+    </edge>
+    <edge source="API3" target="BTC">
+      <data key="d0">-9.732230154371068_0.21947330805986287</data>
+    </edge>
+    <edge source="API3" target="TRY">
+      <data key="d0">4.402346501240267_0.15515008034881486</data>
+    </edge>
+    <edge source="API3" target="USDT">
+      <data key="d0">0.9334083882448706_0.19359298033065503</data>
+    </edge>
+    <edge source="APT" target="BTC">
+      <data key="d0">-8.436510309078525_0.08066045324543253</data>
+    </edge>
+    <edge source="APT" target="ETH">
+      <data key="d0">-5.53868086702401_0.0878940542736312</data>
+    </edge>
+    <edge source="APT" target="EUR">
+      <data key="d0">2.147343941206253_0.07863854202009467</data>
+    </edge>
+    <edge source="APT" target="FDUSD">
+      <data key="d0">2.2063868856369426_0.028028503767036313</data>
+    </edge>
+    <edge source="APT" target="TRY">
+      <data key="d0">5.635269880896145_0.07683322569909787</data>
+    </edge>
+    <edge source="APT" target="USDT">
+      <data key="d0">2.226263696861967_0.08085085992604599</data>
+    </edge>
+    <edge source="ARB" target="BTC">
+      <data key="d0">-10.033768704541796_0.09086296322908248</data>
+    </edge>
+    <edge source="ARB" target="EUR">
+      <data key="d0">0.5598094456560333_0.1018648740867372</data>
+    </edge>
+    <edge source="ARB" target="FDUSD">
+      <data key="d0">0.6575550579774369_0.10707062617249041</data>
+    </edge>
+    <edge source="ARB" target="TRY">
+      <data key="d0">4.057115243629581_0.09561905180580728</data>
+    </edge>
+    <edge source="ARB" target="TUSD">
+      <data key="d0">0.6652328474834922_0.10015039597797222</data>
+    </edge>
+    <edge source="ARB" target="USDC">
+      <data key="d0">0.6374270642737448_0.10730383281860444</data>
+    </edge>
+    <edge source="ARB" target="USDT">
+      <data key="d0">0.6454061507988118_0.09725954029349752</data>
+    </edge>
+    <edge source="AR" target="BETH">
+      <data key="d0">-7.120996893991211_0.06857290041655068</data>
+    </edge>
+    <edge source="AR" target="BTC">
+      <data key="d0">-8.451562990036255_0.08996152845038302</data>
+    </edge>
+    <edge source="AR" target="USDT">
+      <data key="d0">2.228962677518673_0.07847133824345581</data>
+    </edge>
+    <edge source="ARDR" target="BTC">
+      <data key="d0">-13.057528770372652_0.046658275689461744</data>
+    </edge>
+    <edge source="ARDR" target="USDT">
+      <data key="d0">-2.3938583416739423_0.06298688305249903</data>
+    </edge>
+    <edge source="ARKM" target="BNB">
+      <data key="d0">-6.3120412379746424_0.07009721828106416</data>
+    </edge>
+    <edge source="ARKM" target="BTC">
+      <data key="d0">-11.241711280768442_0.0732011883947675</data>
+    </edge>
+    <edge source="ARKM" target="TRY">
+      <data key="d0">2.8387514369642686_0.07621680484656874</data>
+    </edge>
+    <edge source="ARKM" target="TUSD">
+      <data key="d0">-0.5572663653831196_0.07355565557916105</data>
+    </edge>
+    <edge source="ARKM" target="USDT">
+      <data key="d0">-0.5767278389141299_0.0805872569705016</data>
+    </edge>
+    <edge source="ARK" target="TRY">
+      <data key="d0">3.274572788301752_0.10279424062876828</data>
+    </edge>
+    <edge source="ARK" target="USDT">
+      <data key="d0">-0.1412116254465137_0.10370680075068281</data>
+    </edge>
+    <edge source="ARPA" target="BNB">
+      <data key="d0">-8.455401277426171_0.08026293493280995</data>
+    </edge>
+    <edge source="ARPA" target="BTC">
+      <data key="d0">-13.399935479408834_0.09189740209607851</data>
+    </edge>
+    <edge source="ARPA" target="TRY">
+      <data key="d0">0.6937558749355943_0.0898056957563884</data>
+    </edge>
+    <edge source="ARPA" target="USDT">
+      <data key="d0">-2.7179445920700167_0.09317242721410227</data>
+    </edge>
+    <edge source="ASR" target="TRY">
+      <data key="d0">4.305056372374908_0.037739972499843455</data>
+    </edge>
+    <edge source="ASR" target="USDT">
+      <data key="d0">0.8867424300915706_0.040113699284191534</data>
+    </edge>
+    <edge source="AST" target="BTC">
+      <data key="d0">-12.812592205409908_0.05141824669044151</data>
+    </edge>
+    <edge source="AST" target="USDT">
+      <data key="d0">-2.1429132395753627_0.06118164610142879</data>
+    </edge>
+    <edge source="ASTR" target="BTC">
+      <data key="d0">-12.484001947098529_0.13676529786605388</data>
+    </edge>
+    <edge source="ASTR" target="USDT">
+      <data key="d0">-1.8198564897978502_0.10832726597536915</data>
+    </edge>
+    <edge source="ATA" target="BTC">
+      <data key="d0">-13.04700502519759_0.0671170830459622</data>
+    </edge>
+    <edge source="ATA" target="USDT">
+      <data key="d0">-2.353600456529944_0.0891323737669277</data>
+    </edge>
+    <edge source="ATM" target="TRY">
+      <data key="d0">4.377231055294324_0.034726998638013304</data>
+    </edge>
+    <edge source="ATM" target="USDT">
+      <data key="d0">0.9629833049687876_0.03686579771675754</data>
+    </edge>
+    <edge source="ATOM" target="BNB">
+      <data key="d0">-3.423381194618923_0.042023150366603486</data>
+    </edge>
+    <edge source="ATOM" target="BTC">
+      <data key="d0">-8.37533488693387_0.04779305808065462</data>
+    </edge>
+    <edge source="ATOM" target="ETH">
+      <data key="d0">-5.479717878900657_0.056955178972308465</data>
+    </edge>
+    <edge source="ATOM" target="EUR">
+      <data key="d0">2.210710611542575_0.051015734208981776</data>
+    </edge>
+    <edge source="ATOM" target="FDUSD">
+      <data key="d0">2.301849351870827_0.05332672053384993</data>
+    </edge>
+    <edge source="ATOM" target="TRY">
+      <data key="d0">5.711665821518292_0.05048768856794188</data>
+    </edge>
+    <edge source="ATOM" target="USDT">
+      <data key="d0">2.3006065345555764_0.05277735261430919</data>
+    </edge>
+    <edge source="AUCTION" target="BTC">
+      <data key="d0">-7.470830339161844_0.12736024335813872</data>
+    </edge>
+    <edge source="AUCTION" target="FDUSD">
+      <data key="d0">3.180266357332323_0.11534316232195518</data>
+    </edge>
+    <edge source="AUCTION" target="USDT">
+      <data key="d0">3.1963035088429357_0.12511574604232115</data>
+    </edge>
+    <edge source="AUDIO" target="BTC">
+      <data key="d0">-12.254446115525454_0.09751073747112372</data>
+    </edge>
+    <edge source="AUDIO" target="TRY">
+      <data key="d0">1.826741371266185_0.09506237202986002</data>
+    </edge>
+    <edge source="AUDIO" target="USDT">
+      <data key="d0">-1.5830893943320337_0.09989319317016414</data>
+    </edge>
+    <edge source="AVA" target="BTC">
+      <data key="d0">-11.128928417411746_0.03679754558863799</data>
+    </edge>
+    <edge source="AVA" target="USDT">
+      <data key="d0">-0.4677640868604821_0.05785246176500159</data>
+    </edge>
+    <edge source="AVAX" target="BNB">
+      <data key="d0">-2.1558167512904447_0.07132868082770939</data>
+    </edge>
+    <edge source="AVAX" target="BRL">
+      <data key="d0">5.155465997597602_0.08277265616478138</data>
+    </edge>
+    <edge source="AVAX" target="BTC">
+      <data key="d0">-7.108357607163721_0.06017476040935372</data>
+    </edge>
+    <edge source="AVAX" target="ETH">
+      <data key="d0">-4.194697691714719_0.08699882100459087</data>
+    </edge>
+    <edge source="AVAX" target="EUR">
+      <data key="d0">3.480034960269032_0.08951182942071478</data>
+    </edge>
+    <edge source="AVAX" target="FDUSD">
+      <data key="d0">3.563319516192159_0.09504443179787578</data>
+    </edge>
+    <edge source="AVAX" target="TRY">
+      <data key="d0">6.978034627342601_0.08543339246469596</data>
+    </edge>
+    <edge source="AVAX" target="TUSD">
+      <data key="d0">3.5765310222893283_0.0805500215005265</data>
+    </edge>
+    <edge source="AVAX" target="USDC">
+      <data key="d0">3.506431203829513_0.08039148282340053</data>
+    </edge>
+    <edge source="AVAX" target="USDT">
+      <data key="d0">3.5663481101177457_0.08817102747881017</data>
+    </edge>
+    <edge source="AXS" target="BNB">
+      <data key="d0">-3.6817656278520423_0.055236306493198495</data>
+    </edge>
+    <edge source="AXS" target="BTC">
+      <data key="d0">-8.610333493379722_0.05827003858528307</data>
+    </edge>
+    <edge source="AXS" target="ETH">
+      <data key="d0">-5.705806661672883_0.07015507431916725</data>
+    </edge>
+    <edge source="AXS" target="TRY">
+      <data key="d0">5.47891879450462_0.06426798948502849</data>
+    </edge>
+    <edge source="AXS" target="USDT">
+      <data key="d0">2.0670957739693825_0.07268797707518532</data>
+    </edge>
+    <edge source="BADGER" target="BTC">
+      <data key="d0">-9.40990128805296_0.07405598867306282</data>
+    </edge>
+    <edge source="BADGER" target="USDT">
+      <data key="d0">1.284084392770724_0.10130218124192678</data>
+    </edge>
+    <edge source="BAKE" target="BNB">
+      <data key="d0">-6.682858621914865_0.14929952983412623</data>
+    </edge>
+    <edge source="BAKE" target="BTC">
+      <data key="d0">-11.609886973568212_0.15893719410512175</data>
+    </edge>
+    <edge source="BAKE" target="USDT">
+      <data key="d0">-0.9131564023421308_0.17836435215835367</data>
+    </edge>
+    <edge source="BAL" target="BTC">
+      <data key="d0">-9.28571271046717_0.06506460905937778</data>
+    </edge>
+    <edge source="BAL" target="USDT">
+      <data key="d0">1.4043657297380185_0.07440554708039951</data>
+    </edge>
+    <edge source="BAND" target="BTC">
+      <data key="d0">-10.052494007515696_0.11009387136687337</data>
+    </edge>
+    <edge source="BAND" target="TRY">
+      <data key="d0">4.021607232732291_0.11228985642529439</data>
+    </edge>
+    <edge source="BAND" target="USDT">
+      <data key="d0">0.5989756930517677_0.1157977709272406</data>
+    </edge>
+    <edge source="BAR" target="TRY">
+      <data key="d0">4.378424342599641_0.0898103181709603</data>
+    </edge>
+    <edge source="BAR" target="USDT">
+      <data key="d0">0.9520718155092066_0.09327570012454228</data>
+    </edge>
+    <edge source="BAT" target="BTC">
+      <data key="d0">-12.100170251377614_0.05849588062274546</data>
+    </edge>
+    <edge source="BAT" target="USDT">
+      <data key="d0">-1.4175189341217318_0.0799022193188277</data>
+    </edge>
+    <edge source="BCH" target="BNB">
+      <data key="d0">-0.2016737121578681_0.06757376789363742</data>
+    </edge>
+    <edge source="BCH" target="BTC">
+      <data key="d0">-5.160603165156466_0.05036850563859958</data>
+    </edge>
+    <edge source="BCH" target="EUR">
+      <data key="d0">5.426909773200399_0.06298586079560076</data>
+    </edge>
+    <edge source="BCH" target="FDUSD">
+      <data key="d0">5.513598255752179_0.06608982811438173</data>
+    </edge>
+    <edge source="BCH" target="TRY">
+      <data key="d0">8.939271740027486_0.06282942324799054</data>
+    </edge>
+    <edge source="BCH" target="TUSD">
+      <data key="d0">5.536772949439049_0.06906116975599617</data>
+    </edge>
+    <edge source="BCH" target="USDT">
+      <data key="d0">5.522856007487213_0.06880952624566586</data>
+    </edge>
+    <edge source="BEAMX" target="TRY">
+      <data key="d0">-0.5438379802103552_0.08446171742279059</data>
+    </edge>
+    <edge source="BEAMX" target="USDT">
+      <data key="d0">-3.9608226555561763_0.09309500999349946</data>
+    </edge>
+    <edge source="BEL" target="BTC">
+      <data key="d0">-11.13009412524665_0.06614937646840865</data>
+    </edge>
+    <edge source="BEL" target="TRY">
+      <data key="d0">2.945383100591405_0.07406737262296047</data>
+    </edge>
+    <edge source="BEL" target="USDT">
+      <data key="d0">-0.4545565753428082_0.0805981537428025</data>
+    </edge>
+    <edge source="BETA" target="BTC">
+      <data key="d0">-13.289634403998557_0.07136541462106019</data>
+    </edge>
+    <edge source="BETA" target="USDT">
+      <data key="d0">-2.6382804723282027_0.06121202806287056</data>
+    </edge>
+    <edge source="BICO" target="BTC">
+      <data key="d0">-11.67618267910079_0.08882231451216333</data>
+    </edge>
+    <edge source="BICO" target="USDT">
+      <data key="d0">-1.0030709054593605_0.0723655518779141</data>
+    </edge>
+    <edge source="BIFI" target="USDT">
+      <data key="d0">5.871156939455963_0.06794685176615234</data>
+    </edge>
+    <edge source="BLUR" target="BTC">
+      <data key="d0">-11.210174924684983_0.15996075531796558</data>
+    </edge>
+    <edge source="BLUR" target="FDUSD">
+      <data key="d0">-0.5476456208776908_0.12628365293670132</data>
+    </edge>
+    <edge source="BLUR" target="TRY">
+      <data key="d0">2.8782899730917877_0.13369499936463944</data>
+    </edge>
+    <edge source="BLUR" target="USDC">
+      <data key="d0">-0.4361364617282023_0.07320304960206417</data>
+    </edge>
+    <edge source="BLUR" target="USDT">
+      <data key="d0">-0.5129240990149088_0.11773604002081726</data>
+    </edge>
+    <edge source="BLZ" target="BTC">
+      <data key="d0">-11.787899628878515_0.057469631155261124</data>
+    </edge>
+    <edge source="BLZ" target="FDUSD">
+      <data key="d0">-1.128506583101312_0.08113359257130338</data>
+    </edge>
+    <edge source="BLZ" target="USDT">
+      <data key="d0">-1.1171076008475467_0.07451354497914348</data>
+    </edge>
+    <edge source="BNBDOWN" target="USDT">
+      <data key="d0">-5.309475501385793_0.05325431248663058</data>
+    </edge>
+    <edge source="BNBUP" target="USDT">
+      <data key="d0">3.65646730865398_0.06419583993170087</data>
+    </edge>
+    <edge source="BNT" target="BTC">
+      <data key="d0">-10.970494603567708_0.04095765466110703</data>
+    </edge>
+    <edge source="BNT" target="ETH">
+      <data key="d0">-8.061892717661722_0.04690286312575882</data>
+    </edge>
+    <edge source="BNT" target="USDT">
+      <data key="d0">-0.29907757999353995_0.05304577737911366</data>
+    </edge>
+    <edge source="BNX" target="BTC">
+      <data key="d0">-11.903560244686597_0.03969180314344627</data>
+    </edge>
+    <edge source="BNX" target="USDT">
+      <data key="d0">-1.2257621833437233_0.019909865482920123</data>
+    </edge>
+    <edge source="BOND" target="BTC">
+      <data key="d0">-9.419836203313022_0.07363997683088212</data>
+    </edge>
+    <edge source="BOND" target="USDT">
+      <data key="d0">1.2709820046295275_0.10059419510031446</data>
+    </edge>
+    <edge source="BONK" target="FDUSD">
+      <data key="d0">-11.247031492793823_0.14708530339538572</data>
+    </edge>
+    <edge source="BONK" target="TRY">
+      <data key="d0">-7.857681783485985_0.12996918071790475</data>
+    </edge>
+    <edge source="BONK" target="USDT">
+      <data key="d0">-11.236388257402833_0.14038419360114182</data>
+    </edge>
+    <edge source="BSW" target="BNB">
+      <data key="d0">-8.049840570601274_0.06966364184849641</data>
+    </edge>
+    <edge source="BSW" target="TRY">
+      <data key="d0">1.1047212930949144_0.07290965036418862</data>
+    </edge>
+    <edge source="BSW" target="USDT">
+      <data key="d0">-2.320553312415944_0.07711006108996857</data>
+    </edge>
+    <edge source="BTCDOWN" target="USDT">
+      <data key="d0">-6.02642796792884_0.07358999924798616</data>
+    </edge>
+    <edge source="BTCUP" target="USDT">
+      <data key="d0">2.415988095915948_0.1385739680929902</data>
+    </edge>
+    <edge source="BTTC" target="TRY">
+      <data key="d0">-10.395581758621422_0.12060203744538764</data>
+    </edge>
+    <edge source="BTTC" target="USDT">
+      <data key="d0">-13.807636989820983_0.1239977037872184</data>
+    </edge>
+    <edge source="BURGER" target="USDT">
+      <data key="d0">-0.6936861925916157_0.08972542697162958</data>
+    </edge>
+    <edge source="C98" target="BTC">
+      <data key="d0">-12.093629347505512_0.0650568474550118</data>
+    </edge>
+    <edge source="C98" target="USDT">
+      <data key="d0">-1.4148362621176158_0.06910274245763233</data>
+    </edge>
+    <edge source="CAKE" target="BNB">
+      <data key="d0">-4.622313024615168_0.08545150698697208</data>
+    </edge>
+    <edge source="CAKE" target="BTC">
+      <data key="d0">-9.577334273096724_0.09139754239586044</data>
+    </edge>
+    <edge source="CAKE" target="TRY">
+      <data key="d0">4.512090070122689_0.10719754817668957</data>
+    </edge>
+    <edge source="CAKE" target="TUSD">
+      <data key="d0">1.0978005314012136_0.09647463124502371</data>
+    </edge>
+    <edge source="CAKE" target="USDT">
+      <data key="d0">1.09284060932159_0.10755060315490175</data>
+    </edge>
+    <edge source="CELO" target="BTC">
+      <data key="d0">-10.994300823499106_0.07001422391554234</data>
+    </edge>
+    <edge source="CELO" target="USDT">
+      <data key="d0">-0.31319027302175106_0.08449444571701564</data>
+    </edge>
+    <edge source="CELR" target="BTC">
+      <data key="d0">-14.612389281393803_0.08610496169139824</data>
+    </edge>
+    <edge source="CELR" target="USDT">
+      <data key="d0">-3.9406744015825743_0.10750254763762329</data>
+    </edge>
+    <edge source="CFX" target="BTC">
+      <data key="d0">-12.262002538228671_0.10992405295902438</data>
+    </edge>
+    <edge source="CFX" target="TRY">
+      <data key="d0">1.8461311921085408_0.10883107845765673</data>
+    </edge>
+    <edge source="CFX" target="TUSD">
+      <data key="d0">-1.5952640708876122_0.1016766186799958</data>
+    </edge>
+    <edge source="CFX" target="USDT">
+      <data key="d0">-1.5997414585491585_0.10501026636875216</data>
+    </edge>
+    <edge source="CHESS" target="BTC">
+      <data key="d0">-12.254676284321434_0.059457940203017555</data>
+    </edge>
+    <edge source="CHESS" target="USDT">
+      <data key="d0">-1.5865862435411802_0.08118204740433849</data>
+    </edge>
+    <edge source="CHR" target="BNB">
+      <data key="d0">-7.122795838675988_0.07737735530385761</data>
+    </edge>
+    <edge source="CHR" target="BTC">
+      <data key="d0">-12.050053224767453_0.084297657990608</data>
+    </edge>
+    <edge source="CHR" target="ETH">
+      <data key="d0">-9.142805621608499_0.08570362711057777</data>
+    </edge>
+    <edge source="CHR" target="USDT">
+      <data key="d0">-1.3829805701605073_0.08263903280809883</data>
+    </edge>
+    <edge source="CHZ" target="BNB">
+      <data key="d0">-8.062039780744607_0.11978735532142719</data>
+    </edge>
+    <edge source="CHZ" target="BRL">
+      <data key="d0">-0.7454299067016703_0.12076425862681413</data>
+    </edge>
+    <edge source="CHZ" target="BTC">
+      <data key="d0">-12.979422911302237_0.13262041927098062</data>
+    </edge>
+    <edge source="CHZ" target="EUR">
+      <data key="d0">-2.423309383799218_0.11533965133903773</data>
+    </edge>
+    <edge source="CHZ" target="FDUSD">
+      <data key="d0">-2.2356274029458088_0.0404486756048366</data>
+    </edge>
+    <edge source="CHZ" target="TRY">
+      <data key="d0">1.094047283772624_0.10627687553752012</data>
+    </edge>
+    <edge source="CHZ" target="USDT">
+      <data key="d0">-2.332841077818408_0.11036779923229066</data>
+    </edge>
+    <edge source="CITY" target="BTC">
+      <data key="d0">-9.663858969217713_0.042952575691009</data>
+    </edge>
+    <edge source="CITY" target="TRY">
+      <data key="d0">4.506906147528494_0.0433809105298096</data>
+    </edge>
+    <edge source="CITY" target="USDT">
+      <data key="d0">1.080027445256677_0.04239211621718535</data>
+    </edge>
+    <edge source="CKB" target="USDT">
+      <data key="d0">-5.5429155485103925_0.13247455514967857</data>
+    </edge>
+    <edge source="CLV" target="BTC">
+      <data key="d0">-13.645749852534102_0.09900272613841657</data>
+    </edge>
+    <edge source="CLV" target="USDT">
+      <data key="d0">-2.9719341244829294_0.09880282123272796</data>
+    </edge>
+    <edge source="COMBO" target="BNB">
+      <data key="d0">-6.021762007146441_0.05125656569115162</data>
+    </edge>
+    <edge source="COMBO" target="TRY">
+      <data key="d0">3.1184306303300398_0.0743095329288908</data>
+    </edge>
+    <edge source="COMBO" target="USDT">
+      <data key="d0">-0.2922193647649882_0.07352432186959126</data>
+    </edge>
+    <edge source="COMP" target="BTC">
+      <data key="d0">-6.662967966724004_0.07601330887619155</data>
+    </edge>
+    <edge source="COMP" target="TRY">
+      <data key="d0">7.412697876275368_0.06397370394555442</data>
+    </edge>
+    <edge source="COMP" target="TUSD">
+      <data key="d0">4.006316562181197_0.06235651162721712</data>
+    </edge>
+    <edge source="COMP" target="USDT">
+      <data key="d0">4.00670948435611_0.05894300522466854</data>
+    </edge>
+    <edge source="COS" target="BNB">
+      <data key="d0">-10.526923019824595_0.02545219554422722</data>
+    </edge>
+    <edge source="COS" target="BTC">
+      <data key="d0">-15.390046821666996_0.15690421634886087</data>
+    </edge>
+    <edge source="COS" target="TRY">
+      <data key="d0">-1.3544294178577836_0.14274528097706854</data>
+    </edge>
+    <edge source="COS" target="USDT">
+      <data key="d0">-4.753762224766118_0.14000739878926335</data>
+    </edge>
+    <edge source="COTI" target="BNB">
+      <data key="d0">-8.489637888392888_0.07906284140270758</data>
+    </edge>
+    <edge source="COTI" target="BTC">
+      <data key="d0">-13.47185849610216_0.07253785066358015</data>
+    </edge>
+    <edge source="COTI" target="USDT">
+      <data key="d0">-2.7976513137121346_0.08899567788014642</data>
+    </edge>
+    <edge source="CREAM" target="USDT">
+      <data key="d0">2.826633778547471_0.07099043504366635</data>
+    </edge>
+    <edge source="CRV" target="BTC">
+      <data key="d0">-11.306947796882763_0.08155779073519354</data>
+    </edge>
+    <edge source="CRV" target="ETH">
+      <data key="d0">-8.40319881775016_0.08431535173781701</data>
+    </edge>
+    <edge source="CRV" target="USDT">
+      <data key="d0">-0.6473087146341564_0.09844255265277002</data>
+    </edge>
+    <edge source="CTK" target="BNB">
+      <data key="d0">-6.090794828021625_0.039937468741115395</data>
+    </edge>
+    <edge source="CTK" target="BTC">
+      <data key="d0">-11.038547990141934_0.0500656218918023</data>
+    </edge>
+    <edge source="CTK" target="USDT">
+      <data key="d0">-0.40479359931979536_0.06705857584144768</data>
+    </edge>
+    <edge source="CTSI" target="BNB">
+      <data key="d0">-7.180087929064659_0.1083388552115389</data>
+    </edge>
+    <edge source="CTSI" target="BTC">
+      <data key="d0">-12.10218024837231_0.14690383494089715</data>
+    </edge>
+    <edge source="CTSI" target="USDT">
+      <data key="d0">-1.4180561480521996_0.11712640420298488</data>
+    </edge>
+    <edge source="CTXC" target="BTC">
+      <data key="d0">-11.487352625399284_0.12993070956421893</data>
+    </edge>
+    <edge source="CTXC" target="USDT">
+      <data key="d0">-0.833622802362358_0.12382426477179811</data>
+    </edge>
+    <edge source="CVC" target="USDT">
+      <data key="d0">-2.297587281087498_0.05420265818309565</data>
+    </edge>
+    <edge source="CVP" target="USDT">
+      <data key="d0">-0.9450564104307475_0.06807927383650474</data>
+    </edge>
+    <edge source="CVX" target="USDT">
+      <data key="d0">1.0998983178761683_0.07382356983111633</data>
+    </edge>
+    <edge source="CYBER" target="BNB">
+      <data key="d0">-3.680896855666974_0.08378330766828125</data>
+    </edge>
+    <edge source="CYBER" target="BTC">
+      <data key="d0">-8.63024653942633_0.10146852717566125</data>
+    </edge>
+    <edge source="CYBER" target="ETH">
+      <data key="d0">-5.715097185520041_0.09340327131098906</data>
+    </edge>
+    <edge source="CYBER" target="FDUSD">
+      <data key="d0">2.044428324959135_0.09114856508447697</data>
+    </edge>
+    <edge source="CYBER" target="TRY">
+      <data key="d0">5.459711562481768_0.09287433695334199</data>
+    </edge>
+    <edge source="CYBER" target="TUSD">
+      <data key="d0">2.0616992365605538_0.08910062717666345</data>
+    </edge>
+    <edge source="CYBER" target="USDT">
+      <data key="d0">2.0536213469478315_0.09902558879389628</data>
+    </edge>
+    <edge source="DAR" target="BNB">
+      <data key="d0">-7.7971214127338655_0.05928788783144481</data>
+    </edge>
+    <edge source="DAR" target="BTC">
+      <data key="d0">-12.75358528845811_0.06775754371833229</data>
+    </edge>
+    <edge source="DAR" target="EUR">
+      <data key="d0">-2.0579642458806484_0.06475434006066114</data>
+    </edge>
+    <edge source="DAR" target="TRY">
+      <data key="d0">1.3233756868582314_0.07143065047437781</data>
+    </edge>
+    <edge source="DAR" target="USDT">
+      <data key="d0">-2.086746035094025_0.08084152851136049</data>
+    </edge>
+    <edge source="DASH" target="BTC">
+      <data key="d0">-7.311668737027332_0.05748689956935463</data>
+    </edge>
+    <edge source="DASH" target="ETH">
+      <data key="d0">-4.417152622046947_0.06692007105021763</data>
+    </edge>
+    <edge source="DASH" target="USDT">
+      <data key="d0">3.3618808356813448_0.058260280786797784</data>
+    </edge>
+    <edge source="DATA" target="BTC">
+      <data key="d0">-13.642346212865618_0.1091959810090413</data>
+    </edge>
+    <edge source="DATA" target="USDT">
+      <data key="d0">-2.9398408948169994_0.11352315798494922</data>
+    </edge>
+    <edge source="DCR" target="BTC">
+      <data key="d0">-7.789625936763694_0.11828617301630583</data>
+    </edge>
+    <edge source="DCR" target="USDT">
+      <data key="d0">2.870550779729068_0.11552351416559967</data>
+    </edge>
+    <edge source="DEGO" target="BTC">
+      <data key="d0">-9.804851569128552_0.07391815467021955</data>
+    </edge>
+    <edge source="DEGO" target="USDT">
+      <data key="d0">0.8765274019818741_0.08552476189171743</data>
+    </edge>
+    <edge source="DENT" target="ETH">
+      <data key="d0">-14.544856185765896_0.09787106197097742</data>
+    </edge>
+    <edge source="DENT" target="TRY">
+      <data key="d0">-3.3775578808667044_0.08721201168806843</data>
+    </edge>
+    <edge source="DENT" target="USDT">
+      <data key="d0">-6.79813928589004_0.09132912534101453</data>
+    </edge>
+    <edge source="DEXE" target="ETH">
+      <data key="d0">-6.425900823027866_0.08531705489828355</data>
+    </edge>
+    <edge source="DEXE" target="USDT">
+      <data key="d0">1.2563075812149267_0.13371815610727886</data>
+    </edge>
+    <edge source="DF" target="USDT">
+      <data key="d0">-3.205146309719962_0.03994310355323382</data>
+    </edge>
+    <edge source="DGB" target="BTC">
+      <data key="d0">-15.47122288964194_0.0618189490473</data>
+    </edge>
+    <edge source="DGB" target="USDT">
+      <data key="d0">-4.790610120463851_0.07851569813265655</data>
+    </edge>
+    <edge source="DIA" target="BTC">
+      <data key="d0">-11.474637697151099_0.135963049544214</data>
+    </edge>
+    <edge source="DIA" target="USDT">
+      <data key="d0">-0.8099412712640909_0.12446541850803947</data>
+    </edge>
+    <edge source="DOCK" target="BTC">
+      <data key="d0">-14.266010862586393_0.08525544923798886</data>
+    </edge>
+    <edge source="DOCK" target="USDT">
+      <data key="d0">-3.575802845111949_0.07568274701423884</data>
+    </edge>
+    <edge source="DODO" target="BTC">
+      <data key="d0">-12.394257207742973_0.08751662290519188</data>
+    </edge>
+    <edge source="DODO" target="USDT">
+      <data key="d0">-1.7053641458862105_0.08731282759907212</data>
+    </edge>
+    <edge source="DOGE" target="BRL">
+      <data key="d0">-0.9017146992476002_0.043894971951554465</data>
+    </edge>
+    <edge source="DOGE" target="BTC">
+      <data key="d0">-13.165950104853124_0.06478825824596306</data>
+    </edge>
+    <edge source="DOGE" target="EUR">
+      <data key="d0">-2.5873789857050298_0.04081904354488276</data>
+    </edge>
+    <edge source="DOGE" target="FDUSD">
+      <data key="d0">-2.50755384389059_0.04026322348235602</data>
+    </edge>
+    <edge source="DOGE" target="TRY">
+      <data key="d0">0.9206151367756373_0.044942375263849296</data>
+    </edge>
+    <edge source="DOGE" target="TUSD">
+      <data key="d0">-2.49439690341172_0.043601513017100836</data>
+    </edge>
+    <edge source="DOGE" target="USDT">
+      <data key="d0">-2.5013332768016596_0.044950023267001996</data>
+    </edge>
+    <edge source="DOT" target="BNB">
+      <data key="d0">-3.7243479341993_0.06907287357406566</data>
+    </edge>
+    <edge source="DOT" target="BRL">
+      <data key="d0">3.573144683323401_0.08205693033934527</data>
+    </edge>
+    <edge source="DOT" target="BTC">
+      <data key="d0">-8.68527057438064_0.06238377988977943</data>
+    </edge>
+    <edge source="DOT" target="ETH">
+      <data key="d0">-5.774142126720273_0.07490411412864717</data>
+    </edge>
+    <edge source="DOT" target="EUR">
+      <data key="d0">1.9115470771336227_0.08033829016174564</data>
+    </edge>
+    <edge source="DOT" target="FDUSD">
+      <data key="d0">1.9896698955550514_0.08256430955790733</data>
+    </edge>
+    <edge source="DOT" target="TRY">
+      <data key="d0">5.389589942712027_0.07735683630018271</data>
+    </edge>
+    <edge source="DOT" target="TUSD">
+      <data key="d0">2.0003971048969467_0.07587312730352663</data>
+    </edge>
+    <edge source="DOT" target="USDC">
+      <data key="d0">1.933065694497501_0.07105051518198378</data>
+    </edge>
+    <edge source="DOT" target="USDT">
+      <data key="d0">1.992975598525271_0.08508051608923452</data>
+    </edge>
+    <edge source="DREP" target="BTC">
+      <data key="d0">-12.022910287248157_0.057298015732287266</data>
+    </edge>
+    <edge source="DREP" target="USDT">
+      <data key="d0">-1.3553150104941374_0.06473415260224069</data>
+    </edge>
+    <edge source="DUSK" target="BTC">
+      <data key="d0">-12.198545219386926_0.20237237419124102</data>
+    </edge>
+    <edge source="DUSK" target="USDT">
+      <data key="d0">-1.5313837702502124_0.1749854957837318</data>
+    </edge>
+    <edge source="DYDX" target="BNB">
+      <data key="d0">-4.714105354266394_0.05591587962007797</data>
+    </edge>
+    <edge source="DYDX" target="BTC">
+      <data key="d0">-9.643898640539298_0.07926306616593562</data>
+    </edge>
+    <edge source="DYDX" target="FDUSD">
+      <data key="d0">1.0146354160538165_0.062312543754188876</data>
+    </edge>
+    <edge source="DYDX" target="TRY">
+      <data key="d0">4.428996441423659_0.06586032605355024</data>
+    </edge>
+    <edge source="DYDX" target="USDT">
+      <data key="d0">1.012667106576548_0.06771059641962171</data>
+    </edge>
+    <edge source="EDU" target="BNB">
+      <data key="d0">-6.198934696415874_0.06710523063113248</data>
+    </edge>
+    <edge source="EDU" target="BTC">
+      <data key="d0">-11.153323444634784_0.07800827466287732</data>
+    </edge>
+    <edge source="EDU" target="TRY">
+      <data key="d0">2.934907013879259_0.07759575685695555</data>
+    </edge>
+    <edge source="EDU" target="TUSD">
+      <data key="d0">-0.47052901976658934_0.07930543520308321</data>
+    </edge>
+    <edge source="EDU" target="USDT">
+      <data key="d0">-0.47855976964666425_0.08426878392108209</data>
+    </edge>
+    <edge source="EGLD" target="BNB">
+      <data key="d0">-1.710985517507875_0.07727071273636998</data>
+    </edge>
+    <edge source="EGLD" target="BTC">
+      <data key="d0">-6.642891419289779_0.0945510703334009</data>
+    </edge>
+    <edge source="EGLD" target="ETH">
+      <data key="d0">-3.7440966313832846_0.11144721811523849</data>
+    </edge>
+    <edge source="EGLD" target="EUR">
+      <data key="d0">3.9201349782733286_0.09201256343475554</data>
+    </edge>
+    <edge source="EGLD" target="FDUSD">
+      <data key="d0">4.015646498323763_0.09252672189124123</data>
+    </edge>
+    <edge source="EGLD" target="RON">
+      <data key="d0">5.5346173796714995_0.08284347677510939</data>
+    </edge>
+    <edge source="EGLD" target="USDT">
+      <data key="d0">4.0222365184470315_0.09892415522763268</data>
+    </edge>
+    <edge source="ELF" target="BTC">
+      <data key="d0">-11.268659205028888_0.06628182229995984</data>
+    </edge>
+    <edge source="ELF" target="ETH">
+      <data key="d0">-8.359304396183976_0.057815616892312884</data>
+    </edge>
+    <edge source="ELF" target="USDT">
+      <data key="d0">-0.5701334731961806_0.04047819292638301</data>
+    </edge>
+    <edge source="ENJ" target="BTC">
+      <data key="d0">-11.839419282722698_0.0863864171425986</data>
+    </edge>
+    <edge source="ENJ" target="ETH">
+      <data key="d0">-8.93355026302201_0.10307688725781343</data>
+    </edge>
+    <edge source="ENJ" target="TRY">
+      <data key="d0">2.2301013961122353_0.0925342327438048</data>
+    </edge>
+    <edge source="ENJ" target="USDT">
+      <data key="d0">-1.1724938620308454_0.09804150683828013</data>
+    </edge>
+    <edge source="ENS" target="BTC">
+      <data key="d0">-7.773431772538675_0.25371772955779387</data>
+    </edge>
+    <edge source="ENS" target="FDUSD">
+      <data key="d0">2.9283087612772793_0.058331706254243665</data>
+    </edge>
+    <edge source="ENS" target="TRY">
+      <data key="d0">6.271589680194376_0.25933628419664567</data>
+    </edge>
+    <edge source="ENS" target="USDT">
+      <data key="d0">2.900819627536906_0.25697251276145133</data>
+    </edge>
+    <edge source="EOS" target="BTC">
+      <data key="d0">-10.960218107884463_0.06430842325783108</data>
+    </edge>
+    <edge source="EOS" target="ETH">
+      <data key="d0">-8.04756396154201_0.07800264069371303</data>
+    </edge>
+    <edge source="EOS" target="TRY">
+      <data key="d0">3.11954983599621_0.0638217252527621</data>
+    </edge>
+    <edge source="EOS" target="USDT">
+      <data key="d0">-0.2890612966274989_0.0647843364662922</data>
+    </edge>
+    <edge source="EPX" target="USDT">
+      <data key="d0">-8.438972780733431_0.06343822841946796</data>
+    </edge>
+    <edge source="ERN" target="USDT">
+      <data key="d0">0.734063710855254_0.08049113249601202</data>
+    </edge>
+    <edge source="ETC" target="BNB">
+      <data key="d0">-2.492699905599475_0.12805642476076892</data>
+    </edge>
+    <edge source="ETC" target="BTC">
+      <data key="d0">-7.447024580957163_0.1164878102230336</data>
+    </edge>
+    <edge source="ETC" target="ETH">
+      <data key="d0">-4.573731364012601_0.08866093701620124</data>
+    </edge>
+    <edge source="ETC" target="FDUSD">
+      <data key="d0">3.1857419215884213_0.05127028407644334</data>
+    </edge>
+    <edge source="ETC" target="TRY">
+      <data key="d0">6.646743361175187_0.13951927814536108</data>
+    </edge>
+    <edge source="ETC" target="USDT">
+      <data key="d0">3.2483162439162356_0.1382417842805674</data>
+    </edge>
+    <edge source="ETHDOWN" target="USDT">
+      <data key="d0">-2.285384600941213_0.16138820369791723</data>
+    </edge>
+    <edge source="ETHUP" target="USDT">
+      <data key="d0">1.9355351085818178_0.14025653206987312</data>
+    </edge>
+    <edge source="FARM" target="BTC">
+      <data key="d0">-6.841968218938927_0.1086436603521355</data>
+    </edge>
+    <edge source="FARM" target="USDT">
+      <data key="d0">3.832607012547656_0.10906028842949471</data>
+    </edge>
+    <edge source="FET" target="BNB">
+      <data key="d0">-6.145571564117484_0.06633448552400442</data>
+    </edge>
+    <edge source="FET" target="BTC">
+      <data key="d0">-11.098512807977471_0.056143324637378485</data>
+    </edge>
+    <edge source="FET" target="FDUSD">
+      <data key="d0">-0.42467101977807353_0.08437012288553186</data>
+    </edge>
+    <edge source="FET" target="TRY">
+      <data key="d0">2.9911173831961255_0.07507105352328396</data>
+    </edge>
+    <edge source="FET" target="USDT">
+      <data key="d0">-0.42010115452487573_0.0794808963703291</data>
+    </edge>
+    <edge source="FIDA" target="BTC">
+      <data key="d0">-11.910765343182204_0.07437161220127247</data>
+    </edge>
+    <edge source="FIDA" target="TRY">
+      <data key="d0">2.1871613646858448_0.08094437493689884</data>
+    </edge>
+    <edge source="FIDA" target="USDT">
+      <data key="d0">-1.2274981152297908_0.08246465426126895</data>
+    </edge>
+    <edge source="FIL" target="BNB">
+      <data key="d0">-3.9128053552148856_0.11641008643166084</data>
+    </edge>
+    <edge source="FIL" target="BTC">
+      <data key="d0">-8.858386882095864_0.1243704573507981</data>
+    </edge>
+    <edge source="FIL" target="ETH">
+      <data key="d0">-5.939868822587136_0.14013183325894812</data>
+    </edge>
+    <edge source="FIL" target="FDUSD">
+      <data key="d0">1.8036453865763162_0.13667373592899937</data>
+    </edge>
+    <edge source="FIL" target="TRY">
+      <data key="d0">5.218113062870942_0.13432451924098593</data>
+    </edge>
+    <edge source="FIL" target="USDT">
+      <data key="d0">1.8255061981057932_0.13328816887773504</data>
+    </edge>
+    <edge source="FIO" target="BTC">
+      <data key="d0">-14.310196190551098_0.06872833791092335</data>
+    </edge>
+    <edge source="FIO" target="USDT">
+      <data key="d0">-3.658681719127433_0.048179616445171304</data>
+    </edge>
+    <edge source="FIRO" target="BTC">
+      <data key="d0">-10.107063194577599_0.13881485963161683</data>
+    </edge>
+    <edge source="FIRO" target="USDT">
+      <data key="d0">0.534216893447147_0.12174084060900353</data>
+    </edge>
+    <edge source="FIS" target="BTC">
+      <data key="d0">-11.532237934331368_0.11454716572304204</data>
+    </edge>
+    <edge source="FIS" target="USDT">
+      <data key="d0">-0.8712804184180749_0.09157966242667331</data>
+    </edge>
+    <edge source="FLM" target="BTC">
+      <data key="d0">-13.173195045027613_0.06129119641617153</data>
+    </edge>
+    <edge source="FLM" target="USDT">
+      <data key="d0">-2.4907642076814303_0.07299771404624045</data>
+    </edge>
+    <edge source="FLOKI" target="TRY">
+      <data key="d0">-6.963574373865177_0.0681387737131221</data>
+    </edge>
+    <edge source="FLOKI" target="TUSD">
+      <data key="d0">-10.349217172422124_0.07783338158162961</data>
+    </edge>
+    <edge source="FLOKI" target="USDT">
+      <data key="d0">-10.377559024833927_0.07070963757555741</data>
+    </edge>
+    <edge source="FLOW" target="BNB">
+      <data key="d0">-5.9242865195865475_0.07266781489555876</data>
+    </edge>
+    <edge source="FLOW" target="BTC">
+      <data key="d0">-10.881631784343442_0.06531212459685526</data>
+    </edge>
+    <edge source="FLOW" target="USDT">
+      <data key="d0">-0.20741363343373911_0.07673968972554167</data>
+    </edge>
+    <edge source="FLUX" target="BTC">
+      <data key="d0">-11.193933898546579_0.08792156473804373</data>
+    </edge>
+    <edge source="FLUX" target="USDT">
+      <data key="d0">-0.5344638222212496_0.0690316518047405</data>
+    </edge>
+    <edge source="FOR" target="BTC">
+      <data key="d0">-14.447195370129378_0.10283237034652608</data>
+    </edge>
+    <edge source="FOR" target="USDT">
+      <data key="d0">-3.7678715908856684_0.10488493428084018</data>
+    </edge>
+    <edge source="FORTH" target="BTC">
+      <data key="d0">-9.431261196566718_0.06321089724822668</data>
+    </edge>
+    <edge source="FORTH" target="USDT">
+      <data key="d0">1.2217604853162165_0.050143372760083356</data>
+    </edge>
+    <edge source="FRONT" target="BTC">
+      <data key="d0">-11.44465822194802_0.10739306088996867</data>
+    </edge>
+    <edge source="FRONT" target="TRY">
+      <data key="d0">2.6651365643883245_0.09749846447493142</data>
+    </edge>
+    <edge source="FRONT" target="TUSD">
+      <data key="d0">-0.7537321461249775_0.09538849160263492</data>
+    </edge>
+    <edge source="FRONT" target="USDT">
+      <data key="d0">-0.7690089398893063_0.09152135590970424</data>
+    </edge>
+    <edge source="FTM" target="BNB">
+      <data key="d0">-6.661598608508904_0.08833705441258864</data>
+    </edge>
+    <edge source="FTM" target="BTC">
+      <data key="d0">-11.594295782141831_0.08904694201883574</data>
+    </edge>
+    <edge source="FTM" target="ETH">
+      <data key="d0">-8.670057318678808_0.11434517061804124</data>
+    </edge>
+    <edge source="FTM" target="EUR">
+      <data key="d0">-1.0080754987682146_0.10117801481886997</data>
+    </edge>
+    <edge source="FTM" target="FDUSD">
+      <data key="d0">-0.9207429833651423_0.0997142060036584</data>
+    </edge>
+    <edge source="FTM" target="TRY">
+      <data key="d0">2.4985713420759126_0.10287480059336382</data>
+    </edge>
+    <edge source="FTM" target="USDT">
+      <data key="d0">-0.9177463561145263_0.10620798408858509</data>
+    </edge>
+    <edge source="FTT" target="USDT">
+      <data key="d0">1.0469639757665739_0.09400060480073731</data>
+    </edge>
+    <edge source="FUN" target="BNB">
+      <data key="d0">-10.860899714550834_0.05134465594201091</data>
+    </edge>
+    <edge source="FUN" target="ETH">
+      <data key="d0">-12.885574889455944_0.058776141505020925</data>
+    </edge>
+    <edge source="FUN" target="USDT">
+      <data key="d0">-5.113123005089204_0.06623147711276058</data>
+    </edge>
+    <edge source="FXS" target="BTC">
+      <data key="d0">-8.444637358256164_0.10358226703272401</data>
+    </edge>
+    <edge source="FXS" target="USDT">
+      <data key="d0">2.2160523683543945_0.0780413194026047</data>
+    </edge>
+    <edge source="GALA" target="BNB">
+      <data key="d0">-9.393332278492075_0.09063286081396209</data>
+    </edge>
+    <edge source="GALA" target="BRL">
+      <data key="d0">-2.0769653044540792_0.08758406836258126</data>
+    </edge>
+    <edge source="GALA" target="BTC">
+      <data key="d0">-14.337813613154642_0.08143035309414</data>
+    </edge>
+    <edge source="GALA" target="ETH">
+      <data key="d0">-11.435473191630528_0.10242114481817823</data>
+    </edge>
+    <edge source="GALA" target="EUR">
+      <data key="d0">-3.756210294674234_0.09347962359201611</data>
+    </edge>
+    <edge source="GALA" target="FDUSD">
+      <data key="d0">-3.671765396426266_0.09528400538316092</data>
+    </edge>
+    <edge source="GALA" target="TRY">
+      <data key="d0">-0.25857357614039667_0.09518234965277313</data>
+    </edge>
+    <edge source="GALA" target="USDT">
+      <data key="d0">-3.670404784754457_0.09794463707232541</data>
+    </edge>
+    <edge source="GAL" target="BTC">
+      <data key="d0">-10.004029044662909_0.08683208037607365</data>
+    </edge>
+    <edge source="GAL" target="TRY">
+      <data key="d0">4.084158228233803_0.08290185519142679</data>
+    </edge>
+    <edge source="GAL" target="USDT">
+      <data key="d0">0.6733152750913018_0.08603568090386146</data>
+    </edge>
+    <edge source="GAS" target="BTC">
+      <data key="d0">-8.8389806367683_0.10833813025432722</data>
+    </edge>
+    <edge source="GAS" target="FDUSD">
+      <data key="d0">1.8068718691233148_0.09517285783879538</data>
+    </edge>
+    <edge source="GAS" target="TRY">
+      <data key="d0">5.233567708435935_0.09178737906012903</data>
+    </edge>
+    <edge source="GAS" target="USDT">
+      <data key="d0">1.8363579893874376_0.09349305997937804</data>
+    </edge>
+    <edge source="GFT" target="USDT">
+      <data key="d0">-3.8887986464733695_0.08476392523108561</data>
+    </edge>
+    <edge source="GHST" target="USDT">
+      <data key="d0">0.035010365160084676_0.0797448839590841</data>
+    </edge>
+    <edge source="GLM" target="BTC">
+      <data key="d0">-12.159651654817702_0.04432787731694271</data>
+    </edge>
+    <edge source="GLM" target="USDT">
+      <data key="d0">-1.4983458853377591_0.0531846986634949</data>
+    </edge>
+    <edge source="GLMR" target="BTC">
+      <data key="d0">-11.580234003581975_0.07081138839761608</data>
+    </edge>
+    <edge source="GLMR" target="USDT">
+      <data key="d0">-0.8938459204205237_0.09014372892949661</data>
+    </edge>
+    <edge source="GMT" target="BNB">
+      <data key="d0">-6.8032471891189745_0.14424636286609085</data>
+    </edge>
+    <edge source="GMT" target="BTC">
+      <data key="d0">-11.75931329918686_0.13430623913917222</data>
+    </edge>
+    <edge source="GMT" target="ETH">
+      <data key="d0">-8.794361520237231_0.1643676258163247</data>
+    </edge>
+    <edge source="GMT" target="EUR">
+      <data key="d0">-1.1736766323467234_0.14364618597997766</data>
+    </edge>
+    <edge source="GMT" target="TRY">
+      <data key="d0">2.3317777910544732_0.1523830402008069</data>
+    </edge>
+    <edge source="GMT" target="USDT">
+      <data key="d0">-1.068120913888127_0.14222940673760864</data>
+    </edge>
+    <edge source="GMX" target="BTC">
+      <data key="d0">-6.754911761643543_0.09375593777390162</data>
+    </edge>
+    <edge source="GMX" target="USDT">
+      <data key="d0">3.96483616192869_0.12134475730682209</data>
+    </edge>
+    <edge source="GNO" target="USDT">
+      <data key="d0">5.3411077626590915_0.07878635551296045</data>
+    </edge>
+    <edge source="GNS" target="BTC">
+      <data key="d0">-9.022225378789393_0.07016736730780625</data>
+    </edge>
+    <edge source="GNS" target="USDT">
+      <data key="d0">1.6617673352396853_0.09330430164316869</data>
+    </edge>
+    <edge source="GRT" target="BTC">
+      <data key="d0">-12.387332559137256_0.10278529617609526</data>
+    </edge>
+    <edge source="GRT" target="ETH">
+      <data key="d0">-9.478857604892484_0.1255479518695767</data>
+    </edge>
+    <edge source="GRT" target="EUR">
+      <data key="d0">-1.8160071242508449_0.10707076051972748</data>
+    </edge>
+    <edge source="GRT" target="TRY">
+      <data key="d0">1.667531382427016_0.10878785387639116</data>
+    </edge>
+    <edge source="GRT" target="USDT">
+      <data key="d0">-1.7384088982427954_0.11260972075159172</data>
+    </edge>
+    <edge source="GTC" target="BTC">
+      <data key="d0">-10.456203532879137_0.0774644260994784</data>
+    </edge>
+    <edge source="GTC" target="USDT">
+      <data key="d0">0.2050254187953038_0.07488573845036767</data>
+    </edge>
+    <edge source="HARD" target="BTC">
+      <data key="d0">-12.298539313884433_0.09750404115267494</data>
+    </edge>
+    <edge source="HARD" target="USDT">
+      <data key="d0">-1.6157111900615795_0.11450884156325354</data>
+    </edge>
+    <edge source="HBAR" target="BNB">
+      <data key="d0">-8.25515952021674_0.05537701698968396</data>
+    </edge>
+    <edge source="HBAR" target="BTC">
+      <data key="d0">-13.185305761824575_0.07903118228281279</data>
+    </edge>
+    <edge source="HBAR" target="USDT">
+      <data key="d0">-2.519436381875393_0.09411330860016424</data>
+    </edge>
+    <edge source="HFT" target="BTC">
+      <data key="d0">-11.725056968475696_0.0645666799428265</data>
+    </edge>
+    <edge source="HFT" target="USDT">
+      <data key="d0">-1.052644074817873_0.06734544710700023</data>
+    </edge>
+    <edge source="HIFI" target="ETH">
+      <data key="d0">-8.102408262427327_0.10174154437241899</data>
+    </edge>
+    <edge source="HIFI" target="USDT">
+      <data key="d0">-0.3862905832311297_0.10358631681952177</data>
+    </edge>
+    <edge source="HIGH" target="BNB">
+      <data key="d0">-5.302592108292464_0.06556189048515121</data>
+    </edge>
+    <edge source="HIGH" target="BTC">
+      <data key="d0">-10.246057307156422_0.08350411956099522</data>
+    </edge>
+    <edge source="HIGH" target="USDT">
+      <data key="d0">0.4374933181778554_0.07439295272092768</data>
+    </edge>
+    <edge source="HIVE" target="BTC">
+      <data key="d0">-11.771507391264185_0.052908058231776085</data>
+    </edge>
+    <edge source="HIVE" target="USDT">
+      <data key="d0">-1.098695488367676_0.06285376901678982</data>
+    </edge>
+    <edge source="HOOK" target="BNB">
+      <data key="d0">-5.6605631125627465_0.0844278491979107</data>
+    </edge>
+    <edge source="HOOK" target="BTC">
+      <data key="d0">-10.690623265170625_0.10996939934863513</data>
+    </edge>
+    <edge source="HOOK" target="USDT">
+      <data key="d0">-0.02692948940395069_0.0986132836431818</data>
+    </edge>
+    <edge source="HOT" target="ETH">
+      <data key="d0">-13.939581263324612_0.11375920212311091</data>
+    </edge>
+    <edge source="HOT" target="TRY">
+      <data key="d0">-2.767160249296875_0.09212963818662685</data>
+    </edge>
+    <edge source="HOT" target="USDT">
+      <data key="d0">-6.176165155146544_0.10064389700901014</data>
+    </edge>
+    <edge source="ICP" target="BNB">
+      <data key="d0">-3.166167981803955_0.08054247400491092</data>
+    </edge>
+    <edge source="ICP" target="BTC">
+      <data key="d0">-8.11406046523699_0.08127996026762509</data>
+    </edge>
+    <edge source="ICP" target="ETH">
+      <data key="d0">-5.198113285155128_0.11261016608731218</data>
+    </edge>
+    <edge source="ICP" target="EUR">
+      <data key="d0">2.4728008612104655_0.09591124997350162</data>
+    </edge>
+    <edge source="ICP" target="FDUSD">
+      <data key="d0">2.482666186352425_0.08465440514351764</data>
+    </edge>
+    <edge source="ICP" target="TRY">
+      <data key="d0">5.9883646143212514_0.08858846911985765</data>
+    </edge>
+    <edge source="ICP" target="USDT">
+      <data key="d0">2.562160106619426_0.09337104539770379</data>
+    </edge>
+    <edge source="ICX" target="BTC">
+      <data key="d0">-12.094020679435351_0.08367116185203946</data>
+    </edge>
+    <edge source="ICX" target="USDT">
+      <data key="d0">-1.3968936825299574_0.10786996619972265</data>
+    </edge>
+    <edge source="ID" target="BNB">
+      <data key="d0">-6.9031444325293485_0.06006660258381443</data>
+    </edge>
+    <edge source="ID" target="BTC">
+      <data key="d0">-11.856119496323863_0.08074212948785135</data>
+    </edge>
+    <edge source="ID" target="TRY">
+      <data key="d0">2.226715112319812_0.08543310822176349</data>
+    </edge>
+    <edge source="ID" target="TUSD">
+      <data key="d0">-1.1783727408411706_0.07869192237377491</data>
+    </edge>
+    <edge source="ID" target="USDT">
+      <data key="d0">-1.1815204148723775_0.08389400655681085</data>
+    </edge>
+    <edge source="IDEX" target="BTC">
+      <data key="d0">-13.6061718586774_0.06848426413046926</data>
+    </edge>
+    <edge source="IDEX" target="USDT">
+      <data key="d0">-2.9407243357895996_0.07866835349866395</data>
+    </edge>
+    <edge source="ILV" target="BTC">
+      <data key="d0">-6.237985216731875_0.058045272223032074</data>
+    </edge>
+    <edge source="ILV" target="USDT">
+      <data key="d0">4.4351003266098_0.07905650989641781</data>
+    </edge>
+    <edge source="IMX" target="BTC">
+      <data key="d0">-9.963894808298248_0.06224463867366241</data>
+    </edge>
+    <edge source="IMX" target="USDT">
+      <data key="d0">0.7086180382951989_0.07338113994316026</data>
+    </edge>
+    <edge source="INJ" target="BNB">
+      <data key="d0">-2.1020998540478235_0.07691239597101635</data>
+    </edge>
+    <edge source="INJ" target="BTC">
+      <data key="d0">-7.048631325409311_0.04830398984860137</data>
+    </edge>
+    <edge source="INJ" target="ETH">
+      <data key="d0">-4.143464893196823_0.0710427579242755</data>
+    </edge>
+    <edge source="INJ" target="FDUSD">
+      <data key="d0">3.6230924902377892_0.07273364312354705</data>
+    </edge>
+    <edge source="INJ" target="TRY">
+      <data key="d0">7.040916031484264_0.07016548331074299</data>
+    </edge>
+    <edge source="INJ" target="TUSD">
+      <data key="d0">3.6365946255126853_0.06811180545179071</data>
+    </edge>
+    <edge source="INJ" target="USDC">
+      <data key="d0">3.5980976710356094_0.078603953191365</data>
+    </edge>
+    <edge source="INJ" target="USDT">
+      <data key="d0">3.6323546173239136_0.07360281423120457</data>
+    </edge>
+    <edge source="IOST" target="BTC">
+      <data key="d0">-15.405113471254726_0.05021935474211708</data>
+    </edge>
+    <edge source="IOST" target="ETH">
+      <data key="d0">-12.497170617977725_0.06499303365532243</data>
+    </edge>
+    <edge source="IOST" target="USDT">
+      <data key="d0">-4.720554688510347_0.05739364490297389</data>
+    </edge>
+    <edge source="IOTA" target="BTC">
+      <data key="d0">-12.036043323710883_0.08309348028262632</data>
+    </edge>
+    <edge source="IOTA" target="ETH">
+      <data key="d0">-9.143430682239197_0.09160785126284986</data>
+    </edge>
+    <edge source="IOTA" target="FDUSD">
+      <data key="d0">-1.3932916659295769_0.09079644541015794</data>
+    </edge>
+    <edge source="IOTA" target="TRY">
+      <data key="d0">2.0193125182185647_0.0826346522178793</data>
+    </edge>
+    <edge source="IOTA" target="USDT">
+      <data key="d0">-1.3919268552278872_0.08390436051429168</data>
+    </edge>
+    <edge source="IOTX" target="BTC">
+      <data key="d0">-13.778238048693336_0.08269787415509659</data>
+    </edge>
+    <edge source="IOTX" target="ETH">
+      <data key="d0">-10.868503268623096_0.1032396336353918</data>
+    </edge>
+    <edge source="IOTX" target="USDT">
+      <data key="d0">-3.110790082110837_0.08679972209053188</data>
+    </edge>
+    <edge source="IQ" target="USDT">
+      <data key="d0">-5.253459344330894_0.04370880679090224</data>
+    </edge>
+    <edge source="IRIS" target="BTC">
+      <data key="d0">-14.227345732453662_0.04309201948931308</data>
+    </edge>
+    <edge source="IRIS" target="USDT">
+      <data key="d0">-3.560960770369428_0.04080157006022913</data>
+    </edge>
+    <edge source="JASMY" target="TRY">
+      <data key="d0">-1.797108036807218_0.08594815005103201</data>
+    </edge>
+    <edge source="JASMY" target="USDT">
+      <data key="d0">-5.214630948524225_0.0904547300786416</data>
+    </edge>
+    <edge source="JOE" target="BTC">
+      <data key="d0">-11.287645212945606_0.11267262743867545</data>
+    </edge>
+    <edge source="JOE" target="TRY">
+      <data key="d0">2.7914726025040557_0.12782082515329338</data>
+    </edge>
+    <edge source="JOE" target="USDT">
+      <data key="d0">-0.5652180879414566_0.11498098732669536</data>
+    </edge>
+    <edge source="JST" target="BTC">
+      <data key="d0">-14.17364798646447_0.04547145105365855</data>
+    </edge>
+    <edge source="JST" target="USDT">
+      <data key="d0">-3.503242773922294_0.03803586870469071</data>
+    </edge>
+    <edge source="JTO" target="FDUSD">
+      <data key="d0">0.6939183854624511_0.15107881174250876</data>
+    </edge>
+    <edge source="JTO" target="TRY">
+      <data key="d0">4.152790473700827_0.1488377770096858</data>
+    </edge>
+    <edge source="JTO" target="USDT">
+      <data key="d0">0.7084459118132789_0.1657079273348858</data>
+    </edge>
+    <edge source="JUP" target="FDUSD">
+      <data key="d0">-0.38857681284901724_0.054948308934446036</data>
+    </edge>
+    <edge source="JUP" target="TRY">
+      <data key="d0">3.054568540488213_0.06743868393054178</data>
+    </edge>
+    <edge source="JUP" target="USDT">
+      <data key="d0">-0.3761972683127131_0.059114977498633176</data>
+    </edge>
+    <edge source="JUV" target="TRY">
+      <data key="d0">4.285990979638826_0.033586041468627856</data>
+    </edge>
+    <edge source="JUV" target="USDT">
+      <data key="d0">0.8697717138401119_0.03656813290180763</data>
+    </edge>
+    <edge source="KAVA" target="BTC">
+      <data key="d0">-10.924432744979285_0.07463013641338724</data>
+    </edge>
+    <edge source="KAVA" target="ETH">
+      <data key="d0">-8.037270628587452_0.08918514730916804</data>
+    </edge>
+    <edge source="KAVA" target="USDT">
+      <data key="d0">-0.26269286621231813_0.08350312916827382</data>
+    </edge>
+    <edge source="KDA" target="BTC">
+      <data key="d0">-10.520945257252798_0.11128211819753975</data>
+    </edge>
+    <edge source="KDA" target="USDT">
+      <data key="d0">0.1602142502890047_0.12076850362577783</data>
+    </edge>
+    <edge source="KEY" target="USDT">
+      <data key="d0">-5.229230237539641_0.0865070499030838</data>
+    </edge>
+    <edge source="KLAY" target="BTC">
+      <data key="d0">-12.253667497189324_0.10472547521018277</data>
+    </edge>
+    <edge source="KLAY" target="USDT">
+      <data key="d0">-1.5679120068079133_0.10147182339786744</data>
+    </edge>
+    <edge source="KMD" target="BTC">
+      <data key="d0">-12.009098415608475_0.06203322139087209</data>
+    </edge>
+    <edge source="KMD" target="USDT">
+      <data key="d0">-1.335854824986952_0.06756932724164819</data>
+    </edge>
+    <edge source="KNC" target="BTC">
+      <data key="d0">-11.122082591971681_0.0436410904494218</data>
+    </edge>
+    <edge source="KNC" target="USDT">
+      <data key="d0">-0.44448652596890287_0.06563838996857052</data>
+    </edge>
+    <edge source="KP3R" target="USDT">
+      <data key="d0">4.482618083125194_0.19487663656174087</data>
+    </edge>
+    <edge source="KSM" target="BTC">
+      <data key="d0">-6.932962238841459_0.07997607146977152</data>
+    </edge>
+    <edge source="KSM" target="USDT">
+      <data key="d0">3.7423092545801095_0.09352354395641964</data>
+    </edge>
+    <edge source="LAZIO" target="BTC">
+      <data key="d0">-9.899194004313316_0.14800320666110217</data>
+    </edge>
+    <edge source="LAZIO" target="EUR">
+      <data key="d0">0.7685807949637101_0.10684872638423332</data>
+    </edge>
+    <edge source="LAZIO" target="TRY">
+      <data key="d0">4.248949594230572_0.11206774136431652</data>
+    </edge>
+    <edge source="LAZIO" target="USDT">
+      <data key="d0">0.843438517176181_0.10704773278085827</data>
+    </edge>
+    <edge source="LDO" target="BTC">
+      <data key="d0">-9.514276183097282_0.07196095986791143</data>
+    </edge>
+    <edge source="LDO" target="FDUSD">
+      <data key="d0">1.1976202390786945_0.11492540596526367</data>
+    </edge>
+    <edge source="LDO" target="TUSD">
+      <data key="d0">1.1809825981526314_0.08904305573842687</data>
+    </edge>
+    <edge source="LDO" target="USDT">
+      <data key="d0">1.1822735700150537_0.09753345777529886</data>
+    </edge>
+    <edge source="LEVER" target="TRY">
+      <data key="d0">-3.108178940744241_0.08010536334564253</data>
+    </edge>
+    <edge source="LEVER" target="USDT">
+      <data key="d0">-6.532775954120495_0.08164831205162877</data>
+    </edge>
+    <edge source="LINA" target="BTC">
+      <data key="d0">-15.40865134883769_0.11594343556158974</data>
+    </edge>
+    <edge source="LINA" target="USDT">
+      <data key="d0">-4.754066528026806_0.10161361282600938</data>
+    </edge>
+    <edge source="LINK" target="BNB">
+      <data key="d0">-3.0315499463727047_0.04478969335342426</data>
+    </edge>
+    <edge source="LINK" target="BRL">
+      <data key="d0">4.280836830241883_0.052641558741850975</data>
+    </edge>
+    <edge source="LINK" target="BTC">
+      <data key="d0">-7.963194255989861_0.07184544649349556</data>
+    </edge>
+    <edge source="LINK" target="ETH">
+      <data key="d0">-5.080374594513923_0.04545221060747051</data>
+    </edge>
+    <edge source="LINK" target="EUR">
+      <data key="d0">2.6021833007313284_0.05599268403047601</data>
+    </edge>
+    <edge source="LINK" target="FDUSD">
+      <data key="d0">2.6944868843988274_0.05249786039869292</data>
+    </edge>
+    <edge source="LINK" target="TRY">
+      <data key="d0">6.10395408382116_0.056398813173028896</data>
+    </edge>
+    <edge source="LINK" target="TUSD">
+      <data key="d0">2.7054049318674567_0.05728544971107958</data>
+    </edge>
+    <edge source="LINK" target="USDC">
+      <data key="d0">2.685177090176838_0.047477515792519485</data>
+    </edge>
+    <edge source="LINK" target="USDT">
+      <data key="d0">2.6917580399134695_0.055597895444852184</data>
+    </edge>
+    <edge source="LIT" target="BTC">
+      <data key="d0">-10.820261278758403_0.06975200331964804</data>
+    </edge>
+    <edge source="LIT" target="USDT">
+      <data key="d0">-0.14234852141148985_0.07704840359836541</data>
+    </edge>
+    <edge source="LOKA" target="BNB">
+      <data key="d0">-6.814329795590185_0.05138096203498782</data>
+    </edge>
+    <edge source="LOKA" target="BTC">
+      <data key="d0">-11.913623209391869_0.13209351392487523</data>
+    </edge>
+    <edge source="LOKA" target="USDT">
+      <data key="d0">-1.2385118830207371_0.14150508867701633</data>
+    </edge>
+    <edge source="LOOM" target="BTC">
+      <data key="d0">-13.012930063542585_0.07017318480373998</data>
+    </edge>
+    <edge source="LOOM" target="TRY">
+      <data key="d0">1.053093550967065_0.06368447885576163</data>
+    </edge>
+    <edge source="LOOM" target="USDT">
+      <data key="d0">-2.362136071737064_0.06702953036710808</data>
+    </edge>
+    <edge source="LPT" target="BNB">
+      <data key="d0">-3.7026511040466197_0.08175594022984388</data>
+    </edge>
+    <edge source="LPT" target="BTC">
+      <data key="d0">-8.66938295260981_0.08342108368204888</data>
+    </edge>
+    <edge source="LPT" target="TRY">
+      <data key="d0">5.434204296141696_0.09171532667724064</data>
+    </edge>
+    <edge source="LPT" target="USDT">
+      <data key="d0">2.025586321806911_0.09594644425875494</data>
+    </edge>
+    <edge source="LQTY" target="BTC">
+      <data key="d0">-10.381709137577532_0.05634733555590371</data>
+    </edge>
+    <edge source="LQTY" target="USDT">
+      <data key="d0">0.2990836066494397_0.08020607497735897</data>
+    </edge>
+    <edge source="LRC" target="BTC">
+      <data key="d0">-12.015320242190603_0.08215319731117902</data>
+    </edge>
+    <edge source="LRC" target="ETH">
+      <data key="d0">-9.120373687220487_0.08588110993532695</data>
+    </edge>
+    <edge source="LRC" target="TRY">
+      <data key="d0">2.0467715189289306_0.0806811291764624</data>
+    </edge>
+    <edge source="LRC" target="USDT">
+      <data key="d0">-1.3590066100843081_0.08558779337821822</data>
+    </edge>
+    <edge source="LSK" target="BTC">
+      <data key="d0">-10.328773214951203_0.16984902451395145</data>
+    </edge>
+    <edge source="LSK" target="ETH">
+      <data key="d0">-7.397076062858216_0.1639968628154152</data>
+    </edge>
+    <edge source="LSK" target="USDT">
+      <data key="d0">0.34724092529104855_0.1708487034016226</data>
+    </edge>
+    <edge source="LTC" target="BNB">
+      <data key="d0">-1.4980492511231152_0.045030792630980636</data>
+    </edge>
+    <edge source="LTC" target="BRL">
+      <data key="d0">5.831526657982509_0.04570095560533597</data>
+    </edge>
+    <edge source="LTC" target="BTC">
+      <data key="d0">-6.431085794772926_0.0521216643533298</data>
+    </edge>
+    <edge source="LTC" target="ETH">
+      <data key="d0">-3.5491476997791573_0.03539343000811004</data>
+    </edge>
+    <edge source="LTC" target="EUR">
+      <data key="d0">4.146427693872837_0.04631442917661919</data>
+    </edge>
+    <edge source="LTC" target="FDUSD">
+      <data key="d0">4.23127928702292_0.04779979696593486</data>
+    </edge>
+    <edge source="LTC" target="TRY">
+      <data key="d0">7.64415331378341_0.04192164646108095</data>
+    </edge>
+    <edge source="LTC" target="TUSD">
+      <data key="d0">4.250161391486704_0.047766558092299766</data>
+    </edge>
+    <edge source="LTC" target="UAH">
+      <data key="d0">7.971366209759991_0.04786266807766666</data>
+    </edge>
+    <edge source="LTC" target="USDT">
+      <data key="d0">4.231513876509104_0.048377105627214485</data>
+    </edge>
+    <edge source="LTO" target="BTC">
+      <data key="d0">-13.17653491450427_0.042393742993269846</data>
+    </edge>
+    <edge source="LTO" target="USDT">
+      <data key="d0">-2.5114676772265683_0.039643038211102266</data>
+    </edge>
+    <edge source="LUNA" target="TRY">
+      <data key="d0">3.054527407067604_0.089466591216649</data>
+    </edge>
+    <edge source="LUNA" target="USDT">
+      <data key="d0">-0.3526471475595337_0.09073601758745388</data>
+    </edge>
+    <edge source="LUNC" target="TRY">
+      <data key="d0">-5.652248754610543_0.11870513667735899</data>
+    </edge>
+    <edge source="LUNC" target="USDT">
+      <data key="d0">-9.04441311298797_0.11724871283132977</data>
+    </edge>
+    <edge source="MAGIC" target="BTC">
+      <data key="d0">-10.565794491766587_0.07966970647791081</data>
+    </edge>
+    <edge source="MAGIC" target="TRY">
+      <data key="d0">3.5308245900859103_0.09574612021638126</data>
+    </edge>
+    <edge source="MAGIC" target="USDT">
+      <data key="d0">0.11536869599271075_0.09104720965010862</data>
+    </edge>
+    <edge source="MANA" target="BTC">
+      <data key="d0">-11.451553589542941_0.06502045772648217</data>
+    </edge>
+    <edge source="MANA" target="ETH">
+      <data key="d0">-8.547843006623015_0.06538919140308821</data>
+    </edge>
+    <edge source="MANA" target="TRY">
+      <data key="d0">2.638251137004113_0.05556728946653354</data>
+    </edge>
+    <edge source="MANA" target="USDT">
+      <data key="d0">-0.774989230241578_0.05950912779156603</data>
+    </edge>
+    <edge source="MANTA" target="BNB">
+      <data key="d0">-4.739134280105103_0.212545860648961</data>
+    </edge>
+    <edge source="MANTA" target="BTC">
+      <data key="d0">-9.623079915833024_0.18384959286433636</data>
+    </edge>
+    <edge source="MANTA" target="FDUSD">
+      <data key="d0">0.9973574005201209_0.1971430232541218</data>
+    </edge>
+    <edge source="MANTA" target="TRY">
+      <data key="d0">4.453683903075114_0.19072770305706202</data>
+    </edge>
+    <edge source="MANTA" target="USDC">
+      <data key="d0">1.2153577215446039_0.08640506560817944</data>
+    </edge>
+    <edge source="MANTA" target="USDT">
+      <data key="d0">1.044790326124264_0.19243379389097764</data>
+    </edge>
+    <edge source="MASK" target="BNB">
+      <data key="d0">-4.397908225534228_0.10702236300838916</data>
+    </edge>
+    <edge source="MASK" target="USDT">
+      <data key="d0">1.3716206232481187_0.13126514553368412</data>
+    </edge>
+    <edge source="MATIC" target="BNB">
+      <data key="d0">-5.89999145925549_0.07412912411362155</data>
+    </edge>
+    <edge source="MATIC" target="BRL">
+      <data key="d0">1.4163026905299254_0.07791996392205286</data>
+    </edge>
+    <edge source="MATIC" target="BTC">
+      <data key="d0">-10.85306345618347_0.06683658464544126</data>
+    </edge>
+    <edge source="MATIC" target="ETH">
+      <data key="d0">-7.946640795474468_0.08300724780169234</data>
+    </edge>
+    <edge source="MATIC" target="EUR">
+      <data key="d0">-0.26350361072899897_0.08353740112376201</data>
+    </edge>
+    <edge source="MATIC" target="FDUSD">
+      <data key="d0">-0.17299794173217506_0.08765076486671618</data>
+    </edge>
+    <edge source="MATIC" target="TRY">
+      <data key="d0">3.237514348210196_0.08460121597869129</data>
+    </edge>
+    <edge source="MATIC" target="TUSD">
+      <data key="d0">-0.17086333468918555_0.075764775221387</data>
+    </edge>
+    <edge source="MATIC" target="USDC">
+      <data key="d0">-0.22336879093814194_0.07440255551166847</data>
+    </edge>
+    <edge source="MATIC" target="USDT">
+      <data key="d0">-0.17780044209663368_0.08360511175380948</data>
+    </edge>
+    <edge source="MAV" target="BTC">
+      <data key="d0">-11.276219893919693_0.15578280819009854</data>
+    </edge>
+    <edge source="MAV" target="TRY">
+      <data key="d0">2.8012394884752556_0.14252856137140554</data>
+    </edge>
+    <edge source="MAV" target="TUSD">
+      <data key="d0">-0.6578378635835834_0.13009880619599665</data>
+    </edge>
+    <edge source="MAV" target="USDT">
+      <data key="d0">-0.6075463644438673_0.14871774175031338</data>
+    </edge>
+    <edge source="MBL" target="USDT">
+      <data key="d0">-5.380173960379908_0.06904837669755519</data>
+    </edge>
+    <edge source="MBOX" target="BNB">
+      <data key="d0">-6.853828112349127_0.09447029054011773</data>
+    </edge>
+    <edge source="MBOX" target="BTC">
+      <data key="d0">-11.789788952408653_0.09024944926747569</data>
+    </edge>
+    <edge source="MBOX" target="TRY">
+      <data key="d0">2.2826226144247506_0.09815914251564486</data>
+    </edge>
+    <edge source="MBOX" target="USDT">
+      <data key="d0">-1.1206614277429434_0.1013815951762844</data>
+    </edge>
+    <edge source="MDT" target="BTC">
+      <data key="d0">-13.637083237606834_0.05351424442720515</data>
+    </edge>
+    <edge source="MDT" target="USDT">
+      <data key="d0">-2.976786076461078_0.06038685823528424</data>
+    </edge>
+    <edge source="MDX" target="BTC">
+      <data key="d0">-13.363655982526591_0.11770620385855751</data>
+    </edge>
+    <edge source="MDX" target="USDT">
+      <data key="d0">-2.7359776767851733_0.11040649231546414</data>
+    </edge>
+    <edge source="MEME" target="BNB">
+      <data key="d0">-9.404278071394318_0.079350314469263</data>
+    </edge>
+    <edge source="MEME" target="ETH">
+      <data key="d0">-11.46257188566695_0.06974799241535683</data>
+    </edge>
+    <edge source="MEME" target="FDUSD">
+      <data key="d0">-3.6812066396722836_0.09266529463036201</data>
+    </edge>
+    <edge source="MEME" target="TRY">
+      <data key="d0">-0.26770053406787087_0.08601315921461054</data>
+    </edge>
+    <edge source="MEME" target="TUSD">
+      <data key="d0">-3.659632010516184_0.09396310893104598</data>
+    </edge>
+    <edge source="MEME" target="USDT">
+      <data key="d0">-3.672461978438744_0.09093671103416409</data>
+    </edge>
+    <edge source="MINA" target="BTC">
+      <data key="d0">-10.459772455480703_0.11973848337084443</data>
+    </edge>
+    <edge source="MINA" target="TRY">
+      <data key="d0">3.6172321752952117_0.11746823203598777</data>
+    </edge>
+    <edge source="MINA" target="USDT">
+      <data key="d0">0.2117995798992901_0.12219228057685091</data>
+    </edge>
+    <edge source="MKR" target="BTC">
+      <data key="d0">-3.116758460287022_0.0919231557116046</data>
+    </edge>
+    <edge source="MKR" target="USDT">
+      <data key="d0">7.559909261015214_0.07601365212039937</data>
+    </edge>
+    <edge source="MLN" target="BTC">
+      <data key="d0">-7.729222106125083_0.0788511618004471</data>
+    </edge>
+    <edge source="MLN" target="USDT">
+      <data key="d0">2.937825095600793_0.07421667308309944</data>
+    </edge>
+    <edge source="MOB" target="BTC">
+      <data key="d0">-11.64910991372709_0.14523177289206238</data>
+    </edge>
+    <edge source="MOB" target="USDT">
+      <data key="d0">-0.9486048345409485_0.1397088333655136</data>
+    </edge>
+    <edge source="MOVR" target="BTC">
+      <data key="d0">-7.454443303132172_0.08430216891232671</data>
+    </edge>
+    <edge source="MOVR" target="TRY">
+      <data key="d0">6.6524215662926_0.0855077223028701</data>
+    </edge>
+    <edge source="MOVR" target="USDT">
+      <data key="d0">3.199554005050967_0.08249530995524412</data>
+    </edge>
+    <edge source="MTL" target="BTC">
+      <data key="d0">-10.256128084549731_0.043865989872729584</data>
+    </edge>
+    <edge source="MTL" target="TRY">
+      <data key="d0">3.834139501385272_0.06414701693670294</data>
+    </edge>
+    <edge source="MTL" target="USDT">
+      <data key="d0">0.42359728525432017_0.06077814636411288</data>
+    </edge>
+    <edge source="MULTI" target="BTC">
+      <data key="d0">-10.171794866234594_0.07675730906482854</data>
+    </edge>
+    <edge source="MULTI" target="USDT">
+      <data key="d0">0.946100830935137_0.21427994870495443</data>
+    </edge>
+    <edge source="NEAR" target="BNB">
+      <data key="d0">-4.52151528659137_0.10332472037402278</data>
+    </edge>
+    <edge source="NEAR" target="BTC">
+      <data key="d0">-9.479523222653285_0.0996110905515394</data>
+    </edge>
+    <edge source="NEAR" target="ETH">
+      <data key="d0">-6.553435869572498_0.12650669776953244</data>
+    </edge>
+    <edge source="NEAR" target="EUR">
+      <data key="d0">1.0841860097616007_0.12144913431329331</data>
+    </edge>
+    <edge source="NEAR" target="FDUSD">
+      <data key="d0">1.2079477034611101_0.12136865654511149</data>
+    </edge>
+    <edge source="NEAR" target="TRY">
+      <data key="d0">4.591840138526747_0.12010740000039001</data>
+    </edge>
+    <edge source="NEAR" target="USDT">
+      <data key="d0">1.2068613180222347_0.12764746083096368</data>
+    </edge>
+    <edge source="NEO" target="BTC">
+      <data key="d0">-8.182826481177102_0.0785657330976963</data>
+    </edge>
+    <edge source="NEO" target="ETH">
+      <data key="d0">-5.27957945661238_0.09308516071834681</data>
+    </edge>
+    <edge source="NEO" target="TRY">
+      <data key="d0">5.898207697061507_0.07991996700875</data>
+    </edge>
+    <edge source="NEO" target="USDT">
+      <data key="d0">2.488427397234209_0.08463055666044149</data>
+    </edge>
+    <edge source="NEXO" target="BTC">
+      <data key="d0">-10.79206346435387_0.016216785200186826</data>
+    </edge>
+    <edge source="NEXO" target="USDT">
+      <data key="d0">-0.11245738134755653_0.051981199685759066</data>
+    </edge>
+    <edge source="NFP" target="BNB">
+      <data key="d0">-6.169811234853683_0.15191667846025633</data>
+    </edge>
+    <edge source="NFP" target="BTC">
+      <data key="d0">-11.127365835628073_0.14952580011070857</data>
+    </edge>
+    <edge source="NFP" target="FDUSD">
+      <data key="d0">-0.4612654665899202_0.13871134616006214</data>
+    </edge>
+    <edge source="NFP" target="TRY">
+      <data key="d0">2.9327307800879474_0.14626937702758985</data>
+    </edge>
+    <edge source="NFP" target="TUSD">
+      <data key="d0">-0.4302433473800323_0.14213382742491112</data>
+    </edge>
+    <edge source="NFP" target="USDT">
+      <data key="d0">-0.46985521112143774_0.14985687564530026</data>
+    </edge>
+    <edge source="NKN" target="BTC">
+      <data key="d0">-12.83075942626454_0.07199930401782582</data>
+    </edge>
+    <edge source="NKN" target="USDT">
+      <data key="d0">-2.156530116925855_0.07909151052482584</data>
+    </edge>
+    <edge source="NMR" target="BTC">
+      <data key="d0">-7.685091328658038_0.07990597035489287</data>
+    </edge>
+    <edge source="NMR" target="USDT">
+      <data key="d0">2.985876067032117_0.07650523806177496</data>
+    </edge>
+    <edge source="NTRN" target="BNB">
+      <data key="d0">-5.4567646428614935_0.14818232470156997</data>
+    </edge>
+    <edge source="NTRN" target="BTC">
+      <data key="d0">-10.40966754095907_0.11381678764836999</data>
+    </edge>
+    <edge source="NTRN" target="TRY">
+      <data key="d0">3.68169894703507_0.13096754965719257</data>
+    </edge>
+    <edge source="NTRN" target="USDT">
+      <data key="d0">0.283010262452608_0.13152892069699246</data>
+    </edge>
+    <edge source="NULS" target="BTC">
+      <data key="d0">-12.074899416716557_0.04419576698961065</data>
+    </edge>
+    <edge source="NULS" target="USDT">
+      <data key="d0">-1.38546062335065_0.07495993931502642</data>
+    </edge>
+    <edge source="OAX" target="BTC">
+      <data key="d0">-12.439795098001044_0.11951728930992513</data>
+    </edge>
+    <edge source="OAX" target="USDT">
+      <data key="d0">-1.7953382022422757_0.08513630159683112</data>
+    </edge>
+    <edge source="OCEAN" target="BNB">
+      <data key="d0">-6.528659692334901_0.05625071241303631</data>
+    </edge>
+    <edge source="OCEAN" target="BTC">
+      <data key="d0">-11.472624628150683_0.05972278568057571</data>
+    </edge>
+    <edge source="OCEAN" target="TRY">
+      <data key="d0">2.6179915293356775_0.05666028482864332</data>
+    </edge>
+    <edge source="OCEAN" target="USDT">
+      <data key="d0">-0.7982771970864068_0.06795635064400579</data>
+    </edge>
+    <edge source="OG" target="BTC">
+      <data key="d0">-9.098814885757617_0.06640286407333068</data>
+    </edge>
+    <edge source="OG" target="TRY">
+      <data key="d0">5.003297737300264_0.05895389557903959</data>
+    </edge>
+    <edge source="OG" target="USDT">
+      <data key="d0">1.585916969769936_0.06008312747287055</data>
+    </edge>
+    <edge source="OGN" target="BTC">
+      <data key="d0">-12.483135166379991_0.07837210655958976</data>
+    </edge>
+    <edge source="OGN" target="TRY">
+      <data key="d0">1.6338408160358007_0.06990507402192743</data>
+    </edge>
+    <edge source="OGN" target="USDT">
+      <data key="d0">-1.7899718583989432_0.07407256932923699</data>
+    </edge>
+    <edge source="OM" target="BTC">
+      <data key="d0">-13.07232771100478_0.24039189710458106</data>
+    </edge>
+    <edge source="OM" target="USDT">
+      <data key="d0">-2.4029014866203178_0.2095211906257859</data>
+    </edge>
+    <edge source="OMG" target="USDT">
+      <data key="d0">-0.3307399750359656_0.0830900541515454</data>
+    </edge>
+    <edge source="ONE" target="BNB">
+      <data key="d0">-9.844064212203316_0.09681779937247031</data>
+    </edge>
+    <edge source="ONE" target="BTC">
+      <data key="d0">-14.787246079365023_0.09106770853583764</data>
+    </edge>
+    <edge source="ONE" target="TRY">
+      <data key="d0">-0.7015753417379448_0.1060124838551846</data>
+    </edge>
+    <edge source="ONE" target="USDT">
+      <data key="d0">-4.118829380695063_0.11207417037990512</data>
+    </edge>
+    <edge source="ONG" target="BTC">
+      <data key="d0">-11.777126221822131_0.06004005841880864</data>
+    </edge>
+    <edge source="ONG" target="USDT">
+      <data key="d0">-1.0739869404307003_0.07052149789564449</data>
+    </edge>
+    <edge source="ONT" target="BTC">
+      <data key="d0">-12.021444833034703_0.13949198299749427</data>
+    </edge>
+    <edge source="ONT" target="TRY">
+      <data key="d0">2.1267243210688362_0.15248961003784325</data>
+    </edge>
+    <edge source="ONT" target="USDT">
+      <data key="d0">-1.298650285109958_0.15483696668989816</data>
+    </edge>
+    <edge source="OOKI" target="USDT">
+      <data key="d0">-6.188488885787457_0.05037516362807764</data>
+    </edge>
+    <edge source="OP" target="BNB">
+      <data key="d0">-4.473325136041283_0.09598508587607235</data>
+    </edge>
+    <edge source="OP" target="BTC">
+      <data key="d0">-9.420132782494893_0.08211331354558805</data>
+    </edge>
+    <edge source="OP" target="ETH">
+      <data key="d0">-6.520062382234203_0.08277069998110763</data>
+    </edge>
+    <edge source="OP" target="EUR">
+      <data key="d0">1.1533822231653446_0.11872392963649976</data>
+    </edge>
+    <edge source="OP" target="FDUSD">
+      <data key="d0">1.2611292972440336_0.10990083075246017</data>
+    </edge>
+    <edge source="OP" target="TRY">
+      <data key="d0">4.654195714570222_0.10489667861954118</data>
+    </edge>
+    <edge source="OP" target="TUSD">
+      <data key="d0">1.276508894917411_0.09629707191862454</data>
+    </edge>
+    <edge source="OP" target="USDC">
+      <data key="d0">1.2054357273927583_0.12360777550375876</data>
+    </edge>
+    <edge source="OP" target="USDT">
+      <data key="d0">1.2501472487282375_0.10665583969727889</data>
+    </edge>
+    <edge source="ORDI" target="BTC">
+      <data key="d0">-6.44437681266938_0.10784821511322792</data>
+    </edge>
+    <edge source="ORDI" target="FDUSD">
+      <data key="d0">4.210029852296699_0.136831845305119</data>
+    </edge>
+    <edge source="ORDI" target="TRY">
+      <data key="d0">7.640794785853609_0.13920152550682943</data>
+    </edge>
+    <edge source="ORDI" target="TUSD">
+      <data key="d0">4.276293797103398_0.11971265374250228</data>
+    </edge>
+    <edge source="ORDI" target="USDC">
+      <data key="d0">4.0921266494797015_0.11810168039101811</data>
+    </edge>
+    <edge source="ORDI" target="USDT">
+      <data key="d0">4.220036589622948_0.1369106230895971</data>
+    </edge>
+    <edge source="ORN" target="BTC">
+      <data key="d0">-10.849403435890013_0.08685453974012919</data>
+    </edge>
+    <edge source="ORN" target="USDT">
+      <data key="d0">-0.16334033583286384_0.06712458169323207</data>
+    </edge>
+    <edge source="OSMO" target="BTC">
+      <data key="d0">-10.1282382868948_0.08423918556717985</data>
+    </edge>
+    <edge source="OSMO" target="USDT">
+      <data key="d0">0.5511074723356965_0.0934240246765045</data>
+    </edge>
+    <edge source="OXT" target="BTC">
+      <data key="d0">-12.928044193497215_0.12319813661466053</data>
+    </edge>
+    <edge source="OXT" target="USDT">
+      <data key="d0">-2.2563510900657104_0.13071340581494487</data>
+    </edge>
+    <edge source="PAXG" target="BTC">
+      <data key="d0">-3.07077595911056_0.04504397303522669</data>
+    </edge>
+    <edge source="PAXG" target="TRY">
+      <data key="d0">11.023973229477287_0.007130401532049247</data>
+    </edge>
+    <edge source="PAXG" target="USDT">
+      <data key="d0">7.608631464016861_0.005707355924516526</data>
+    </edge>
+    <edge source="PENDLE" target="BTC">
+      <data key="d0">-10.03687629548886_0.26944500321337167</data>
+    </edge>
+    <edge source="PENDLE" target="TUSD">
+      <data key="d0">0.6586667023080408_0.2256258069406065</data>
+    </edge>
+    <edge source="PENDLE" target="USDT">
+      <data key="d0">0.6312183169409291_0.237462496625546</data>
+    </edge>
+    <edge source="PEOPLE" target="BTC">
+      <data key="d0">-14.008825502609412_0.26581639414517644</data>
+    </edge>
+    <edge source="PEOPLE" target="USDT">
+      <data key="d0">-3.337162976668513_0.2604878270919159</data>
+    </edge>
+    <edge source="PEPE" target="TRY">
+      <data key="d0">-10.220880831100676_0.10532788767015637</data>
+    </edge>
+    <edge source="PEPE" target="TUSD">
+      <data key="d0">-13.629150790558308_0.10072597442490051</data>
+    </edge>
+    <edge source="PEPE" target="USDT">
+      <data key="d0">-13.62262721760278_0.10568313717771126</data>
+    </edge>
+    <edge source="PERP" target="BTC">
+      <data key="d0">-10.305900392788898_0.1749236473881606</data>
+    </edge>
+    <edge source="PERP" target="USDT">
+      <data key="d0">0.3839556541131438_0.16638070798219626</data>
+    </edge>
+    <edge source="PHA" target="BTC">
+      <data key="d0">-12.863819251005363_0.044768535215822955</data>
+    </edge>
+    <edge source="PHA" target="USDT">
+      <data key="d0">-2.1993880834251556_0.04937791788979096</data>
+    </edge>
+    <edge source="PHB" target="BTC">
+      <data key="d0">-10.76748917523005_0.06940133447452464</data>
+    </edge>
+    <edge source="PHB" target="USDT">
+      <data key="d0">-0.12015616192173675_0.0732603709691855</data>
+    </edge>
+    <edge source="PIVX" target="BTC">
+      <data key="d0">-11.85943685501543_0.05993682968694072</data>
+    </edge>
+    <edge source="PIVX" target="USDT">
+      <data key="d0">-1.2019048872747329_0.05763743348839757</data>
+    </edge>
+    <edge source="PLA" target="BTC">
+      <data key="d0">-12.268947710718544_0.053724585537194995</data>
+    </edge>
+    <edge source="PLA" target="USDT">
+      <data key="d0">-1.598258151627197_0.05605755479578774</data>
+    </edge>
+    <edge source="PNT" target="USDT">
+      <data key="d0">-1.7724572999730173_0.0919098494148765</data>
+    </edge>
+    <edge source="POLS" target="BNB">
+      <data key="d0">-5.872504425273602_0.08434215257585835</data>
+    </edge>
+    <edge source="POLS" target="BTC">
+      <data key="d0">-10.798896505437094_0.08632250373270589</data>
+    </edge>
+    <edge source="POLS" target="USDT">
+      <data key="d0">-0.15070302944070252_0.0917476325172292</data>
+    </edge>
+    <edge source="POLYX" target="BTC">
+      <data key="d0">-12.410457312735243_0.08620897587519763</data>
+    </edge>
+    <edge source="POLYX" target="USDT">
+      <data key="d0">-1.681053325839043_0.11947874573216012</data>
+    </edge>
+    <edge source="POND" target="BTC">
+      <data key="d0">-14.802005805784635_0.12136323070040463</data>
+    </edge>
+    <edge source="POND" target="USDT">
+      <data key="d0">-4.122719414307202_0.09984434647533691</data>
+    </edge>
+    <edge source="PORTO" target="BTC">
+      <data key="d0">-9.905999847115242_0.12209998189118049</data>
+    </edge>
+    <edge source="PORTO" target="EUR">
+      <data key="d0">0.7305287670000359_0.088619404631648</data>
+    </edge>
+    <edge source="PORTO" target="TRY">
+      <data key="d0">4.2291894932234_0.08976534908703114</data>
+    </edge>
+    <edge source="PORTO" target="USDT">
+      <data key="d0">0.811112568719724_0.08803276113447027</data>
+    </edge>
+    <edge source="POWR" target="BTC">
+      <data key="d0">-11.195289748204393_0.35252316963110514</data>
+    </edge>
+    <edge source="POWR" target="ETH">
+      <data key="d0">-8.24922329059113_0.355778201515201</data>
+    </edge>
+    <edge source="POWR" target="USDT">
+      <data key="d0">-0.5039150592344_0.346647635223123</data>
+    </edge>
+    <edge source="PROM" target="BTC">
+      <data key="d0">-8.746628389363405_0.180188040279769</data>
+    </edge>
+    <edge source="PROM" target="USDT">
+      <data key="d0">1.9249888114747336_0.14255089241673924</data>
+    </edge>
+    <edge source="PROS" target="USDT">
+      <data key="d0">-0.7081830280484532_0.15925567142455746</data>
+    </edge>
+    <edge source="PSG" target="BTC">
+      <data key="d0">-9.501425366277513_0.04474792295613568</data>
+    </edge>
+    <edge source="PSG" target="TRY">
+      <data key="d0">4.662216525417128_0.06456477456981433</data>
+    </edge>
+    <edge source="PSG" target="USDT">
+      <data key="d0">1.2268816278499972_0.06286850231763925</data>
+    </edge>
+    <edge source="PUNDIX" target="ETH">
+      <data key="d0">-8.56636193980526_0.07828992078433904</data>
+    </edge>
+    <edge source="PUNDIX" target="USDT">
+      <data key="d0">-0.7970680345556153_0.05428294339282252</data>
+    </edge>
+    <edge source="PYR" target="BTC">
+      <data key="d0">-8.740311905955737_0.1119692845402759</data>
+    </edge>
+    <edge source="PYR" target="USDT">
+      <data key="d0">1.9302344895539445_0.12789841008864314</data>
+    </edge>
+    <edge source="QI" target="BTC">
+      <data key="d0">-14.697415916721956_0.0697150393999882</data>
+    </edge>
+    <edge source="QI" target="USDT">
+      <data key="d0">-4.0157525238386675_0.09581302390022232</data>
+    </edge>
+    <edge source="QKC" target="BTC">
+      <data key="d0">-15.25471552155031_0.04191963763659643</data>
+    </edge>
+    <edge source="QKC" target="ETH">
+      <data key="d0">-12.342021883354237_0.06701403902689639</data>
+    </edge>
+    <edge source="QKC" target="USDT">
+      <data key="d0">-4.589547135052811_0.046960139158180814</data>
+    </edge>
+    <edge source="QNT" target="BTC">
+      <data key="d0">-5.8887722081198115_0.07956169097236436</data>
+    </edge>
+    <edge source="QNT" target="USDT">
+      <data key="d0">4.767856168460796_0.07951213482343197</data>
+    </edge>
+    <edge source="QTUM" target="BTC">
+      <data key="d0">-9.53268868318132_0.06869572462556804</data>
+    </edge>
+    <edge source="QTUM" target="ETH">
+      <data key="d0">-6.615510443116455_0.07930059513203214</data>
+    </edge>
+    <edge source="QTUM" target="USDT">
+      <data key="d0">1.139877925078072_0.08102198991781553</data>
+    </edge>
+    <edge source="QUICK" target="BTC">
+      <data key="d0">-13.605167233761145_0.08082678492086558</data>
+    </edge>
+    <edge source="QUICK" target="TUSD">
+      <data key="d0">-2.896210884177096_0.0734978531897963</data>
+    </edge>
+    <edge source="QUICK" target="USDT">
+      <data key="d0">-2.9586276537743434_0.08791541690218546</data>
+    </edge>
+    <edge source="RAD" target="BTC">
+      <data key="d0">-9.966950982258426_0.13566875523797506</data>
+    </edge>
+    <edge source="RAD" target="TRY">
+      <data key="d0">4.171907296257911_0.11183452867389311</data>
+    </edge>
+    <edge source="RAD" target="USDT">
+      <data key="d0">0.7284897342940082_0.11763008054533164</data>
+    </edge>
+    <edge source="RARE" target="BTC">
+      <data key="d0">-12.865143647315353_0.053896991007373905</data>
+    </edge>
+    <edge source="RARE" target="TRY">
+      <data key="d0">1.2244978661981791_0.058228833450720545</data>
+    </edge>
+    <edge source="RARE" target="USDT">
+      <data key="d0">-2.2018753338062553_0.06255451495016247</data>
+    </edge>
+    <edge source="RAY" target="BNB">
+      <data key="d0">-5.503990961151888_0.08696122447759064</data>
+    </edge>
+    <edge source="RAY" target="USDT">
+      <data key="d0">0.2357079242770026_0.10505458781268193</data>
+    </edge>
+    <edge source="RDNT" target="BTC">
+      <data key="d0">-11.820716467530628_0.07556595434357692</data>
+    </edge>
+    <edge source="RDNT" target="TUSD">
+      <data key="d0">-1.1459614500748074_0.06826238813010871</data>
+    </edge>
+    <edge source="RDNT" target="USDT">
+      <data key="d0">-1.1474100931500526_0.07163697141540834</data>
+    </edge>
+    <edge source="REEF" target="TRY">
+      <data key="d0">-3.024885097352432_0.10254818449248425</data>
+    </edge>
+    <edge source="REEF" target="USDT">
+      <data key="d0">-6.420282038294289_0.12591045910208298</data>
+    </edge>
+    <edge source="REI" target="USDT">
+      <data key="d0">-3.534315716738782_0.05389609620169772</data>
+    </edge>
+    <edge source="REN" target="BTC">
+      <data key="d0">-13.500883938906108_0.09438588815080581</data>
+    </edge>
+    <edge source="REN" target="USDT">
+      <data key="d0">-2.8105796722505305_0.10451301988375443</data>
+    </edge>
+    <edge source="REQ" target="BTC">
+      <data key="d0">-13.051232280304294_0.09097745202442115</data>
+    </edge>
+    <edge source="REQ" target="USDT">
+      <data key="d0">-2.3146323088580285_0.11548913208094963</data>
+    </edge>
+    <edge source="RIF" target="BTC">
+      <data key="d0">-12.649726689243742_0.09518275862778543</data>
+    </edge>
+    <edge source="RIF" target="USDT">
+      <data key="d0">-1.9352441501348947_0.12072699238365839</data>
+    </edge>
+    <edge source="RLC" target="BTC">
+      <data key="d0">-9.968336033619737_0.21263585669561408</data>
+    </edge>
+    <edge source="RLC" target="ETH">
+      <data key="d0">-7.037108791975256_0.2000334295007751</data>
+    </edge>
+    <edge source="RLC" target="USDT">
+      <data key="d0">0.7206385787741023_0.16499359105696795</data>
+    </edge>
+    <edge source="RNDR" target="BTC">
+      <data key="d0">-9.248439031242205_0.07660710144458253</data>
+    </edge>
+    <edge source="RNDR" target="FDUSD">
+      <data key="d0">1.4120149325074114_0.07559704994457372</data>
+    </edge>
+    <edge source="RNDR" target="TRY">
+      <data key="d0">4.8319113521515344_0.0762153645686407</data>
+    </edge>
+    <edge source="RNDR" target="USDT">
+      <data key="d0">1.4138057658387104_0.078286438738507</data>
+    </edge>
+    <edge source="ROSE" target="BTC">
+      <data key="d0">-12.816473971660303_0.08311223876010311</data>
+    </edge>
+    <edge source="ROSE" target="ETH">
+      <data key="d0">-9.889494503342423_0.1164295187438774</data>
+    </edge>
+    <edge source="ROSE" target="TRY">
+      <data key="d0">1.2552807434425943_0.11012334221319091</data>
+    </edge>
+    <edge source="ROSE" target="USDT">
+      <data key="d0">-2.144259064854074_0.1108819732683315</data>
+    </edge>
+    <edge source="RPL" target="BTC">
+      <data key="d0">-7.307070096858098_0.018211668460123745</data>
+    </edge>
+    <edge source="RPL" target="USDT">
+      <data key="d0">3.4482048623203423_0.09273143281026953</data>
+    </edge>
+    <edge source="RSR" target="USDT">
+      <data key="d0">-5.941780026977492_0.1220679037420749</data>
+    </edge>
+    <edge source="RUNE" target="BNB">
+      <data key="d0">-4.168789719950163_0.09414608415977649</data>
+    </edge>
+    <edge source="RUNE" target="BTC">
+      <data key="d0">-9.12106728240923_0.08285515626952858</data>
+    </edge>
+    <edge source="RUNE" target="ETH">
+      <data key="d0">-6.174741202565244_0.12938094345256004</data>
+    </edge>
+    <edge source="RUNE" target="EUR">
+      <data key="d0">1.479861941451268_0.1143828266633542</data>
+    </edge>
+    <edge source="RUNE" target="FDUSD">
+      <data key="d0">1.545355913536162_0.11346442368969692</data>
+    </edge>
+    <edge source="RUNE" target="TUSD">
+      <data key="d0">1.5699810957255402_0.10175473022985942</data>
+    </edge>
+    <edge source="RUNE" target="USDT">
+      <data key="d0">1.5529664093797708_0.10708272670502195</data>
+    </edge>
+    <edge source="RVN" target="BTC">
+      <data key="d0">-14.607844852273512_0.050939840427898765</data>
+    </edge>
+    <edge source="RVN" target="TRY">
+      <data key="d0">-0.5157775854990665_0.06022173973365382</data>
+    </edge>
+    <edge source="RVN" target="USDT">
+      <data key="d0">-3.9303815911141795_0.06514145193214045</data>
+    </edge>
+    <edge source="SAND" target="BNB">
+      <data key="d0">-6.424790895845208_0.07031621163674662</data>
+    </edge>
+    <edge source="SAND" target="BTC">
+      <data key="d0">-11.358044692944548_0.0760698447215204</data>
+    </edge>
+    <edge source="SAND" target="ETH">
+      <data key="d0">-8.438471962376411_0.10203556407374918</data>
+    </edge>
+    <edge source="SAND" target="FDUSD">
+      <data key="d0">-0.6959328010611295_0.08595219330748374</data>
+    </edge>
+    <edge source="SAND" target="TRY">
+      <data key="d0">2.7136046801622715_0.08404185077025886</data>
+    </edge>
+    <edge source="SAND" target="USDT">
+      <data key="d0">-0.6873698479461061_0.0856146609503848</data>
+    </edge>
+    <edge source="SANTOS" target="BTC">
+      <data key="d0">-9.221285739568751_0.23816147189789524</data>
+    </edge>
+    <edge source="SANTOS" target="TRY">
+      <data key="d0">4.943546089879961_0.13866049698439803</data>
+    </edge>
+    <edge source="SANTOS" target="USDT">
+      <data key="d0">1.5084262788706573_0.16801258413327783</data>
+    </edge>
+    <edge source="SC" target="ETH">
+      <data key="d0">-12.378775850070989_0.18599882573685017</data>
+    </edge>
+    <edge source="SC" target="USDT">
+      <data key="d0">-4.617318704264253_0.18097688258381345</data>
+    </edge>
+    <edge source="SCRT" target="BTC">
+      <data key="d0">-11.526895009091366_0.07705424015881499</data>
+    </edge>
+    <edge source="SCRT" target="ETH">
+      <data key="d0">-8.617937827953718_0.10663009148099713</data>
+    </edge>
+    <edge source="SCRT" target="USDT">
+      <data key="d0">-0.8673830912173062_0.08451102600398408</data>
+    </edge>
+    <edge source="SEI" target="BNB">
+      <data key="d0">-6.069406855313692_0.08461475942932378</data>
+    </edge>
+    <edge source="SEI" target="BTC">
+      <data key="d0">-11.013310489160151_0.08504739198877881</data>
+    </edge>
+    <edge source="SEI" target="FDUSD">
+      <data key="d0">-0.32203745631795305_0.08837771810076236</data>
+    </edge>
+    <edge source="SEI" target="TRY">
+      <data key="d0">3.080934481990624_0.08839439409113198</data>
+    </edge>
+    <edge source="SEI" target="TUSD">
+      <data key="d0">-0.32336772813881176_0.09058900847522185</data>
+    </edge>
+    <edge source="SEI" target="USDT">
+      <data key="d0">-0.3373720271996645_0.09071254101862342</data>
+    </edge>
+    <edge source="SFP" target="BTC">
+      <data key="d0">-11.00014585186697_0.053756117185968365</data>
+    </edge>
+    <edge source="SFP" target="USDT">
+      <data key="d0">-0.33725190459428384_0.05136107670460289</data>
+    </edge>
+    <edge source="SHIB" target="BRL">
+      <data key="d0">-9.961665184744616_0.0469270229931052</data>
+    </edge>
+    <edge source="SHIB" target="DOGE">
+      <data key="d0">-9.059451309648939_0.03411919752693272</data>
+    </edge>
+    <edge source="SHIB" target="EUR">
+      <data key="d0">-11.64809199887312_0.04851938559781935</data>
+    </edge>
+    <edge source="SHIB" target="FDUSD">
+      <data key="d0">-11.564757294536806_0.05196879679100269</data>
+    </edge>
+    <edge source="SHIB" target="TRY">
+      <data key="d0">-8.143665469973923_0.0467730629380796</data>
+    </edge>
+    <edge source="SHIB" target="TUSD">
+      <data key="d0">-11.55152815582716_0.048599516963819936</data>
+    </edge>
+    <edge source="SHIB" target="USDT">
+      <data key="d0">-11.558792121090612_0.05048755948367784</data>
+    </edge>
+    <edge source="SKL" target="BTC">
+      <data key="d0">-13.154365321103432_0.10030953653808325</data>
+    </edge>
+    <edge source="SKL" target="TRY">
+      <data key="d0">0.9433469066170357_0.11174995734414447</data>
+    </edge>
+    <edge source="SKL" target="USDT">
+      <data key="d0">-2.461103573297999_0.10897841864583145</data>
+    </edge>
+    <edge source="SLP" target="ETH">
+      <data key="d0">-13.509505215251137_0.09414019300069365</data>
+    </edge>
+    <edge source="SLP" target="TRY">
+      <data key="d0">-2.330332517571244_0.0782295550137136</data>
+    </edge>
+    <edge source="SLP" target="USDT">
+      <data key="d0">-5.760653500902792_0.08092900765604871</data>
+    </edge>
+    <edge source="SNT" target="BTC">
+      <data key="d0">-13.877933875995266_0.05806319615113342</data>
+    </edge>
+    <edge source="SNT" target="ETH">
+      <data key="d0">-10.986443589478165_0.06361692383997679</data>
+    </edge>
+    <edge source="SNT" target="USDT">
+      <data key="d0">-3.19886292953989_0.05562689680844412</data>
+    </edge>
+    <edge source="SNX" target="BNB">
+      <data key="d0">-4.459161253931445_0.07149323433408515</data>
+    </edge>
+    <edge source="SNX" target="BTC">
+      <data key="d0">-9.420052708092081_0.061927142741618514</data>
+    </edge>
+    <edge source="SNX" target="ETH">
+      <data key="d0">-6.514372876512258_0.06280021843794883</data>
+    </edge>
+    <edge source="SNX" target="USDT">
+      <data key="d0">1.2490182040694344_0.0769987384432136</data>
+    </edge>
+    <edge source="SOL" target="BNB">
+      <data key="d0">-1.1567115545735303_0.05724726699878806</data>
+    </edge>
+    <edge source="SOL" target="BRL">
+      <data key="d0">6.168134642147705_0.06496587087196029</data>
+    </edge>
+    <edge source="SOL" target="BTC">
+      <data key="d0">-6.101086810736106_0.04869252755655906</data>
+    </edge>
+    <edge source="SOL" target="ETH">
+      <data key="d0">-3.1986592783436985_0.07620887396635728</data>
+    </edge>
+    <edge source="SOL" target="EUR">
+      <data key="d0">4.488592627343991_0.06787113790317686</data>
+    </edge>
+    <edge source="SOL" target="FDUSD">
+      <data key="d0">4.566994401848274_0.06801357893599871</data>
+    </edge>
+    <edge source="SOL" target="TRY">
+      <data key="d0">7.98872093358838_0.06498353314569641</data>
+    </edge>
+    <edge source="SOL" target="TUSD">
+      <data key="d0">4.578904364583078_0.06202368648949661</data>
+    </edge>
+    <edge source="SOL" target="USDC">
+      <data key="d0">4.544205844952625_0.07424041691963323</data>
+    </edge>
+    <edge source="SOL" target="USDT">
+      <data key="d0">4.57317035072008_0.06940536261551566</data>
+    </edge>
+    <edge source="SPELL" target="TRY">
+      <data key="d0">-4.085328282704044_0.08321654437829218</data>
+    </edge>
+    <edge source="SPELL" target="USDT">
+      <data key="d0">-7.4979504726755275_0.08912343321946668</data>
+    </edge>
+    <edge source="SSV" target="BTC">
+      <data key="d0">-7.217182598699457_0.08525493721424074</data>
+    </edge>
+    <edge source="SSV" target="ETH">
+      <data key="d0">-4.300023507275304_0.06547548405079663</data>
+    </edge>
+    <edge source="SSV" target="TUSD">
+      <data key="d0">3.4658411743076782_0.09239314527328846</data>
+    </edge>
+    <edge source="SSV" target="USDT">
+      <data key="d0">3.4662273489667865_0.09323353550701267</data>
+    </edge>
+    <edge source="STEEM" target="BTC">
+      <data key="d0">-12.121754264454502_0.04764031138534756</data>
+    </edge>
+    <edge source="STEEM" target="ETH">
+      <data key="d0">-9.235934520810577_0.07022451297640413</data>
+    </edge>
+    <edge source="STEEM" target="USDT">
+      <data key="d0">-1.4519552982023618_0.06476719809231135</data>
+    </edge>
+    <edge source="STG" target="BTC">
+      <data key="d0">-11.270134532197243_0.06028194409819098</data>
+    </edge>
+    <edge source="STG" target="USDT">
+      <data key="d0">-0.5880059683815281_0.06792689760757013</data>
+    </edge>
+    <edge source="STMX" target="USDT">
+      <data key="d0">-4.881982002587274_0.07802332833841655</data>
+    </edge>
+    <edge source="STORJ" target="BTC">
+      <data key="d0">-11.15105466189309_0.07638058335819645</data>
+    </edge>
+    <edge source="STORJ" target="TRY">
+      <data key="d0">2.944358869978549_0.08233736603140754</data>
+    </edge>
+    <edge source="STORJ" target="USDT">
+      <data key="d0">-0.47185588665511163_0.08250581236430914</data>
+    </edge>
+    <edge source="STPT" target="BTC">
+      <data key="d0">-13.532140925592147_0.0904563269304325</data>
+    </edge>
+    <edge source="STPT" target="USDT">
+      <data key="d0">-2.8531423898484363_0.09656462809799059</data>
+    </edge>
+    <edge source="STRAX" target="BTC">
+      <data key="d0">-10.619806419429766_0.1463110386613222</data>
+    </edge>
+    <edge source="STRAX" target="TRY">
+      <data key="d0">3.4652767380714784_0.1496832506280193</data>
+    </edge>
+    <edge source="STRAX" target="USDT">
+      <data key="d0">0.08602805210292007_0.14714657572837905</data>
+    </edge>
+    <edge source="STX" target="BNB">
+      <data key="d0">-5.230590937566207_0.11549421849053287</data>
+    </edge>
+    <edge source="STX" target="BTC">
+      <data key="d0">-10.181569046756822_0.06639850664076126</data>
+    </edge>
+    <edge source="STX" target="FDUSD">
+      <data key="d0">0.42403970816004966_0.08602902121908786</data>
+    </edge>
+    <edge source="STX" target="TRY">
+      <data key="d0">3.9154966080279814_0.09975315229247841</data>
+    </edge>
+    <edge source="STX" target="USDT">
+      <data key="d0">0.4953489886221924_0.10676662482782023</data>
+    </edge>
+    <edge source="SUI" target="BNB">
+      <data key="d0">-5.52773260308885_0.1786606543503367</data>
+    </edge>
+    <edge source="SUI" target="BTC">
+      <data key="d0">-10.503526765953913_0.20604991683885435</data>
+    </edge>
+    <edge source="SUI" target="EUR">
+      <data key="d0">0.0798202862118634_0.15750312490257962</data>
+    </edge>
+    <edge source="SUI" target="FDUSD">
+      <data key="d0">0.14275189349487874_0.1994901356680797</data>
+    </edge>
+    <edge source="SUI" target="TRY">
+      <data key="d0">3.5770740955042184_0.19683320857203332</data>
+    </edge>
+    <edge source="SUI" target="TUSD">
+      <data key="d0">0.13868800213799215_0.2120218040847142</data>
+    </edge>
+    <edge source="SUI" target="USDC">
+      <data key="d0">0.21932921348262938_0.1340478370978319</data>
+    </edge>
+    <edge source="SUI" target="USDT">
+      <data key="d0">0.14920472690375752_0.21001354228050384</data>
+    </edge>
+    <edge source="SUN" target="USDT">
+      <data key="d0">-4.846050806507132_0.06153986558264698</data>
+    </edge>
+    <edge source="SUPER" target="BTC">
+      <data key="d0">-11.159383488996077_0.10852890996679398</data>
+    </edge>
+    <edge source="SUPER" target="FDUSD">
+      <data key="d0">-0.49245830526532747_0.08986702164054149</data>
+    </edge>
+    <edge source="SUPER" target="TRY">
+      <data key="d0">2.9373749818225434_0.0877722499195741</data>
+    </edge>
+    <edge source="SUPER" target="USDT">
+      <data key="d0">-0.4921482502041867_0.08873165685562605</data>
+    </edge>
+    <edge source="SUSHI" target="BTC">
+      <data key="d0">-10.533565387034376_0.08022818726075068</data>
+    </edge>
+    <edge source="SUSHI" target="USDT">
+      <data key="d0">0.1177494567819531_0.0716345876260554</data>
+    </edge>
+    <edge source="SXP" target="BNB">
+      <data key="d0">-6.755499593939706_0.0721897980596883</data>
+    </edge>
+    <edge source="SXP" target="BTC">
+      <data key="d0">-11.69921171093519_0.08068512305201583</data>
+    </edge>
+    <edge source="SXP" target="TRY">
+      <data key="d0">2.394963727864617_0.0894316662894268</data>
+    </edge>
+    <edge source="SXP" target="USDT">
+      <data key="d0">-1.015710592746976_0.08931870294469167</data>
+    </edge>
+    <edge source="SYN" target="BTC">
+      <data key="d0">-11.037974963889395_0.26206187019483845</data>
+    </edge>
+    <edge source="SYN" target="USDT">
+      <data key="d0">-0.3630996651779259_0.1972498590661808</data>
+    </edge>
+    <edge source="SYS" target="BTC">
+      <data key="d0">-12.721217659473995_0.05463786239950946</data>
+    </edge>
+    <edge source="SYS" target="USDT">
+      <data key="d0">-2.051706619987402_0.06120044396848418</data>
+    </edge>
+    <edge source="TFUEL" target="BTC">
+      <data key="d0">-13.708419385283227_0.101494211816233</data>
+    </edge>
+    <edge source="TFUEL" target="USDT">
+      <data key="d0">-3.0184705056157335_0.12096310162626857</data>
+    </edge>
+    <edge source="THETA" target="BTC">
+      <data key="d0">-10.586360480568342_0.09770702441139975</data>
+    </edge>
+    <edge source="THETA" target="ETH">
+      <data key="d0">-7.6707552542378385_0.1305471656843457</data>
+    </edge>
+    <edge source="THETA" target="USDT">
+      <data key="d0">0.0920916325321138_0.11508381175322564</data>
+    </edge>
+    <edge source="TIA" target="BTC">
+      <data key="d0">-7.911936809896146_0.1325034341205771</data>
+    </edge>
+    <edge source="TIA" target="FDUSD">
+      <data key="d0">2.845716754074871_0.06842612756717666</data>
+    </edge>
+    <edge source="TIA" target="TRY">
+      <data key="d0">6.195266921365529_0.11378184858693392</data>
+    </edge>
+    <edge source="TIA" target="TUSD">
+      <data key="d0">2.7432427094897367_0.13283830771376523</data>
+    </edge>
+    <edge source="TIA" target="USDC">
+      <data key="d0">2.8138384272662478_0.060361222485308966</data>
+    </edge>
+    <edge source="TIA" target="USDT">
+      <data key="d0">2.769715422251471_0.11732909796630996</data>
+    </edge>
+    <edge source="TKO" target="BTC">
+      <data key="d0">-11.848024639364091_0.08329151294272291</data>
+    </edge>
+    <edge source="TKO" target="USDT">
+      <data key="d0">-1.1905541679836877_0.07740039563252518</data>
+    </edge>
+    <edge source="TLM" target="BTC">
+      <data key="d0">-14.832073501742192_0.08945124143499615</data>
+    </edge>
+    <edge source="TLM" target="TRY">
+      <data key="d0">-0.7503038436297548_0.10173640893560892</data>
+    </edge>
+    <edge source="TLM" target="USDT">
+      <data key="d0">-4.161794628191796_0.10033254301181445</data>
+    </edge>
+    <edge source="TRB" target="BTC">
+      <data key="d0">-5.6695321504838665_0.19589611846015897</data>
+    </edge>
+    <edge source="TRB" target="TRY">
+      <data key="d0">8.383103016591242_0.19601533551318126</data>
+    </edge>
+    <edge source="TRB" target="USDT">
+      <data key="d0">5.0213517085154065_0.19356274645757973</data>
+    </edge>
+    <edge source="TROY" target="USDT">
+      <data key="d0">-6.089691067802578_0.0579973020747539</data>
+    </edge>
+    <edge source="TRU" target="BTC">
+      <data key="d0">-13.640096899114129_0.09195091126696563</data>
+    </edge>
+    <edge source="TRU" target="USDT">
+      <data key="d0">-2.9576869275606033_0.1066988652098726</data>
+    </edge>
+    <edge source="TRX" target="BNB">
+      <data key="d0">-7.945807346699973_0.041106308662370944</data>
+    </edge>
+    <edge source="TRX" target="BTC">
+      <data key="d0">-12.8793623888824_0.06680826896655362</data>
+    </edge>
+    <edge source="TRX" target="ETH">
+      <data key="d0">-9.995535788143966_0.06272385782927024</data>
+    </edge>
+    <edge source="TRX" target="EUR">
+      <data key="d0">-2.305605897878239_0.03273938589829353</data>
+    </edge>
+    <edge source="TRX" target="TRY">
+      <data key="d0">1.200789220137207_0.03519114224072099</data>
+    </edge>
+    <edge source="TRX" target="USDT">
+      <data key="d0">-2.216959716768645_0.033773509736026344</data>
+    </edge>
+    <edge source="TRX" target="XRP">
+      <data key="d0">-1.6583952651169376_0.06994282617778647</data>
+    </edge>
+    <edge source="XRP" target="BNB">
+      <data key="d0">-6.303793364092557_0.05124409214499139</data>
+    </edge>
+    <edge source="XRP" target="BRL">
+      <data key="d0">1.0194131757978213_0.05441347320651805</data>
+    </edge>
+    <edge source="XRP" target="BTC">
+      <data key="d0">-11.253750291102236_0.04534808385281097</data>
+    </edge>
+    <edge source="XRP" target="ETH">
+      <data key="d0">-8.34573954646391_0.06311909579044904</data>
+    </edge>
+    <edge source="XRP" target="EUR">
+      <data key="d0">-0.6624670036802622_0.055441097930491234</data>
+    </edge>
+    <edge source="XRP" target="FDUSD">
+      <data key="d0">-0.5876460723009567_0.05977492926363952</data>
+    </edge>
+    <edge source="XRP" target="TRY">
+      <data key="d0">2.835882310252123_0.05876096387816549</data>
+    </edge>
+    <edge source="XRP" target="TUSD">
+      <data key="d0">-0.5516763581285329_0.05510796153429136</data>
+    </edge>
+    <edge source="XRP" target="USDC">
+      <data key="d0">-0.5943514402469374_0.05184202442647075</data>
+    </edge>
+    <edge source="XRP" target="USDT">
+      <data key="d0">-0.5770163413240128_0.05866708950574436</data>
+    </edge>
+    <edge source="TWT" target="BTC">
+      <data key="d0">-10.546174763165174_0.05587523369718129</data>
+    </edge>
+    <edge source="TWT" target="TRY">
+      <data key="d0">3.542526004183337_0.04648463147445326</data>
+    </edge>
+    <edge source="TWT" target="USDT">
+      <data key="d0">0.12208331677019289_0.051174365454418745</data>
+    </edge>
+    <edge source="UFT" target="ETH">
+      <data key="d0">-8.71118367403453_0.062025054659282375</data>
+    </edge>
+    <edge source="UFT" target="USDT">
+      <data key="d0">-0.9330659234141948_0.07446279024387616</data>
+    </edge>
+    <edge source="UMA" target="BTC">
+      <data key="d0">-9.122917974065544_0.34185648510302885</data>
+    </edge>
+    <edge source="UMA" target="TRY">
+      <data key="d0">5.055064621364029_0.19335572948501392</data>
+    </edge>
+    <edge source="UMA" target="USDT">
+      <data key="d0">1.5801510463363497_0.27323918679605613</data>
+    </edge>
+    <edge source="UNFI" target="BTC">
+      <data key="d0">-8.83109803701898_0.0834123898406643</data>
+    </edge>
+    <edge source="UNFI" target="TRY">
+      <data key="d0">5.2446675488514725_0.07299836591839262</data>
+    </edge>
+    <edge source="UNFI" target="USDT">
+      <data key="d0">1.83944814003763_0.0808268330074827</data>
+    </edge>
+    <edge source="UNI" target="BNB">
+      <data key="d0">-3.875858214348731_0.053522364445791476</data>
+    </edge>
+    <edge source="UNI" target="BTC">
+      <data key="d0">-8.798920129683811_0.06621985394571568</data>
+    </edge>
+    <edge source="UNI" target="ETH">
+      <data key="d0">-5.911937908514367_0.06523892404953104</data>
+    </edge>
+    <edge source="UNI" target="TRY">
+      <data key="d0">5.268873866315427_0.06360366593188706</data>
+    </edge>
+    <edge source="UNI" target="USDT">
+      <data key="d0">1.8648393013479287_0.07005816132454909</data>
+    </edge>
+    <edge source="USDP" target="USDT">
+      <data key="d0">0.0002495727468572805_0.002132342184946949</data>
+    </edge>
+    <edge source="USTC" target="FDUSD">
+      <data key="d0">-3.593805560912373_0.09604107928428289</data>
+    </edge>
+    <edge source="USTC" target="TRY">
+      <data key="d0">-0.17263254260179478_0.09479469242856861</data>
+    </edge>
+    <edge source="USTC" target="USDT">
+      <data key="d0">-3.576655329975575_0.09806096321591029</data>
+    </edge>
+    <edge source="UTK" target="BTC">
+      <data key="d0">-13.188184716551481_0.10954696497132332</data>
+    </edge>
+    <edge source="UTK" target="USDT">
+      <data key="d0">-2.5395859623899173_0.11177075907863926</data>
+    </edge>
+    <edge source="VANRY" target="BTC">
+      <data key="d0">-13.462258669017137_0.08884662492958613</data>
+    </edge>
+    <edge source="VANRY" target="TRY">
+      <data key="d0">0.6363876477145849_0.08246850314094299</data>
+    </edge>
+    <edge source="VANRY" target="USDT">
+      <data key="d0">-2.776504240803341_0.08384115158102513</data>
+    </edge>
+    <edge source="VET" target="BNB">
+      <data key="d0">-9.21748662068817_0.07174147186120539</data>
+    </edge>
+    <edge source="VET" target="BTC">
+      <data key="d0">-14.16790266487856_0.06406963966110495</data>
+    </edge>
+    <edge source="VET" target="ETH">
+      <data key="d0">-11.251002271849206_0.08011453628144427</data>
+    </edge>
+    <edge source="VET" target="EUR">
+      <data key="d0">-3.5696446146987246_0.07167197887238853</data>
+    </edge>
+    <edge source="VET" target="TRY">
+      <data key="d0">-0.09032143114538052_0.07289595387240753</data>
+    </edge>
+    <edge source="VET" target="USDT">
+      <data key="d0">-3.4970263741647427_0.08022207363504194</data>
+    </edge>
+    <edge source="VGX" target="USDT">
+      <data key="d0">-2.084362246446476_0.0648796119200823</data>
+    </edge>
+    <edge source="VIB" target="BTC">
+      <data key="d0">-13.36765079934164_0.055277193096154434</data>
+    </edge>
+    <edge source="VIB" target="USDT">
+      <data key="d0">-2.6938329527588234_0.06782471138037514</data>
+    </edge>
+    <edge source="VIC" target="BTC">
+      <data key="d0">-10.920550556154371_0.060303939381935234</data>
+    </edge>
+    <edge source="VIC" target="TRY">
+      <data key="d0">3.189861157349094_0.07809389622102773</data>
+    </edge>
+    <edge source="VIC" target="USDT">
+      <data key="d0">-0.22982870560098254_0.07857014975981443</data>
+    </edge>
+    <edge source="VIDT" target="BTC">
+      <data key="d0">-14.141002518912392_0.07795965967360412</data>
+    </edge>
+    <edge source="VIDT" target="USDT">
+      <data key="d0">-3.4607288164758745_0.0803411415908184</data>
+    </edge>
+    <edge source="VITE" target="BTC">
+      <data key="d0">-14.71234163226389_0.07400862757143212</data>
+    </edge>
+    <edge source="VITE" target="USDT">
+      <data key="d0">-4.0467413610259575_0.06298037120206439</data>
+    </edge>
+    <edge source="VOXEL" target="BTC">
+      <data key="d0">-12.173632032921773_0.08595018527816317</data>
+    </edge>
+    <edge source="VOXEL" target="USDT">
+      <data key="d0">-1.5181494398585995_0.10081129674846707</data>
+    </edge>
+    <edge source="VTHO" target="USDT">
+      <data key="d0">-6.071579637740182_0.0639066809254274</data>
+    </edge>
+    <edge source="WAN" target="BTC">
+      <data key="d0">-12.181547474658041_0.055443920294395356</data>
+    </edge>
+    <edge source="WAN" target="ETH">
+      <data key="d0">-9.292002764043094_0.09154257023306453</data>
+    </edge>
+    <edge source="WAN" target="USDT">
+      <data key="d0">-1.5204663089406492_0.0632321348750866</data>
+    </edge>
+    <edge source="WAVES" target="BTC">
+      <data key="d0">-9.767308931811355_0.08127914289254992</data>
+    </edge>
+    <edge source="WAVES" target="ETH">
+      <data key="d0">-6.828172385157226_0.10584238695577455</data>
+    </edge>
+    <edge source="WAVES" target="TRY">
+      <data key="d0">4.328094500561254_0.09630518486083675</data>
+    </edge>
+    <edge source="WAVES" target="USDT">
+      <data key="d0">0.9127745683204755_0.09900185502528391</data>
+    </edge>
+    <edge source="WAXP" target="BTC">
+      <data key="d0">-13.459695379107464_0.06225963745095912</data>
+    </edge>
+    <edge source="WAXP" target="USDT">
+      <data key="d0">-2.8204966643399967_0.0720866435290315</data>
+    </edge>
+    <edge source="WBETH" target="ETH">
+      <data key="d0">0.026545749070366192_0.0016490899836031363</data>
+    </edge>
+    <edge source="WBETH" target="USDT">
+      <data key="d0">7.797618455084632_0.05645310730741129</data>
+    </edge>
+    <edge source="WBTC" target="BTC">
+      <data key="d0">-0.0005671932409691326_0.0009962947902606252</data>
+    </edge>
+    <edge source="WBTC" target="ETH">
+      <data key="d0">2.9094655200024837_0.06229563351176736</data>
+    </edge>
+    <edge source="WBTC" target="USDT">
+      <data key="d0">10.68642324081237_0.04879348113324512</data>
+    </edge>
+    <edge source="WIN" target="BNB">
+      <data key="d0">-14.95099119695535_0.10354071246447485</data>
+    </edge>
+    <edge source="WIN" target="BRL">
+      <data key="d0">-7.6735770626828_0.08183832294989085</data>
+    </edge>
+    <edge source="WIN" target="EUR">
+      <data key="d0">-9.369192270560802_0.07233758552087181</data>
+    </edge>
+    <edge source="WIN" target="TRX">
+      <data key="d0">-7.017860700486203_0.08234777864709324</data>
+    </edge>
+    <edge source="WIN" target="USDT">
+      <data key="d0">-9.20473144776169_0.09377733987045332</data>
+    </edge>
+    <edge source="WING" target="BTC">
+      <data key="d0">-8.410117333267552_0.10194484692435232</data>
+    </edge>
+    <edge source="WING" target="USDT">
+      <data key="d0">2.268585044462485_0.11666731747130553</data>
+    </edge>
+    <edge source="WLD" target="BTC">
+      <data key="d0">-9.655035151526198_0.13549549835062896</data>
+    </edge>
+    <edge source="WLD" target="FDUSD">
+      <data key="d0">1.0204763958307932_0.13958510621993395</data>
+    </edge>
+    <edge source="WLD" target="TRY">
+      <data key="d0">4.418870019565998_0.12255182730295744</data>
+    </edge>
+    <edge source="WLD" target="USDT">
+      <data key="d0">1.0217693707614721_0.14144503843921497</data>
+    </edge>
+    <edge source="WNXM" target="USDT">
+      <data key="d0">3.913409191170695_0.05352701545163285</data>
+    </edge>
+    <edge source="WOO" target="BNB">
+      <data key="d0">-6.622930683670379_0.06337845426035467</data>
+    </edge>
+    <edge source="WOO" target="BTC">
+      <data key="d0">-11.590157111252179_0.0616550561281351</data>
+    </edge>
+    <edge source="WOO" target="USDT">
+      <data key="d0">-0.907454388609306_0.0847862541820308</data>
+    </edge>
+    <edge source="WRX" target="USDT">
+      <data key="d0">-1.4468652911737083_0.0867663133747132</data>
+    </edge>
+    <edge source="XAI" target="BNB">
+      <data key="d0">-5.961328375930203_0.20137030596806843</data>
+    </edge>
+    <edge source="XAI" target="BTC">
+      <data key="d0">-10.861753214186676_0.24186583975710624</data>
+    </edge>
+    <edge source="XAI" target="FDUSD">
+      <data key="d0">-0.20379902831021235_0.22670986538169438</data>
+    </edge>
+    <edge source="XAI" target="TRY">
+      <data key="d0">3.2002012599773013_0.2138056372767535</data>
+    </edge>
+    <edge source="XAI" target="TUSD">
+      <data key="d0">-0.24095356216256716_0.22333168953782964</data>
+    </edge>
+    <edge source="XAI" target="USDT">
+      <data key="d0">-0.19344242819838453_0.20642532981388068</data>
+    </edge>
+    <edge source="XEC" target="TRY">
+      <data key="d0">-6.867774697178509_0.07014618267717146</data>
+    </edge>
+    <edge source="XEC" target="USDT">
+      <data key="d0">-10.283293923487008_0.07287175210638648</data>
+    </edge>
+    <edge source="XEM" target="USDT">
+      <data key="d0">-3.15490898003945_0.12650666784277997</data>
+    </edge>
+    <edge source="XLM" target="BNB">
+      <data key="d0">-7.8662643972168125_0.037661262688057744</data>
+    </edge>
+    <edge source="XLM" target="BTC">
+      <data key="d0">-12.807314320103865_0.04443267878762796</data>
+    </edge>
+    <edge source="XLM" target="ETH">
+      <data key="d0">-9.909810747448505_0.06110163988506728</data>
+    </edge>
+    <edge source="XLM" target="EUR">
+      <data key="d0">-2.218921614697355_0.03707665776695237</data>
+    </edge>
+    <edge source="XLM" target="TRY">
+      <data key="d0">1.284990171784491_0.04043315418136709</data>
+    </edge>
+    <edge source="XLM" target="USDT">
+      <data key="d0">-2.133341407307956_0.044667550539384426</data>
+    </edge>
+    <edge source="XMR" target="BNB">
+      <data key="d0">-0.6725250569599801_0.03525015154025468</data>
+    </edge>
+    <edge source="XMR" target="BTC">
+      <data key="d0">-5.612518162097199_0.06123404949483688</data>
+    </edge>
+    <edge source="XMR" target="ETH">
+      <data key="d0">-2.7107023630900424_0.07612032917446006</data>
+    </edge>
+    <edge source="XMR" target="USDT">
+      <data key="d0">5.052926085941042_0.038597190116320006</data>
+    </edge>
+    <edge source="XNO" target="BTC">
+      <data key="d0">-10.538848909649975_0.06625473094500335</data>
+    </edge>
+    <edge source="XNO" target="USDT">
+      <data key="d0">0.14957512034296178_0.06150452809849714</data>
+    </edge>
+    <edge source="XTZ" target="BTC">
+      <data key="d0">-10.66033639010276_0.09929445051379894</data>
+    </edge>
+    <edge source="XTZ" target="TRY">
+      <data key="d0">3.460061049159423_0.04880670225653081</data>
+    </edge>
+    <edge source="XTZ" target="USDT">
+      <data key="d0">0.03647895298161637_0.09149104993539417</data>
+    </edge>
+    <edge source="XVG" target="ETH">
+      <data key="d0">-13.451493291984235_0.06454617947562967</data>
+    </edge>
+    <edge source="XVG" target="TRY">
+      <data key="d0">-2.2478696215514082_0.07755631137422545</data>
+    </edge>
+    <edge source="XVG" target="TUSD">
+      <data key="d0">-5.653411661617052_0.06652585618650082</data>
+    </edge>
+    <edge source="XVG" target="USDT">
+      <data key="d0">-5.6642290651765705_0.07978242373336111</data>
+    </edge>
+    <edge source="XVS" target="BNB">
+      <data key="d0">-3.244856116456929_0.030332257707896052</data>
+    </edge>
+    <edge source="XVS" target="BTC">
+      <data key="d0">-8.178225150945497_0.05352404444357084</data>
+    </edge>
+    <edge source="XVS" target="TRY">
+      <data key="d0">5.906196070509046_0.03451631290973732</data>
+    </edge>
+    <edge source="XVS" target="USDT">
+      <data key="d0">2.4850996768259948_0.03586214178709318</data>
+    </edge>
+    <edge source="YFI" target="BTC">
+      <data key="d0">-1.7365645592223249_0.04620096642093677</data>
+    </edge>
+    <edge source="YFI" target="USDT">
+      <data key="d0">8.94021855908032_0.05318260781725767</data>
+    </edge>
+    <edge source="YGG" target="BTC">
+      <data key="d0">-11.35867191386765_0.09091022327260434</data>
+    </edge>
+    <edge source="YGG" target="USDT">
+      <data key="d0">-0.670070616382826_0.08722025679260442</data>
+    </edge>
+    <edge source="ZEC" target="BTC">
+      <data key="d0">-7.545703446122642_0.09112848327182323</data>
+    </edge>
+    <edge source="ZEC" target="ETH">
+      <data key="d0">-4.654246986705745_0.08803843730191273</data>
+    </edge>
+    <edge source="ZEC" target="USDT">
+      <data key="d0">3.132643662762097_0.08315576831028636</data>
+    </edge>
+    <edge source="ZEN" target="BTC">
+      <data key="d0">-8.563274679458678_0.08663401505157951</data>
+    </edge>
+    <edge source="ZEN" target="ETH">
+      <data key="d0">-5.657867727402853_0.06897343947801449</data>
+    </edge>
+    <edge source="ZEN" target="USDT">
+      <data key="d0">2.1355305408115077_0.10047823771605907</data>
+    </edge>
+    <edge source="ZIL" target="BTC">
+      <data key="d0">-14.48637415144263_0.06460337925558247</data>
+    </edge>
+    <edge source="ZIL" target="ETH">
+      <data key="d0">-11.598159999605834_0.08106312656795403</data>
+    </edge>
+    <edge source="ZIL" target="TRY">
+      <data key="d0">-0.3990601518109613_0.07745939084458218</data>
+    </edge>
+    <edge source="ZIL" target="USDT">
+      <data key="d0">-3.812582693932578_0.077541380602482</data>
+    </edge>
+    <edge source="ZRX" target="BTC">
+      <data key="d0">-11.750481966352641_0.08536248858520551</data>
+    </edge>
+    <edge source="ZRX" target="USDT">
+      <data key="d0">-1.058910788907852_0.08114962460442032</data>
+    </edge>
+  </graph>
+</graphml>
