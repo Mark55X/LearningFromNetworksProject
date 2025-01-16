@@ -32,7 +32,14 @@ To compute the expected value, it is necessary to solve the following integral
 that has to be computed numerically since it cannot be computed analytically.
 
 Fixing the value of the variable $y$, the computing time for calculating $f_Y(y)$ is $\Theta(n)$, as the product operator is already computed before the sum operator. However, the majority of the computing time is consumed by the computation of the improper integral for the expected value that depends on the number of points used in the numerical integration. The number of points determines the estimated error of the result. In general, the computing time is $\theta(M n)$ where $M$ is a very large number tuned by the algorithm used for computing the integral \cite{2020SciPy-NMeth}.
-Experimental results show that the function to be integrated is significantly different from zero only within a very small range of values. Estimating this range could reduce the computational cost significantly by focusing the computation on the relevant interval.
+Experimental results show that the function to be integrated is significantly different from zero only within a very small range of values as shown in figure \ref{pdf}. Estimating this range could reduce the computational cost significantly by focusing the computation on the relevant interval.
+
+\begin{figure}[h!]
+	\centering
+	\includegraphics[width=0.45\textwidth]{../../code/notebooks/images/integrand.png} % Replace with your image filename
+	\caption{PDF of maximum}
+	\label{pdf}
+\end{figure}
 
 \subsection{Boost-Exact Method}
 To identify a narrower integration range compared to the theoretical one, an approximate analysis of the integrand function was performed.
