@@ -15,15 +15,17 @@ Once the file is saved, it is read inside the Jupyter Notebook through the \text
 
 \subsection{Experiments}
 The experiments performed on the graph, were performed on a sample of the graph.
+\subsubsection{Experiment 1}
 The first experiment that was performed, was done by looking for the shortest path with the greatest number of arcs. The result reports WIN as the starting currency and ARS as the target currency, with a path 8 arcs long. Once this pair of vertices is obtained, a comparison is performed between our greedy algorithm and an exact algorithm, in this case the Bellman-Ford (since there are negative arcs).
-From the results obtained, it can be noted that the exact algorithm returns a minimum path of length 8 with a cost equal to 2.4654882457904144. Instead, our algorithm returns a path of length 5 and a cost equal to -2.408182003102148. 
-Performing the same experiment on another pair of currencies, AAVE and TRY a similar result is found.
+From the results obtained, it can be noted that the exact algorithm returns a minimum path of length 8 with a cost equal to -2.4654882457904144. Instead, our algorithm returns a path of length 5 and a cost equal to -2.408182003102148. 
+Performing the same experiment on another sample, the currencies AAVE and TRY leads to a similar result.
 In particular, the exact algorithm returns a shortest path of length 6 and cost 7.915443742635086, while our algorithm finds a path of length 3 and cost 7.95438190729025.
-It can be said that exploiting the local optimality, given by the estimate of the distances calculated by the greedy algorithm, leads to a better result than the exact algorithm.
+It can be said that exploiting the local optimality, given by the estimate of the distances calculated by the greedy algorithm, leads to a shorter path with a cost very close to the exact one.
 
+\subsubsection{Experiment 2}
 In the second experiment, we analyze the shortest paths among all pairs of vertices (currencies) that are connected by an arc.
 We focus on those with a length (rather than weight) greater than 1.
 In other words, through this experiment it is possible to identify currency pairs for which a direct exchange is inconvenient compared to making multiple exchanges between them.
-From the results obtained, 614 pairs were identified for which this situation is present. In particular, between the UMA currency and USDT, a direct exchange has an exchange rate equal to 5.0, instead, passing first through BTC, the final exchange rate is equal to 10.32. Consequently, a non-direct exchange between these two currencies could double their value.
+Based on the results obtained, 614 pairs were identified for which this situation is present. In particular, between the UMA currency and USDT, a direct exchange has an exchange rate equal to 5.0, instead, passing first through BTC, the final exchange rate is equal to 10.32. Consequently, a non-direct exchange between these two currencies could double their value.
 
 From the different samples obtained, no cycles were identified within the graph and consequently no experiments were performed in this regard. To perform analyses of this type, a possible solution could be to acquire a greater number of data in order to obtain a graph as similar as possible to a complete graph. In this way, a bidirectional connection between each currency pair would be present, and consequently, the analysis of cycles would be feasible.
