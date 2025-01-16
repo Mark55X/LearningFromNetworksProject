@@ -27,7 +27,7 @@ To compute the expected value, it is necessary to solve the following integral
 \end{align*}
 that has to be computed numerically since it cannot be computed analytically.
 
-Fixing the value of the variable $y$, the computing time for calculating $f_Y(y)$ is $\Theta(n)$, as the product operator is already computed before the sum operator. However, the majority of the computing time is consumed by the computation of the improper integral for the expected value, depending on the number of points used in the numerical integration that implies the estimated error of the result. In general, the computing time is $\theta(M n)$ where $M$ is a very large number determined by the algorithm used for computing the integral \cite{2020SciPy-NMeth}.
+Fixing the value of the variable $y$, the computing time for calculating $f_Y(y)$ is $\Theta(n)$, as the product operator is already computed before the sum operator. However, the majority of the computing time is consumed by the computation of the improper integral for the expected value that depends on the number of points used in the numerical integration. The number of points determines the estimated error of the result. In general, the computing time is $\theta(M n)$ where $M$ is a very large number tuned by the algorithm used for computing the integral \cite{2020SciPy-NMeth}.
 Experimental results show that the function to be integrated is significantly different from zero only within a very small range of values. Estimating this range could reduce the computational cost significantly by focusing the computation on the relevant interval.
 
 \subsection{Boost-Exact Method}
@@ -53,8 +53,16 @@ However, in general, the problem is challenging to solve analytically because th
 \end{align*}
 where $\Phi^{-1}$ is the Percent Point Function (PPF). To obtain an approximate solution to the general problem, it was decided to operate on the individual elements of the product as follows:
 $$LB = \max_{i=0,...,n}\{\mu_i + \sigma_i \Phi^{-1}(T)\}$$
-The obtained value is certainly a less accurate bound compared to the actual one. Infatti abbiamo imposto che ogni singolo fattore della produttoria sia maggiore del valore di threashold, portando quindi ad un valore della produttoria sicuramente inferiore al threashold. Prendendo il valore massimo tra tutti si ottiene quindi un'approssimazione.
-However, as shown in the table, it has experimentally provided good results in terms of execution time savings.
+The obtained value is certainly a less accurate bound compared to the actual one. Indeed, we have established that each individual factor of the production function exceeds the threshold value, thereby ensuring that the resulting output will be definitively lower than the a new threshold $T^* = nT$ .
+However, as shown in the figure \ref{plot}, it has experimentally provided good results in terms of execution time savings.
+
+\begin{figure*}[h!]
+	\centering
+	\label{plot}
+	\includegraphics[width=\textwidth]{../../code/notebooks/images/comparison.png} % Replace with your image filename
+	\caption{Max and BoostMax comparison}
+\end{figure*}
+
 
 \subsubsection{Upper bound}
 For large values of \( y \), the factors in the product \( F_Y(y) \) tend to 1, while the PDF inside the summation approaches 0. Consequently, the summation result tends to 0. In general, for a Gaussian distribution \( N(\mu, \sigma) \), the following holds:

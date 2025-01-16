@@ -15,14 +15,14 @@ Given that the mean of a sum is the sum of the means and the variance of a sum i
 \end{itemize}
 
 Where $\mathcal{N}(u)$ is the set of neighbours of node $u$.
-Fixing a node $u$, the computing time for $d_W^+(u)$ and $d_W^-(u)$ is $\Theta(|\mathcal{N}(u)|)$.
+Fixing a vertex $u$, the computing time for $d_W^+(u)$ and $d_W^-(u)$ is $\Theta(|\mathcal{N}(u)|)$.
 
 \subsection{Degree of the graph}
 For the entire graph, we define:
 \begin{itemize}
 	\item the \textit{weighted out-degree} of the graph $G$ as:
-	$$d^+_w(G) = \max_{u\in V}(d_W^+(u))$$
+	$$d^+_w(G) = \max_{u\in V}\{d_W^+(u)\}$$
 	\item the \textit{weighted out-degree} of the graph $G$ as:
-	$$d^-_w(G) = \max_{u\in V}(d_W^-(u))$$
+	$$d^-_w(G) = \max_{u\in V}\{d_W^-(u)\}$$
 \end{itemize}
 Since $d^+_w(G)$ and $d^-_w(G)$ are random variables, to determine their value it is necessary to use the methods defined in section \ref{max_formulation}.
