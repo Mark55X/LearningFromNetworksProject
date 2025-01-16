@@ -36,24 +36,24 @@ Be $D$ the matrix of extimation computed during the static phase and let $G_{sam
 \begin{algorithm}
 	\caption{Dynamic Greedy Phase} 
 	\label{greedy}
-    Input: $s$ source node, $t$ terminal node, $G_{sample} = (V,A)$, $D_{i,j}$.  \\
+    Input: $s$ source vertex, $t$ terminal vertex, $G_{sample} = (V,A)$, $D_{i,j}$.  \\
     Output: shortest path $P$ from $s$ to $t$.
 	\begin{algorithmic}[1]
         \State $P \gets \{s\}$
-        \State $current \gets s$
-        \While {$current \neq t$}
-            \State Let $N_{current} \gets \{n \in V \mid n \text{ neighbor of } current \text{ and not visited}\}$
-            \State $E \gets \emptyset$
-            \For {$n \in N_{current}$}
+        \State $curr \gets s$ // current vertex
+        \While {$curr \neq t$}
+            \State $\mathcal{N}_{curr} \gets \{n \in V \mid n \linebreak \text{ neighbor of } curr \text{ and not visited}\}$
+            \State $E \gets \emptyset$ // set of neighbors to be examined
+            \For {$n \in \mathcal{N}_{curr}$}
                 \If {$n = t$}
-                    \State $E \gets E \cup \{(n, w_{current,n})\}$
+                    \State $E \gets E \cup \{(n, w_{curr,n})\}$
                 \Else
-                    \State $E \gets E \cup \{(n, w_{current,n} + \mathbb{E}[D_{n,t}])\}$
+                    \State $E \gets E \cup \{(n, w_{curr,n} + \mathbb{E}[D_{n,t}])\}$
                 \EndIf
             \EndFor
-            \State $current \gets \arg\min_{(n,w) \in E} w$
-            \State Mark $current$ as visited
-            \State $P \gets P \cup \{current\}$
+            \State $curr \gets \arg\min_{(n,w) \in E} \{w\}$
+            \State Mark $curr$ as visited
+            \State $P \gets P \cup \{curr\}$
         \EndWhile
         \State \Return $P$
 	\end{algorithmic} 
