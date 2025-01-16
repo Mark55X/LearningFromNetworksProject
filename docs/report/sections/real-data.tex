@@ -6,6 +6,13 @@ The \texttt{networkx} library allows you to save the structure of a graph inside
 After downloading all the data, with the \texttt{write\textunderscore graphml} function, a weighted graph is defined in which the vertices are the cryptocurrencies and the weight of the edges is a tuple composed by the mean and standard deviation of each exchange rate between each currency.
 Once the file is saved, it is read inside the Jupyter Notebook through the \texttt{read\textunderscore graphml} function in order to adapt the graph to the DWRG class proposed by the project. Consequently the final graph is created to perform the analysis.
 
+\begin{figure}[h!]
+	\centering
+	\includegraphics[width=0.5\textwidth]{../../code/notebooks/images/01_01_2024.png} % Replace with your image filename
+	\caption{Binance Graph}
+	\label{plot}
+\end{figure}
+
 \subsection{Experiments}
 The experiments performed on the graph, were performed on a sample of the graph.
 The first experiment that was performed, was done by looking for the shortest path with the greatest number of arcs. The result reports WIN as the starting currency and ARS as the target currency, with a path 8 arcs long. Once this pair of vertices is obtained, a comparison is performed between our greedy algorithm and an exact algorithm, in this case the Bellman-Ford (since there are negative arcs).
