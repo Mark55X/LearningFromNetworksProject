@@ -5,3 +5,16 @@ A Python code was created to download all trades between different cryptocurrenc
 The \texttt{networkx} library allows you to save the structure of a graph inside semi-structured files; in this case, an XML file called \texttt{01\textunderscore01\textunderscore 24.graphml} is used. 
 After downloading all the data, with the \texttt{write\textunderscore graphml} function, a weighted graph is defined in which the vertices are the cryptocurrencies and the weight of the edges is a tuple composed by the mean and standard deviation of each exchange rate between each currency.
 Once the file is saved, it is read inside the Jupyter Notebook through the \texttt{read\textunderscore graphml} function in order to adapt the graph to the DWRG class proposed by the project. Consequently the final graph is created to perform the analysis.
+
+\subsection{Experiments}
+The experiments performed on the graph, were performed on a sample of the graph.
+The first experiment that was performed, was done by looking for the shortest path with the greatest number of arcs. The result reports WIN as the starting currency and ARS as the target currency, with a path 8 arcs long. Once this pair of vertices is obtained, a comparison is performed between our greedy algorithm and an exact algorithm, in this case the Bellman-Ford (since there are negative arcs).
+From the results obtained, it can be noted that the exact algorithm returns a minimum path of length 8 with a cost equal to 2.4654882457904144. Instead, our algorithm returns a path of length 5 and a cost equal to -2.408182003102148. 
+Performing the same experiment on another pair of currencies, AAVE and TRY a similar result is found.
+In particular, the exact algorithm returns a shortest path of length 6 and cost 7.915443742635086, while our algorithm finds a path of length 3 and cost 7.95438190729025.
+It can be said that exploiting the local optimality, given by the estimate of the distances calculated by the greedy algorithm, leads to a better result than the exact algorithm.
+
+In the second experiment, we analyze the shortest paths among all pairs of vertices (currencies) that are connected by an arc.
+We focus on those with a length (rather than weight) greater than 1.
+In other words, through this experiment it is possible to identify currency pairs for which a direct exchange is inconvenient compared to making multiple exchanges between them.
+From the results obtained, 614 pairs were identified for which this situation is present. In particular, between the UMA currency and USDT, a direct exchange has an exchange rate equal to 5.0, instead, passing first through BTC, the final exchange rate is equal to 10.32. Consequently, a non-direct exchange between these two currencies could double their value.
