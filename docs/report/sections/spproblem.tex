@@ -31,18 +31,18 @@ In the Jupyter Notebook an iterative\footnote{While a recursive formula is easie
 \subsection{Dynamic Phase}
 (maybe also just the formula that computes the probabilities).
 
-Be $D$ the matrix of extimation computed during the static phase and let $G_{sample}$ a sample of the DRWG $G$. We defined a greedy procedure that use only the expectation of the estimation in the matrix for finding the best estimated path for $G_{sample}$ as described in \ref{greedy} 
+Be $D$ the matrix of extimation computed during the static phase and let $G_{sample}$ a sample of the DRWG $G$. Algorithm \ref{greedy} presents a greedy procedure that utilizes only the expected values of the estimations in the matrix to identify the best estimated path for $G_{sample}$.
 
-
-\begin{algorithm}\label{greedy}
+\begin{algorithm}
 	\caption{Dynamic Greedy Phase} 
+	\label{greedy}
     Input: $s$ source node, $t$ terminal node, $G_{sample} = (V,A)$, $D_{i,j}$.  \\
     Output: shortest path $P$ from $s$ to $t$.
-	\begin{algorithmic}
+	\begin{algorithmic}[1]
         \State $P \gets \{s\}$
         \State $current \gets s$
         \While {$current \neq t$}
-            \State Let $N_{current} \gets \{n \in V \mid n \text{ is a neighbor of } current \text{ and not visited}\}$
+            \State Let $N_{current} \gets \{n \in V \mid n \text{ neighbor of } current \text{ and not visited}\}$
             \State $E \gets \emptyset$
             \For {$n \in N_{current}$}
                 \If {$n = t$}
