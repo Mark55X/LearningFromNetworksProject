@@ -21,7 +21,7 @@ Let $Y = \max\{X_1, X_2, ..., X_n\}$, then
 where $\Phi$ is the standard normal distribution function and $\phi$ is the standard normal density function. \\
 To compute the expected value, it is necessary to solve the following integral
 \begin{align*}
-	E[Y] &= \int_{-\infty}^{+\infty} y \cdot f_Y(y)\text{ }dy \\
+	\mathbb{E}[Y] &= \int_{-\infty}^{+\infty} y \cdot f_Y(y)\text{ }dy \\
 	&= \int_{-\infty}^{+\infty} y \cdot \left[\left(\prod_{i = 1}^n \Phi\left(\frac{y - \mu_i}{\sigma_i}\right)\right) \cdot \right. \\
 	&\left. \qquad \cdot \sum_{j = 1}^n \left(\frac{\phi\left(\frac{y - \mu_j}{\sigma_j}\right)}{\Phi\left(\frac{y - \mu_j}{\sigma_j}\right)} \cdot \frac{1}{\sigma_j}\right)\right]dy
 \end{align*}
@@ -67,9 +67,9 @@ The max operator is used to ensure that the upper bound founded is valid for all
 
 \subsection{Asymptotic approximation}
 Since computing the exact method can require a significant amount of time for a large number of random variables, an approximation method based on extreme value theory was studied.
-\textbf{Theorem (H., Jagers, Sudbury \& Tokarev, 2009) \cite{hamza2009mixing}}: If $X_1, \ldots, X_n$ are independent random variables with the property that  $\mathrm{E}[\max\{X_1^i, \ldots, X_n^i\}] = M_i, \quad i = 1, 2, \ldots, n$ then 
+\textbf{Theorem (H., Jagers, Sudbury \& Tokarev, 2009) \cite{hamza2009mixing}}: If $X_1, \ldots, X_n$ are independent random variables with the property that  $\mathbb{E}[\max\{X_1^i, \ldots, X_n^i\}] = M_i, \quad i = 1, 2, \ldots, n$ then 
 \begin{align*}
-    \frac{1}{n} \sum_{i=1}^n M_i &\leq \mathrm{E}[\max\{X_1, \ldots, X_n\}] \\
+    \frac{1}{n} \sum_{i=1}^n M_i &\leq \mathbb{E}[\max\{X_1, \ldots, X_n\}] \\
     &\leq \frac{1}{n} \sum_{i=1}^n M_i + \frac{n-1}{n} \cdot \\ 
     & \qquad \qquad \cdot \max\{M_1, \ldots, M_n\}
 \end{align*}
@@ -88,6 +88,6 @@ The theorem provides insightful lower and upper bounds, though they become chall
 
 So, we can define easily the expected value of the maximum as follow
 \begin{align*}
-	E[Y] = \alpha + \gamma \beta
+	\mathbb{E}[Y] = \alpha + \gamma \beta
 \end{align*}
 where $\gamma \approx 0.57721$ is the \textit{Euler–Mascheroni} constant. Nevertheless, in our opinion, the paper lacks certain concepts, and therefore, further work and study are needed to develop a more robust solution for the asymptotic results.
