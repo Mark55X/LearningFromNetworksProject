@@ -29,29 +29,28 @@ In the proposed framework the pattern is slightly different: $d_{ij}^{(k)}$ is a
 In the Jupyter Notebook an iterative\footnote{While a recursive formula is easier to read, an iterative algorithm is more efficient.} version of the algorithm will be implemented.
 %show how to compute the less probability
 \subsection{Dynamic Phase}
-(maybe also just the formula that computes the probabilities).
 
-Be $D$ the matrix of extimation computed during the static phase and let $G_{sample}$ a sample of the DRWG $G$. Algorithm \ref{greedy} presents a greedy procedure that utilizes only the expected values of the estimations in the matrix to identify the best estimated path for $G_{sample}$.
+Be $D$ the matrix of extimations computed during the static phase and let $G_{sample}$ a sample of the DRWG $G$. Algorithm \ref{greedy} presents a greedy procedure that utilizes only the expected values of the estimations in the matrix to identify the best estimated shortest path among two nodes of the graph $G_{sample}$.
 
 \begin{algorithm}
 	\caption{Dynamic Greedy Phase} 
 	\label{greedy}
-    Input: $s$ source vertex, $t$ terminal vertex, $G_{sample} = (V,A)$, $D_{i,j}$.  \\
-    Output: shortest path $P$ from $s$ to $t$.
+    Input: $s$ source vertex, $t$ terminal vertex, $G_{sample} = (V,A)$, $D$.  \\
+    Output: Estimated shortest path $P$ from $s$ to $t$.
 	\begin{algorithmic}[1]
         \State $P \gets \{s\}$
         \State $curr \gets s$ // current vertex
         \While {$curr \neq t$}
-            \State $\mathcal{N}_{curr} \gets \{n \in V \mid n \linebreak \text{ neighbor of } curr \text{ and not visited}\}$
+            \State $\mathcal{N}_{curr} \gets \{\text{not visited } u \in \mathcal{N^+}(curr)\}$
             \State $E \gets \emptyset$ // set of neighbors to be examined
-            \For {$n \in \mathcal{N}_{curr}$}
-                \If {$n = t$}
-                    \State $E \gets E \cup \{(n, w_{curr,n})\}$
+            \For {$v \in \mathcal{N}_{curr}$}
+                \If {$v = t$}
+                    \State $E \gets E \cup \{(v, w_{curr,v})\}$
                 \Else
-                    \State $E \gets E \cup \{(n, w_{curr,n} + \mathbb{E}[D_{n,t}])\}$
+                    \State $E \gets E \cup \{(v, w_{curr,v} + \mathbb{E}[D_{v,t}])\}$
                 \EndIf
             \EndFor
-            \State $curr \gets \arg\min_{(n,w) \in E} \{w\}$
+            \State $curr \gets \arg\min_{(v,w) \in E} \{w\}$
             \State Mark $curr$ as visited
             \State $P \gets P \cup \{curr\}$
         \EndWhile
