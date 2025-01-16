@@ -1,10 +1,5 @@
 \section{Introduction}
 
-A graph \( G = (V, A) \) is defined as Directed Random Weighted Graph (DRWG) if it satisfies the following properties:
+A graph \( G = (V, A) \) is defined as Directed Random Weighted Graph (DRWG) if it's a direct graph in which each arc $(u,v) \in A$ with $u,v \in V$, $w_{u,v} \sim D_{(u,v)}$ where $D$ is a random variable. The random variables $D_{(u,v)}$ are independent but not necessarily identically distributed for each arc $(u,v) \in A$. In this work, we propose a "relaxed version" of this graph model, where the weights $w_{u,v}$ are instead assumed to follow a normal distribution, i.e., $w_{u,v} \sim N(\mu_{(u,v)}, \sigma^2_{(u,v)})$.
 
-\begin{itemize}[nolistsep]
-	\item It is a directed graph.
-	\item Each arc $(u,v) \in A$ with $u,v \in V$ has a weight that follow the distribution of a random variables.
-\end{itemize}
-
-In this project, we proposed a relaxed-version of this graph in which random variables $X \sim N(\mu, \sigma^2)$
+Section \ref{max_formulation} introduces two exact methods for determining the maximum of a set of random variables, which will be instrumental in defining various node and graph features, such as the weighted degree described in Section \ref{weighted_degree}. In Section \ref{ssp}, we present a two-phase approach for solving the shortest path problem within this graph model, incorporating a modified version of the Floyd-Warshall algorithm. Finally, in Section \ref{experiments}, we discuss the results of experiments conducted on Binance cryptocurrency data, highlighting some notable findings.

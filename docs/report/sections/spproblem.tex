@@ -1,4 +1,4 @@
-\section{Shortest Path Algorithm}
+\section{Shortest Path Algorithm}\label{ssp}
 
 Working with DWRGs the SPP is not well defined.
 An exact solution cannot be computed on a random graph since it depends on the specific observed instance.
@@ -29,16 +29,16 @@ In the proposed framework the pattern is slightly different: $d_{ij}^{(k)}$ is a
 In the Jupyter Notebook an iterative\footnote{While a recursive formula is easier to read, an iterative algorithm is more efficient.} version of the algorithm will be implemented.
 %show how to compute the less probability
 \subsection{Dynamic Phase}
-show a short pseudocode for the dynamic part (maybe also just the formula that computes the probabilities).
+(maybe also just the formula that computes the probabilities).
 
-Be $D_{i,j}$ the matrix of extimation computed during the static phase and let $G_{sample}$ a sample of the DRWG $G$. 
+Be $D$ the matrix of extimation computed during the static phase and let $G_{sample}$ a sample of the DRWG $G$. We defined a greedy procedure that use only the expectation of the estimation in the matrix for finding the best estimated path for $G_{sample}$ as described in \ref{greedy} 
 
 
-\begin{algorithm}
-	\caption{Greedy Dynamic} 
+\begin{algorithm}\label{greedy}
+	\caption{Dynamic Greedy Phase} 
     Input: $s$ source node, $t$ terminal node, $G_{sample} = (V,A)$, $D_{i,j}$.  \\
     Output: shortest path $P$ from $s$ to $t$.
-	\begin{algorithmic}[1]
+	\begin{algorithmic}
         \State $P \gets \{s\}$
         \State $current \gets s$
         \While {$current \neq t$}
