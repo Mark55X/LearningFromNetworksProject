@@ -67,10 +67,10 @@ The max operator is used to ensure that the upper bound founded is valid for all
 
 \subsection{Asymptotic approximation}
 Since computing the exact method can require a significant amount of time for a large number of random variables, an approximation method based on extreme value theory was studied.
-\textbf{Theorem (H., Jagers, Sudbury \& Tokarev, 2009) \cite{hamza2009mixing}}: If $X_1, \ldots, X_n$ are independent random variables with the property that  $\mathbb{E}[\max\{X_1^i, \ldots, X_n^i\}] = M_i, \quad i = 1, 2, \ldots, n$ then 
+\textbf{Theorem (H., Jagers, Sudbury \& Tokarev, 2009) \cite{hamza2009mixing}}: Let $X_1, \ldots, X_n$ be independent random variables and let $E[X_i^j]$ the $j-th$ moment of the random variable $X_i$. Define $M_j = \mathbb{E}[\max\{X_1^j, \ldots, X_n^j\}]$ for $j = 1, 2, \ldots, n$, then 
 \begin{align*}
-    \frac{1}{n} \sum_{i=1}^n M_i &\leq \mathbb{E}[\max\{X_1, \ldots, X_n\}] \\
-    &\leq \frac{1}{n} \sum_{i=1}^n M_i + \frac{n-1}{n} \cdot \\ 
+    \frac{1}{n} \sum_{j=1}^n M_j &\leq \mathbb{E}[\max\{X_1, \ldots, X_n\}] \\
+    &\leq \frac{1}{n} \sum_{j=1}^n M_j + \frac{n-1}{n} \cdot \\ 
     & \qquad \qquad \cdot \max\{M_1, \ldots, M_n\}
 \end{align*}
 
